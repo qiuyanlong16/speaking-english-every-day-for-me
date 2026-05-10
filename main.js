@@ -65,13 +65,14 @@ const GitHubAPI = {
 
 // Auth UI: show token input if not authenticated
 function renderAuthUI() {
-  const app = document.getElementById("app");
   if (GitHubAPI.isAuthenticated()) {
     // Token exists — validate it
     GitHubAPI.validateToken().then(valid => {
       if (!valid) {
         GitHubAPI.clearToken();
         showTokenInput();
+      } else {
+        initApp();
       }
     });
   } else {
@@ -80,8 +81,8 @@ function renderAuthUI() {
 }
 
 function showTokenInput() {
-  const app = document.getElementById("app");
-  app.innerHTML = `
+  const authPanel = document.getElementById("auth-panel");
+  authPanel.innerHTML = `
     <div class="auth-panel">
       <h1>Speaking Every Day</h1>
       <p>Enter your GitHub Personal Access Token to continue.</p>
@@ -395,9 +396,5 @@ async function initApp() {
 
 // Entry point
 document.addEventListener("DOMContentLoaded", () => {
-  if (GitHubAPI.isAuthenticated()) {
-    initApp();
-  } else {
-    showTokenInput();
-  }
+  renderAuthUI();
 });
