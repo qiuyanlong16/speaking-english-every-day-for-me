@@ -198,7 +198,8 @@ async function pollForResult(maxWaitMs = 180000, intervalMs = 5000) {
 
 // Speech Recognition
 let recognition = null;
-let currentTranscript = "";
+let finalTranscript = ""; // accumulates confirmed final results
+let currentTranscript = ""; // final + interim for display
 let lastError = null;
 
 function initSpeechRecognition() {
@@ -217,18 +218,20 @@ function initSpeechRecognition() {
   recognition.maxAlternatives = 1;
 
   recognition.onresult = (event) => {
-    let interim = "";
-    let final = "";
-    for (let i = event.resultIndex; i < event.results.length; i++) {
+    let interimTranscript = "";
+
+    // Iterate ALL results each time (resultIndex can be unreliable across restarts)
+    for (let i = 0; i < event.results.length; i++) {
       const text = event.results[i][0].transcript;
       if (event.results[i].isFinal) {
-        final += text + " ";
+        finalTranscript += text + " ";
       } else {
-        interim += text;
+        interimTranscript += text;
       }
     }
-    currentTranscript = final + interim;
-    document.getElementById("transcript-text").textContent = currentTranscript;
+
+    currentTranscript = finalTranscript + interimTranscript;
+    document.getElementById("transcript-text").textContent = currentTranscript.trim();
   };
 
   recognition.onerror = (event) => {
@@ -240,23 +243,22 @@ function initSpeechRecognition() {
       btn.textContent = "Start Speaking";
       document.getElementById("transcript-text").textContent =
         "Microphone access denied. Please allow it in your browser settings, then try again.";
+    } else if (event.error === "no-speech") {
+      // Silence detected — don't stop, just log
+      console.warn("No speech detected");
+    } else {
+      // Other errors: reset UI so user can retry
+      const btn = document.getElementById("btn-speak");
+      btn.classList.remove("recording");
+      btn.textContent = "Start Speaking";
+      document.getElementById("transcript-text").textContent =
+        `Speech error: ${event.error}. Please try again.`;
     }
   };
 
+  // No auto-restart on onend — let the API manage continuous mode
   recognition.onend = () => {
-    // Don't auto-restart after an error
-    if (lastError) {
-      lastError = null;
-      return;
-    }
-    // Auto-restart if still recording
-    if (document.getElementById("btn-speak").classList.contains("recording")) {
-      try {
-        recognition.start();
-      } catch (e) {
-        // Already started
-      }
-    }
+    lastError = null;
   };
 
   return true;
@@ -271,12 +273,17 @@ function toggleRecording() {
     btn.classList.remove("recording");
     btn.innerHTML = '<span class="icon"></span> Start Speaking';
     document.getElementById("btn-submit").style.display = "block";
+    // Keep whatever transcript was captured
   } else {
+    finalTranscript = "";
     currentTranscript = "";
     document.getElementById("transcript-text").textContent = "";
     lastError = null;
     try {
       recognition.start();
+      btn.classList.add("recording");
+      btn.innerHTML = '<span class="icon"></span> Stop';
+      document.getElementById("btn-submit").style.display = "none";
     } catch (e) {
       // Start failed — reset UI state
       btn.classList.remove("recording");
@@ -285,9 +292,6 @@ function toggleRecording() {
         "Could not start speech recognition. Please try again.";
       console.error("Failed to start recognition:", e);
     }
-    btn.classList.add("recording");
-    btn.innerHTML = '<span class="icon">️</span> Stop';
-    document.getElementById("btn-submit").style.display = "none";
   }
 }
 
