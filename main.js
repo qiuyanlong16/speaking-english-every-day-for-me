@@ -199,6 +199,7 @@ async function pollForResult(maxWaitMs = 180000, intervalMs = 5000) {
 // Speech Recognition
 let recognition = null;
 let currentTranscript = "";
+let lastError = null;
 
 function initSpeechRecognition() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -231,13 +232,23 @@ function initSpeechRecognition() {
   };
 
   recognition.onerror = (event) => {
+    lastError = event.error;
     console.error("Speech recognition error:", event.error);
     if (event.error === "not-allowed") {
-      alert("Please allow microphone access in your browser settings.");
+      const btn = document.getElementById("btn-speak");
+      btn.classList.remove("recording");
+      btn.textContent = "Start Speaking";
+      document.getElementById("transcript-text").textContent =
+        "Microphone access denied. Please allow it in your browser settings, then try again.";
     }
   };
 
   recognition.onend = () => {
+    // Don't auto-restart after an error
+    if (lastError) {
+      lastError = null;
+      return;
+    }
     // Auto-restart if still recording
     if (document.getElementById("btn-speak").classList.contains("recording")) {
       try {
@@ -263,7 +274,17 @@ function toggleRecording() {
   } else {
     currentTranscript = "";
     document.getElementById("transcript-text").textContent = "";
-    recognition.start();
+    lastError = null;
+    try {
+      recognition.start();
+    } catch (e) {
+      // Start failed — reset UI state
+      btn.classList.remove("recording");
+      btn.textContent = "Start Speaking";
+      document.getElementById("transcript-text").textContent =
+        "Could not start speech recognition. Please try again.";
+      console.error("Failed to start recognition:", e);
+    }
     btn.classList.add("recording");
     btn.innerHTML = '<span class="icon">️</span> Stop';
     document.getElementById("btn-submit").style.display = "none";
