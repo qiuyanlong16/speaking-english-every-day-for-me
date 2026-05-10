@@ -1,0 +1,91 @@
+name: Evaluate Speaking Submission
+
+on:
+  push:
+    paths:
+      - "pending/*.json"
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get pending file
+        id: pending
+        run: |
+          PENDING_FILE=$(git diff --name-only HEAD~1 HEAD -- pending/ | head -1)
+          if [ -z "$PENDING_FILE" ]; then
+            echo "No pending file found"
+            exit 1
+          fi
+          echo "file=$PENDING_FILE" >> $GITHUB_OUTPUT
+          echo "content=$(cat $PENDING_FILE)" >> $GITHUB_OUTPUT
+          DATE=$(jq -r '.date' "$PENDING_FILE")
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+
+      - name: Get prompt text
+        id: prompt
+        run: |
+          DATE="${{ steps.pending.outputs.date }}"
+          PROMPT_FILE="prompts/${DATE}.json"
+          if [ -f "$PROMPT_FILE" ]; then
+            TEXT=$(jq -r '.text' "$PROMPT_FILE")
+            TOPIC=$(jq -r '.topic' "$PROMPT_FILE")
+            echo "text=$TEXT" >> $GITHUB_OUTPUT
+            echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+          else
+            echo "text=No prompt available" >> $GITHUB_OUTPUT
+            echo "topic=Unknown" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Call DeepSeek API
+        id: evaluate
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PROMPT_TEXT: ${{ steps.prompt.outputs.text }}
+          TRANSCRIPT: ${{ steps.pending.outputs.content }}
+        run: |
+          RESPONSE=$(curl -s -X POST https://api.deepseek.com/v1/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
+            -d '{
+              "model": "deepseek-chat",
+              "messages": [
+                {
+                  "role": "system",
+                  "content": "You are an English speaking evaluator. Judge if the user'\''s spoken transcript adequately covers the key ideas of the given prompt. Return ONLY a JSON object with these fields: {\"status\": \"pass\" or \"fail\", \"score\": 0.0 to 1.0, \"feedback\": \"brief feedback in English\"}. Be lenient — focus on whether key ideas were expressed, not perfect grammar."
+                },
+                {
+                  "role": "user",
+                  "content": "Prompt: '"'"'$PROMPT_TEXT'"'"'\n\nTranscript: '"'"'$TRANSCRIPT'"'"'"
+                }
+              ],
+              "response_format": {"type": "json_object"}
+            }')
+          RESULT=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+
+      - name: Write result
+        run: |
+          DATE="${{ steps.pending.outputs.date }}"
+          mkdir -p data
+          echo '${{ steps.evaluate.outputs.result }}' | jq '. + {"date": "'"$DATE"'"}' > "data/${DATE}.json"
+
+      - name: Delete pending file
+        run: |
+          rm "${{ steps.pending.outputs.file }}"
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ pending/
+          git commit -m "ci: evaluate speaking submission for ${{ steps.pending.outputs.date }}" || echo "No changes to commit"
+          git push
