@@ -1,8 +1,7 @@
 // main.js — Authentication module
 
 const CONFIG = {
-  // Replace with your actual GitHub username and repo name
-  GITHUB_USERNAME: "YOUR_USERNAME",
+  GITHUB_USERNAME: "qiuyanlong",
   REPO_NAME: "speaking-every-day",
 };
 
