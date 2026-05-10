@@ -398,3 +398,162 @@ async function initApp() {
 document.addEventListener("DOMContentLoaded", () => {
   renderAuthUI();
 });
+
+// main.js — Calendar Module
+
+async function loadCalendar() {
+  const container = document.getElementById("calendar-container");
+  container.innerHTML = "<p>Loading calendar...</p>";
+
+  try {
+    // Fetch all data files from the repo
+    const files = await GitHubAPI.request("/contents/data?ref=main");
+    const results = {};
+
+    for (const file of files) {
+      if (file.name.endsWith(".json")) {
+        const content = atob(file.content);
+        const data = JSON.parse(content);
+        results[data.date] = data;
+      }
+    }
+
+    renderCalendar(results);
+    renderStats(results);
+  } catch (err) {
+    container.innerHTML = `<p>Error loading calendar: ${err.message}</p>`;
+  }
+}
+
+function renderCalendar(results) {
+  const container = document.getElementById("calendar-container");
+  const today = new Date();
+  const year = today.getFullYear();
+  const todayStr = getTodayStr();
+
+  // Determine date range: Jan 1 of current year to today
+  const startDate = new Date(year, 0, 1);
+  const endDate = today;
+
+  // Build the grid: 7 rows (days of week) × ~53 columns (weeks)
+  const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  let html = '<div class="calendar">';
+
+  // Day-of-week labels
+  html += '<div class="calendar-labels">';
+  daysOfWeek.forEach(day => {
+    html += `<span class="day-label">${day}</span>`;
+  });
+  html += '</div>';
+
+  // Calculate weeks
+  const startDay = startDate.getDay(); // 0=Sun
+  const totalDays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
+  const totalCells = startDay + totalDays;
+  const weeks = Math.ceil(totalCells / 7);
+
+  // Build grid: weeks as columns
+  html += '<div class="calendar-grid">';
+  for (let week = 0; week < weeks; week++) {
+    html += '<div class="calendar-week">';
+    for (let day = 0; day < 7; day++) {
+      const cellIndex = week * 7 + day;
+      const dayOffset = cellIndex - startDay;
+
+      if (dayOffset < 0 || dayOffset >= totalDays) {
+        html += '<div class="calendar-cell empty"></div>';
+        continue;
+      }
+
+      const cellDate = new Date(startDate);
+      cellDate.setDate(cellDate.getDate() + dayOffset);
+      const dateStr = cellDate.toISOString().split("T")[0];
+
+      let cellClass = "calendar-cell";
+      let tooltip = `data-tooltip="${dateStr}"`;
+
+      if (results[dateStr]) {
+        if (results[dateStr].status === "pass") {
+          cellClass += " pass";
+          tooltip += ` data-tip-text="${dateStr}: Passed (${(results[dateStr].score * 100).toFixed(0)}%)"`;
+        } else {
+          cellClass += " fail";
+          tooltip += ` data-tip-text="${dateStr}: Failed"`;
+        }
+      } else if (dateStr > todayStr) {
+        cellClass += " future";
+      } else {
+        // Past date with no result = missed
+        cellClass += " missed";
+        tooltip += ` data-tip-text="${dateStr}: Missed"`;
+      }
+
+      html += `<div class="${cellClass}" ${tooltip}></div>`;
+    }
+    html += '</div>';
+  }
+  html += '</div>';
+
+  // Legend
+  html += '<div class="calendar-legend">';
+  html += '<span>Less</span>';
+  html += '<div class="legend-cell future"></div>';
+  html += '<div class="legend-cell missed"></div>';
+  html += '<div class="legend-cell pass"></div>';
+  html += '<span>More</span>';
+  html += '</div>';
+
+  html += '</div>';
+
+  container.innerHTML = html;
+}
+
+function calculateStreak(results) {
+  const today = new Date();
+  let streak = 0;
+  let checkDate = new Date(today);
+
+  // If today has no result yet, start from yesterday
+  const todayStr = getTodayStr();
+  if (!results[todayStr]) {
+    checkDate.setDate(checkDate.getDate() - 1);
+  }
+
+  while (true) {
+    const dateStr = checkDate.toISOString().split("T")[0];
+    if (results[dateStr] && results[dateStr].status === "pass") {
+      streak++;
+      checkDate.setDate(checkDate.getDate() - 1);
+    } else {
+      break;
+    }
+  }
+
+  return streak;
+}
+
+function renderStats(results) {
+  const statsBar = document.getElementById("stats-bar");
+  const todayStr = getTodayStr();
+
+  const totalDays = Object.keys(results).length;
+  const passedDays = Object.values(results).filter(r => r.status === "pass").length;
+  const passRate = totalDays > 0 ? ((passedDays / totalDays) * 100).toFixed(0) : 0;
+  const streak = calculateStreak(results);
+
+  statsBar.innerHTML = `
+    <div class="stat">
+      <span class="stat-value">${streak}</span>
+      <span class="stat-label">Day Streak </span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">${passedDays}/${totalDays}</span>
+      <span class="stat-label">Passed</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">${passRate}%</span>
+      <span class="stat-label">Pass Rate</span>
+    </div>
+  `;
+}
