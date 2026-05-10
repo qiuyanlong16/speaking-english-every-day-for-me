@@ -178,11 +178,15 @@ async function submitSpeech(transcript) {
   return true;
 }
 
+let pollCancelled = false;
+
 async function pollForResult(maxWaitMs = 180000, intervalMs = 5000) {
   const date = getTodayStr();
   const start = Date.now();
+  pollCancelled = false;
 
   while (Date.now() - start < maxWaitMs) {
+    if (pollCancelled) return null;
     try {
       const data = await GitHubAPI.request(`/contents/data/${date}.json?ref=main`);
       const content = atob(data.content);
@@ -319,23 +323,49 @@ async function handleSubmit() {
     const result = await pollForResult();
 
     document.getElementById("eval-spinner").style.display = "none";
+
+    if (pollCancelled) {
+      // User cancelled — reset UI
+      hideEvaluation();
+      return;
+    }
+
     document.getElementById("eval-result").style.display = "block";
 
     if (result) {
       displayResult(result);
     } else {
+      // Timed out — show timeout message with cancel button visible
+      document.getElementById("result-badge").className = "badge badge-fail";
+      document.getElementById("result-badge").textContent = "Timed out";
+      document.getElementById("result-score").textContent = "";
       document.getElementById("result-feedback").textContent =
-        "Evaluation is taking longer than expected. Check back shortly.";
+        "Evaluation took too long. The AI may still be processing — check back in a moment.";
     }
   } catch (err) {
     document.getElementById("eval-spinner").style.display = "none";
     document.getElementById("eval-result").style.display = "block";
+    document.getElementById("result-badge").className = "badge badge-fail";
+    document.getElementById("result-badge").textContent = "Error";
+    document.getElementById("result-score").textContent = "";
     document.getElementById("result-feedback").textContent = `Error: ${err.message}`;
   }
 
   // Re-enable UI
   document.getElementById("btn-speak").disabled = false;
   document.getElementById("btn-submit").disabled = false;
+}
+
+function hideEvaluation() {
+  document.getElementById("evaluation-area").style.display = "none";
+  document.getElementById("btn-speak").disabled = false;
+  document.getElementById("btn-submit").style.display = "block";
+}
+
+function showPendingEvaluation() {
+  document.getElementById("evaluation-area").style.display = "block";
+  document.getElementById("eval-spinner").style.display = "block";
+  document.getElementById("eval-result").style.display = "none";
 }
 
 function displayResult(result) {
@@ -393,6 +423,19 @@ async function initApp() {
     }
   });
 
+  // Cancel button
+  document.getElementById("btn-cancel").addEventListener("click", () => {
+    pollCancelled = true;
+    hideEvaluation();
+  });
+
+  // Retry button
+  document.getElementById("btn-retry").addEventListener("click", () => {
+    hideEvaluation();
+    document.getElementById("btn-speak").disabled = false;
+    document.getElementById("btn-submit").disabled = false;
+  });
+
   // Check if already submitted today
   const submission = await checkTodaySubmission();
   if (submission && submission.status !== "pending") {
@@ -402,14 +445,25 @@ async function initApp() {
     document.getElementById("btn-submit").disabled = true;
     document.getElementById("evaluation-area").style.display = "block";
   } else if (submission && submission.status === "pending") {
-    // Poll for result
-    document.getElementById("evaluation-area").style.display = "block";
-    document.getElementById("eval-spinner").style.display = "block";
+    // Pending evaluation — show spinner with cancel option
+    showPendingEvaluation();
     pollForResult().then(result => {
       document.getElementById("eval-spinner").style.display = "none";
+      if (pollCancelled) {
+        hideEvaluation();
+        return;
+      }
       if (result) {
         document.getElementById("eval-result").style.display = "block";
         displayResult(result);
+      } else {
+        // Timed out
+        document.getElementById("eval-result").style.display = "block";
+        document.getElementById("result-badge").className = "badge badge-fail";
+        document.getElementById("result-badge").textContent = "Timed out";
+        document.getElementById("result-score").textContent = "";
+        document.getElementById("result-feedback").textContent =
+          "Evaluation took too long. The AI may still be processing — check back in a moment.";
       }
     });
   }

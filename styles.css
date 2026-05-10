@@ -335,6 +335,39 @@ header h1 {
   animation: fade-breathe 2s ease-in-out infinite;
 }
 
+#eval-spinner .btn-cancel {
+  margin-top: var(--space-md);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  font-size: 0.8rem;
+  padding: var(--space-xs) var(--space-md);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+#eval-spinner .btn-cancel:hover {
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
+.btn-retry {
+  margin-top: var(--space-md);
+  background: var(--bg-elevated);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  padding: var(--space-sm) var(--space-lg);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-retry:hover {
+  background: var(--accent-subtle);
+}
+
 @keyframes fade-breathe {
   0%, 100% { opacity: 0.5; }
   50% { opacity: 1; }
