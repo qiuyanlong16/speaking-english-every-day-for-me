@@ -20,26 +20,32 @@ jobs:
       - name: Get pending file
         id: pending
         run: |
+          set -euo pipefail
           PENDING_FILE=$(git diff --name-only HEAD~1 HEAD -- pending/ | head -1)
           if [ -z "$PENDING_FILE" ]; then
             echo "No pending file found"
             exit 1
           fi
           echo "file=$PENDING_FILE" >> $GITHUB_OUTPUT
-          echo "content=$(cat $PENDING_FILE)" >> $GITHUB_OUTPUT
+          echo "content<<CONTENT_EOF" >> $GITHUB_OUTPUT
+          cat "$PENDING_FILE" >> $GITHUB_OUTPUT
+          echo "CONTENT_EOF" >> $GITHUB_OUTPUT
           DATE=$(jq -r '.date' "$PENDING_FILE")
           echo "date=$DATE" >> $GITHUB_OUTPUT
 
       - name: Get prompt text
         id: prompt
         run: |
+          set -euo pipefail
           DATE="${{ steps.pending.outputs.date }}"
           PROMPT_FILE="prompts/${DATE}.json"
           if [ -f "$PROMPT_FILE" ]; then
-            TEXT=$(jq -r '.text' "$PROMPT_FILE")
-            TOPIC=$(jq -r '.topic' "$PROMPT_FILE")
-            echo "text=$TEXT" >> $GITHUB_OUTPUT
-            echo "topic=$TOPIC" >> $GITHUB_OUTPUT
+            echo "text<<TEXT_EOF" >> $GITHUB_OUTPUT
+            jq -r '.text' "$PROMPT_FILE" >> $GITHUB_OUTPUT
+            echo "TEXT_EOF" >> $GITHUB_OUTPUT
+            echo "topic<<TOPIC_EOF" >> $GITHUB_OUTPUT
+            jq -r '.topic' "$PROMPT_FILE" >> $GITHUB_OUTPUT
+            echo "TOPIC_EOF" >> $GITHUB_OUTPUT
           else
             echo "text=No prompt available" >> $GITHUB_OUTPUT
             echo "topic=Unknown" >> $GITHUB_OUTPUT
@@ -52,38 +58,60 @@ jobs:
           PROMPT_TEXT: ${{ steps.prompt.outputs.text }}
           TRANSCRIPT: ${{ steps.pending.outputs.content }}
         run: |
+          set -euo pipefail
+
+          # Create the JSON payload safely using jq
+          jq -n \
+            --arg model "deepseek-chat" \
+            --arg system_prompt "You are an English speaking evaluator. Judge if the user's spoken transcript adequately covers the key ideas of the given prompt. Return ONLY a JSON object with these fields: {\"status\": \"pass\" or \"fail\", \"score\": 0.0 to 1.0, \"feedback\": \"brief feedback in English\"}. Be lenient — focus on whether key ideas were expressed, not perfect grammar." \
+            --arg prompt_text "$PROMPT_TEXT" \
+            --arg transcript "$TRANSCRIPT" \
+            '{
+              model: $model,
+              messages: [
+                { role: "system", content: $system_prompt },
+                { role: "user", content: ("Prompt: " + $prompt_text + "\n\nTranscript: " + $transcript) }
+              ],
+              response_format: { type: "json_object" }
+            }' > /tmp/payload.json
+
           RESPONSE=$(curl -s -X POST https://api.deepseek.com/v1/chat/completions \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
-            -d '{
-              "model": "deepseek-chat",
-              "messages": [
-                {
-                  "role": "system",
-                  "content": "You are an English speaking evaluator. Judge if the user'\''s spoken transcript adequately covers the key ideas of the given prompt. Return ONLY a JSON object with these fields: {\"status\": \"pass\" or \"fail\", \"score\": 0.0 to 1.0, \"feedback\": \"brief feedback in English\"}. Be lenient — focus on whether key ideas were expressed, not perfect grammar."
-                },
-                {
-                  "role": "user",
-                  "content": "Prompt: '"'"'$PROMPT_TEXT'"'"'\n\nTranscript: '"'"'$TRANSCRIPT'"'"'"
-                }
-              ],
-              "response_format": {"type": "json_object"}
-            }')
+            -d @/tmp/payload.json)
+
+          # Check if response has an error
+          ERROR=$(echo "$RESPONSE" | jq -r '.error.message // empty')
+          if [ -n "$ERROR" ]; then
+            echo "DeepSeek API error: $ERROR"
+            exit 1
+          fi
+
           RESULT=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
-          echo "result=$RESULT" >> $GITHUB_OUTPUT
+          if [ -z "$RESULT" ] || [ "$RESULT" = "null" ]; then
+            echo "No valid result from DeepSeek API"
+            exit 1
+          fi
+
+          echo "result<<RESULT_EOF" >> $GITHUB_OUTPUT
+          echo "$RESULT" >> $GITHUB_OUTPUT
+          echo "RESULT_EOF" >> $GITHUB_OUTPUT
 
       - name: Write result
         run: |
+          set -euo pipefail
           DATE="${{ steps.pending.outputs.date }}"
           mkdir -p data
           echo '${{ steps.evaluate.outputs.result }}' | jq '. + {"date": "'"$DATE"'"}' > "data/${DATE}.json"
 
       - name: Delete pending file
         run: |
+          set -euo pipefail
           rm "${{ steps.pending.outputs.file }}"
 
       - name: Commit result
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ pending/
