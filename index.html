@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speaking Every Day</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Auth panel (shown when no token) -->
+    <div id="auth-panel"></div>
+
+    <!-- Main app (hidden until authenticated) -->
+    <div id="main-app" style="display:none;">
+      <header>
+        <h1>Speaking Every Day</h1>
+        <div id="stats-bar" class="stats-bar"></div>
+      </header>
+
+      <main>
+        <!-- Daily Practice Panel -->
+        <section id="practice-panel" class="practice-panel">
+          <div id="prompt-area">
+            <h2 id="prompt-topic"></h2>
+            <p id="prompt-text" class="prompt-text"></p>
+          </div>
+
+          <div id="speech-area">
+            <div id="speech-controls">
+              <button id="btn-speak" class="btn btn-large">
+                <span class="icon">🎤</span> Start Speaking
+              </button>
+            </div>
+            <div id="transcript-box">
+              <p id="transcript-text" class="transcript"></p>
+            </div>
+            <button id="btn-submit" class="btn btn-primary" style="display:none;">
+              Submit
+            </button>
+          </div>
+
+          <div id="evaluation-area" style="display:none;">
+            <div id="eval-spinner">
+              <div class="spinner"></div>
+              <p>Evaluating your speaking...</p>
+            </div>
+            <div id="eval-result" style="display:none;">
+              <div id="result-badge"></div>
+              <p id="result-score"></p>
+              <p id="result-feedback"></p>
+            </div>
+          </div>
+
+          <!-- Manual text fallback (if speech API unsupported) -->
+          <div id="manual-input" style="display:none;">
+            <p>Speech recognition not supported in this browser. Type your response:</p>
+            <textarea id="manual-text" rows="4" placeholder="Type what you would say..."></textarea>
+            <button id="btn-submit-manual" class="btn btn-primary">Submit</button>
+          </div>
+        </section>
+
+        <!-- Contribution Calendar -->
+        <section id="calendar-section" class="calendar-section">
+          <h2>This Year</h2>
+          <div id="calendar-container"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
