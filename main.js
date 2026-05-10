@@ -443,45 +443,73 @@ function renderCalendar(results, prompts) {
   const today = new Date();
   const todayStr = getTodayStr();
 
-  // Calendar starts from the earliest prompt date, or today if no prompts
-  const promptDates = Object.keys(prompts || {});
-  let startDate;
-  if (promptDates.length > 0) {
-    const earliest = promptDates.sort()[0];
-    startDate = new Date(earliest + "T00:00:00");
-  } else {
-    startDate = new Date(today);
+  // Calendar always shows current year
+  const year = today.getFullYear();
+  const startDate = new Date(year, 0, 1); // Jan 1
+  const endDate = new Date(year, 11, 31); // Dec 31
+
+  const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const startDay = startDate.getDay(); // 0=Sun
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  // Calculate total weeks needed for the year
+  const totalCells = startDay + 365 + (isLeapYear(year) ? 1 : 0);
+  const totalWeeks = Math.ceil(totalCells / 7);
+
+  // Build month headers: each month label spans the weeks it covers
+  function getMonthWeekPositions() {
+    const months = [];
+    let weekCount = 0;
+
+    for (let m = 0; m < 12; m++) {
+      const firstDay = new Date(year, m, 1);
+      const lastDay = new Date(year, m + 1, 0);
+
+      // Which "cell index" does the first day of this month correspond to?
+      const cellIndex = startDay + Math.floor((firstDay - startDate) / (1000 * 60 * 60 * 24));
+      const startWeek = Math.floor(cellIndex / 7);
+
+      const endCellIndex = startDay + Math.floor((lastDay - startDate) / (1000 * 60 * 60 * 24));
+      const endWeek = Math.floor(endCellIndex / 7);
+
+      const span = endWeek - startWeek + 1;
+      months.push({ name: monthNames[m], startWeek, span });
+    }
+    return months;
   }
 
-  const endDate = today;
-
-  // Build the grid: 7 rows (days of week) × ~53 columns (weeks)
-  const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const monthPositions = getMonthWeekPositions();
 
   let html = '<div class="calendar">';
 
-  // Day-of-week labels
-  html += '<div class="calendar-labels">';
-  daysOfWeek.forEach(day => {
-    html += `<span class="day-label">${day}</span>`;
+  // Month headers row
+  html += '<div class="calendar-months">';
+  monthPositions.forEach(m => {
+    html += `<span class="calendar-month-label" style="--col-start:${m.startWeek + 1}; --col-span:${m.span};">${m.name}</span>`;
   });
   html += '</div>';
 
-  // Calculate weeks
-  const startDay = startDate.getDay(); // 0=Sun
-  const totalDays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
-  const totalCells = startDay + totalDays;
-  const weeks = Math.ceil(totalCells / 7);
+  // Day-of-week labels + calendar grid
+  html += '<div class="calendar-body">';
 
-  // Build grid: weeks as columns
+  // Day labels column
+  html += '<div class="calendar-day-labels">';
+  daysOfWeek.forEach(day => {
+    html += `<div class="day-label">${day}</div>`;
+  });
+  html += '</div>';
+
+  // Calendar grid
   html += '<div class="calendar-grid">';
-  for (let week = 0; week < weeks; week++) {
+
+  // Render by week (columns)
+  for (let week = 0; week < totalWeeks; week++) {
     html += '<div class="calendar-week">';
     for (let day = 0; day < 7; day++) {
       const cellIndex = week * 7 + day;
       const dayOffset = cellIndex - startDay;
 
-      if (dayOffset < 0 || dayOffset >= totalDays) {
+      if (dayOffset < 0 || dayOffset >= (isLeapYear(year) ? 366 : 365)) {
         html += '<div class="calendar-cell empty"></div>';
         continue;
       }
@@ -491,29 +519,38 @@ function renderCalendar(results, prompts) {
       const dateStr = cellDate.toISOString().split("T")[0];
 
       let cellClass = "calendar-cell";
-      let tooltip = `data-tooltip="${dateStr}"`;
+      let tooltipText = "";
 
       if (results[dateStr]) {
         if (results[dateStr].status === "pass") {
           cellClass += " pass";
-          tooltip += ` data-tip-text="${dateStr}: Passed (${(results[dateStr].score * 100).toFixed(0)}%)"`;
+          tooltipText = `${dateStr}: Passed (${(results[dateStr].score * 100).toFixed(0)}%)`;
         } else {
           cellClass += " fail";
-          tooltip += ` data-tip-text="${dateStr}: Failed"`;
+          tooltipText = `${dateStr}: Failed`;
         }
       } else if (dateStr > todayStr) {
         cellClass += " future";
       } else {
-        // Past date with no result = missed
-        cellClass += " missed";
-        tooltip += ` data-tip-text="${dateStr}: Missed"`;
+        // Past date before prompts exist → neutral, not "missed"
+        if (prompts && prompts[dateStr]) {
+          cellClass += " missed";
+          tooltipText = `${dateStr}: Missed`;
+        }
+        // If no prompt for this date, leave as default (no color)
       }
 
-      html += `<div class="${cellClass}" ${tooltip}></div>`;
+      if (tooltipText) {
+        html += `<div class="${cellClass}" title="${tooltipText}"></div>`;
+      } else {
+        html += `<div class="${cellClass}"></div>`;
+      }
     }
     html += '</div>';
   }
-  html += '</div>';
+  html += '</div>'; // .calendar-grid
+
+  html += '</div>'; // .calendar-body
 
   // Legend
   html += '<div class="calendar-legend">';
@@ -524,9 +561,12 @@ function renderCalendar(results, prompts) {
   html += '<span>More</span>';
   html += '</div>';
 
-  html += '</div>';
-
+  html += '</div>'; // .calendar
   container.innerHTML = html;
+}
+
+function isLeapYear(year) {
+  return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 }
 
 function calculateStreak(results) {
