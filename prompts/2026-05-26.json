@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-26",
+  "topic": "Ethics in AI",
+  "text": "Artificial intelligence is changing how we live and work, but it also raises important ethical questions. One major issue is bias—AI systems can learn unfair patterns from data, leading to discrimination against certain groups. To ensure fairness, developers must carefully test their algorithms and use diverse datasets. Privacy is another concern, as AI often collects personal information without clear consent. Transparency matters too; people should understand how AI makes decisions that affect them. Responsible AI development requires cooperation between engineers, lawmakers, and the public to create rules that protect everyone. By focusing on these principles, we can build technology that is both powerful and ethical."
+}

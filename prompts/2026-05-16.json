@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-16",
+  "topic": "Continuous Integration",
+  "text": "Continuous Integration, or CI, is a software development practice where team members frequently merge their code changes into a shared repository. Each integration is verified by an automated build, which compiles the code, and running tests to check for errors. This process happens through CI pipelines, which are predefined workflows that automatically build, test, and validate the code every time new changes are added. By catching issues early, CI helps developers identify and fix problems quickly, before they become larger and more complex. This leads to higher quality software and a more efficient development process, as teams can release updates with greater confidence."
+}

@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-18",
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and organizing data. There are two main types: SQL and NoSQL. SQL databases use structured tables with rows and columns, where each table represents a category like \"customers.\" To retrieve specific information, you write queries, which are commands in SQL language. In contrast, NoSQL databases store data in more flexible formats, such as documents or key-value pairs. Data modeling is the process of planning how your data will be structured and connected. Both SQL and NoSQL systems use indexes to speed up searches. An index works like a book's table of contents, allowing the database to find information quickly without scanning every record."
+}

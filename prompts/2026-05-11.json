@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-11",
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a powerful feature in version control that helps teams work on code without interfering with each other. Instead of editing the main codebase directly, developers create separate *feature branches* for new tasks or fixes. Each branch acts like an isolated workspace, so changes remain independent until they are ready. Once work is complete, the developer opens a *pull request* to propose their changes. Other team members can review the code, ask questions, or suggest improvements before *merging* it into the main branch. This structured *workflow* keeps the project stable and organised, allowing multiple people to collaborate efficiently. Branching ultimately reduces conflicts and ensures that only tested, approved updates become part of the final product."
+}

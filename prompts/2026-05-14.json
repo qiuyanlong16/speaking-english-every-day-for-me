@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-14",
+  "topic": "API Design Best Practices",
+  "text": "A well-designed REST API makes life easier for developers who use it. Good API design starts with clear and consistent endpoints. Endpoint names should be nouns, not verbs, like `/users` or `/orders`. Use proper HTTP status codes to tell clients what happened. For example, `200 OK` means success, `404 Not Found` means the resource doesn't exist, and `500 Internal Server Error` means something went wrong on the server. Always include good documentation so developers know how to use your API. Finally, use versioning in your API, such as `/v1/users` or `/v2/users`. This way, when you make changes, existing users are not affected. Good design saves time for everyone."
+}

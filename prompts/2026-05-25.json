@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-25",
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a field of artificial intelligence where computers learn from data. In supervised learning, the computer uses training data—labeled examples with known answers—to learn patterns. For instance, you might give it pictures of cats and dogs, each labeled correctly. The computer builds a model, which is like a set of rules, to tell them apart. Once the model is ready, it can make predictions on new, unseen images. To measure how well it works, we check its accuracy, or the percentage of correct predictions. The more training data we provide, the better the model usually becomes at making accurate predictions."
+}

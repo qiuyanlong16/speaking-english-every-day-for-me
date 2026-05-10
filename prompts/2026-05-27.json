@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-27",
+  "topic": "Computer Vision",
+  "text": "Computer vision is a field of artificial intelligence that enables computers to understand and interpret visual information from the world. Two important tasks in this field are image recognition, where a computer identifies what is in a picture, and object detection, which locates specific items within an image. These technologies have many practical applications. For example, in healthcare, computer vision helps doctors analyze medical scans. Perhaps the most well-known use is in self-driving cars, which rely on computer vision to detect pedestrians, traffic signs, and other vehicles to navigate safely."
+}

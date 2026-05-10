@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-12",
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer, especially when working in a team. The most important goal is to make your code readable for others—and for your future self. A good first step is to follow naming conventions: use clear and descriptive names for variables, functions, and classes. For example, instead of `x`, use `totalPrice`. Also, it's a good practice to break your code into small, focused functions. Each function should do just one thing. This makes your code easier to understand, test, and reuse. Ultimately, clean code improves maintainability, meaning it is simpler to fix bugs and add new features later without causing errors."
+}

@@ -1,0 +1,5 @@
+{
+  "date": "2026-05-19",
+  "topic": "Working with APIs",
+  "text": "Working with APIs is a common task for modern developers. When you send an HTTP request to a server, it often returns data in JSON format, which is easy to read and use. Many APIs require authentication, usually with an API key, to ensure only authorised users can access the data. You must also be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always handle errors properly. If a request fails, your code should catch the error and respond gracefully. Understanding these concepts will help you work with APIs more effectively."
+}
