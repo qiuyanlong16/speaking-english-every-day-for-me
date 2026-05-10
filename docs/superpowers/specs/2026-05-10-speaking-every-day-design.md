@@ -121,6 +121,10 @@ Written by GitHub Actions after DeepSeek evaluation. Status is either `pass` or 
 
 ### Components
 
+**Design approach:** The frontend will be built using the `frontend-design` skill for a polished, aesthetically pleasing UI. Clean typography, smooth animations, and a modern color palette that works well for a daily practice app.
+
+**Mobile-first responsive design:** The entire UI is designed for mobile-first usage. Primary interaction flow (speak → submit → view result) is optimized for small screens. Touch-friendly buttons, large tap targets, and a layout that works in portrait mode. Desktop rendering scales up gracefully.
+
 **1. Daily Practice Panel**
 - Displays today's prompt topic and passage
 - "Start Speaking" button → Web Speech API `SpeechRecognition`
@@ -131,9 +135,10 @@ Written by GitHub Actions after DeepSeek evaluation. Status is either `pass` or 
 
 **2. Contribution Calendar**
 - Renders current year as a 7×53 grid (7 days per row, matching GitHub's layout)
+- On mobile: grid is scrollable horizontally with a fixed day-of-week header; each cell has a minimum touch size of 8px
 - Green square = passed, red = missed, empty = future
-- Hover tooltip: date, topic, score (if passed)
-- Responsive: scales to mobile viewport
+- Hover tooltip: date, topic, score (if passed); tap-to-reveal on mobile
+- Layout adapts: vertical scrolling calendar on mobile, full-width on desktop
 
 **3. Statistics Bar**
 - Current streak (consecutive green days)
