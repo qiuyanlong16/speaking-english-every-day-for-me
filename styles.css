@@ -230,7 +230,7 @@ header h1 {
   border: none;
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -647,7 +647,151 @@ header h1 {
   animation: fadeInUp 0.4s ease-out 0.2s both;
 }
 
-/* ---------- Desktop Enhancements ---------- */
+/* ---------- Mobile-First Base Styles ---------- */
+:root {
+  --space-lg: 18px;
+  --space-xl: 28px;
+}
+
+#app {
+  padding: var(--space-md);
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+.stats-bar {
+  gap: var(--space-md);
+}
+
+.stat-value {
+  font-size: 1.1rem;
+}
+
+.practice-panel {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+}
+
+#prompt-topic {
+  font-size: 1.15rem;
+}
+
+.prompt-text {
+  font-size: 0.9rem;
+}
+
+.btn-large {
+  min-width: 180px;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 0.95rem;
+}
+
+.auth-panel {
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+}
+
+.auth-panel h1 {
+  font-size: 1.25rem;
+}
+
+.calendar-cell {
+  width: 12px;
+  height: 12px;
+}
+
+.calendar-week {
+  gap: 3px;
+}
+
+.calendar-grid {
+  gap: 3px;
+}
+
+.day-label {
+  width: 12px;
+  font-size: 0.65rem;
+}
+
+.legend-cell {
+  width: 12px;
+  height: 12px;
+}
+
+/* ---------- Mid-Size Phone Enhancements ---------- */
+@media (min-width: 480px) {
+  :root {
+    --space-lg: 24px;
+    --space-xl: 32px;
+  }
+
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  .stats-bar {
+    gap: var(--space-lg);
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+
+  .practice-panel {
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+  }
+
+  #prompt-topic {
+    font-size: 1.35rem;
+  }
+
+  .prompt-text {
+    font-size: 1rem;
+  }
+
+  .btn-large {
+    min-width: 200px;
+    padding: var(--space-md) var(--space-xl);
+    font-size: 1rem;
+  }
+
+  .auth-panel {
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+  }
+
+  .auth-panel h1 {
+    font-size: 1.5rem;
+  }
+
+  .calendar-cell {
+    width: 13px;
+    height: 13px;
+  }
+
+  .calendar-week {
+    gap: 3px;
+  }
+
+  .calendar-grid {
+    gap: 3px;
+  }
+
+  .day-label {
+    width: 13px;
+    font-size: 0.65rem;
+  }
+
+  .legend-cell {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+/* ---------- Tablet/Desktop Enhancements ---------- */
 @media (min-width: 768px) {
   #app {
     padding: var(--space-xl) var(--space-lg);
@@ -657,14 +801,9 @@ header h1 {
     font-size: 2.25rem;
   }
 
-  .practice-panel {
-    padding: var(--space-xl);
-  }
-
   .calendar-cell {
     width: 14px;
     height: 14px;
-    border-radius: 3px;
   }
 
   .calendar-week {
@@ -675,62 +814,14 @@ header h1 {
     gap: 4px;
   }
 
-  .legend-cell {
-    width: 14px;
-    height: 14px;
-  }
-
   .day-label {
     width: 14px;
     font-size: 0.7rem;
   }
-}
 
-/* ---------- Mobile refinements ---------- */
-@media (max-width: 480px) {
-  :root {
-    --space-lg: 18px;
-    --space-xl: 28px;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  .stats-bar {
-    gap: var(--space-md);
-  }
-
-  .stat-value {
-    font-size: 1.1rem;
-  }
-
-  .btn-large {
-    min-width: 180px;
-    padding: var(--space-sm) var(--space-lg);
-    font-size: 0.95rem;
-  }
-
-  .practice-panel {
-    padding: var(--space-md);
-    border-radius: var(--radius-md);
-  }
-
-  #prompt-topic {
-    font-size: 1.15rem;
-  }
-
-  .prompt-text {
-    font-size: 0.9rem;
-  }
-
-  .auth-panel {
-    padding: var(--space-lg);
-    border-radius: var(--radius-md);
-  }
-
-  .auth-panel h1 {
-    font-size: 1.25rem;
+  .legend-cell {
+    width: 14px;
+    height: 14px;
   }
 }
 
