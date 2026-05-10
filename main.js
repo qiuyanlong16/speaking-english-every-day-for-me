@@ -1,8 +1,8 @@
 // main.js — Authentication module
 
 const CONFIG = {
-  GITHUB_USERNAME: "qiuyanlong",
-  REPO_NAME: "speaking-every-day",
+  GITHUB_USERNAME: "qiuyanlong16",
+  REPO_NAME: "speaking-english-every-day-for-me",
 };
 
 const GitHubAPI = {

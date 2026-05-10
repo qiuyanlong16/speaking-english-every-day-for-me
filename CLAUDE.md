@@ -42,6 +42,7 @@ python -m http.server 8000
 - `CONFIG` object in `main.js`: set `GITHUB_USERNAME` and `REPO_NAME`
 - GitHub repo secret `DEEPSEEK_API_KEY`: DeepSeek API key for evaluation workflow
 - GitHub Pages: enabled on `main` branch, root folder
+- **Repository**: `https://github.com/qiuyanlong16/speaking-english-every-day-for-me`
 
 ## Data Model
 
