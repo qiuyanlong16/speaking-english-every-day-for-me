@@ -406,10 +406,9 @@ async function loadCalendar() {
 
   try {
     // Fetch all data files from the repo
-    const files = await GitHubAPI.request("/contents/data?ref=main");
+    const dataFiles = await GitHubAPI.request("/contents/data?ref=main");
     const results = {};
-
-    for (const file of files) {
+    for (const file of dataFiles) {
       if (file.name.endsWith(".json")) {
         const content = atob(file.content);
         const data = JSON.parse(content);
@@ -417,21 +416,43 @@ async function loadCalendar() {
       }
     }
 
-    renderCalendar(results);
+    // Fetch prompt files to determine calendar start date
+    let prompts = {};
+    try {
+      const promptFiles = await GitHubAPI.request("/contents/prompts?ref=main");
+      for (const file of promptFiles) {
+        if (file.name.endsWith(".json")) {
+          const content = atob(file.content);
+          const data = JSON.parse(content);
+          prompts[data.date] = data;
+        }
+      }
+    } catch {
+      // No prompts yet — that's fine
+    }
+
+    renderCalendar(results, prompts);
     renderStats(results);
   } catch (err) {
     container.innerHTML = `<p>Error loading calendar: ${err.message}</p>`;
   }
 }
 
-function renderCalendar(results) {
+function renderCalendar(results, prompts) {
   const container = document.getElementById("calendar-container");
   const today = new Date();
-  const year = today.getFullYear();
   const todayStr = getTodayStr();
 
-  // Determine date range: Jan 1 of current year to today
-  const startDate = new Date(year, 0, 1);
+  // Calendar starts from the earliest prompt date, or today if no prompts
+  const promptDates = Object.keys(prompts || {});
+  let startDate;
+  if (promptDates.length > 0) {
+    const earliest = promptDates.sort()[0];
+    startDate = new Date(earliest + "T00:00:00");
+  } else {
+    startDate = new Date(today);
+  }
+
   const endDate = today;
 
   // Build the grid: 7 rows (days of week) × ~53 columns (weeks)

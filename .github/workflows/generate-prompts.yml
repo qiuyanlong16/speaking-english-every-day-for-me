@@ -1,0 +1,48 @@
+name: Generate Daily Prompts
+
+on:
+  schedule:
+    # Run at 00:05 UTC every day (ensures a new prompt is ready by morning)
+    - cron: "5 0 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate prompts for next 30 days
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          set -euo pipefail
+
+          # Install jq if not available
+          sudo apt-get update && sudo apt-get install -y jq
+
+          # Generate prompts for the next 30 days starting from today
+          node scripts/generate-prompts.js
+
+      - name: Commit generated prompts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain prompts/)" ]; then
+            git add prompts/
+            git commit -m "ci: auto-generate daily speaking prompts"
+            git push
+          else
+            echo "No new prompts to commit"
+          fi
