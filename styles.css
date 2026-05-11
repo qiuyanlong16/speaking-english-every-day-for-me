@@ -495,78 +495,70 @@ header h1 {
   border-radius: 3px;
 }
 
+/* Scrollable wrapper: month labels + grid scroll together */
+.calendar-scroll {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: fit-content;
+}
+
 /* Month labels row */
 .calendar-months {
-  display: grid;
-  grid-template-columns: 28px 1fr; /* day-label column + grid */
+  display: flex;
   gap: 0;
-  margin-bottom: var(--space-xs);
-  position: relative;
+  margin-bottom: 4px;
+  padding-left: 32px; /* space for day labels */
+  min-width: fit-content;
 }
 
 .calendar-month-label {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
-  grid-column: 2;
-  grid-row: 1;
-  justify-self: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  flex-shrink: 0;
 }
 
-.calendar-month-label:nth-child(1) { grid-column-start: 2; }
-.calendar-month-label:nth-child(2) { grid-column-start: 6; }
-.calendar-month-label:nth-child(3) { grid-column-start: 10; }
-.calendar-month-label:nth-child(4) { grid-column-start: 14; }
-.calendar-month-label:nth-child(5) { grid-column-start: 18; }
-.calendar-month-label:nth-child(6) { grid-column-start: 22; }
-.calendar-month-label:nth-child(7) { grid-column-start: 26; }
-.calendar-month-label:nth-child(8) { grid-column-start: 31; }
-.calendar-month-label:nth-child(9) { grid-column-start: 35; }
-.calendar-month-label:nth-child(10) { grid-column-start: 40; }
-.calendar-month-label:nth-child(11) { grid-column-start: 44; }
-.calendar-month-label:nth-child(12) { grid-column-start: 48; }
-
-/* Calendar body: day labels + grid side by side */
+/* Calendar body: day labels + grid */
 .calendar-body {
   display: flex;
-  gap: var(--space-sm);
+  gap: 4px;
 }
 
 .calendar-day-labels {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  padding-top: 0;
+  gap: 2px;
   flex-shrink: 0;
+  width: 28px;
 }
 
 .calendar-day-labels .day-label {
   height: 12px;
   line-height: 12px;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
   text-align: right;
-  width: 28px;
 }
 
 .calendar-grid {
   display: flex;
-  gap: 3px;
-  flex: 1;
+  gap: 2px;
 }
 
 .calendar-week {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  flex-shrink: 0;
+  gap: 2px;
 }
 
 .calendar-cell {
   width: 12px;
   height: 12px;
-  border-radius: 3px;
+  border-radius: 2px;
   background: var(--bg-elevated);
-  transition: transform 0.15s ease;
   cursor: default;
 }
 
@@ -777,11 +769,11 @@ header h1 {
 }
 
 .calendar-week {
-  gap: 3px;
+  gap: 2px;
 }
 
 .calendar-grid {
-  gap: 3px;
+  gap: 2px;
 }
 
 .day-label {

@@ -569,9 +569,9 @@ async function loadCalendar() {
       const promptFiles = await GitHubAPI.request("/contents/prompts?ref=main");
       for (const file of promptFiles) {
         if (file.name.endsWith(".json")) {
-          const content = atob(file.content);
-          const data = JSON.parse(content);
-          prompts[data.date] = data;
+          // Extract date from filename (more reliable than decoding content)
+          const dateStr = file.name.replace(".json", "");
+          prompts[dateStr] = { date: dateStr };
         }
       }
     } catch {
@@ -627,12 +627,15 @@ function renderCalendar(results, prompts) {
 
   const monthPositions = getMonthWeekPositions();
 
-  let html = '<div class="calendar">';
+  let html = '<div class="calendar"><div class="calendar-scroll">';
 
   // Month headers row
   html += '<div class="calendar-months">';
   monthPositions.forEach(m => {
-    html += `<span class="calendar-month-label" style="--col-start:${m.startWeek + 1}; --col-span:${m.span};">${m.name}</span>`;
+    const weekWidth = 14; // cell width (12) + gap (2)
+    const left = m.startWeek * weekWidth;
+    const width = m.span * weekWidth;
+    html += `<span class="calendar-month-label" style="margin-left:${left}px;width:${width}px;">${m.name}</span>`;
   });
   html += '</div>';
 
@@ -679,12 +682,11 @@ function renderCalendar(results, prompts) {
       } else if (dateStr > todayStr) {
         cellClass += " future";
       } else {
-        // Past date before prompts exist → neutral, not "missed"
+        // Past date — if prompt exists, mark as missed; otherwise neutral
         if (prompts && prompts[dateStr]) {
           cellClass += " missed";
           tooltipText = `${dateStr}: Missed`;
         }
-        // If no prompt for this date, leave as default (no color)
       }
 
       if (tooltipText) {
@@ -696,7 +698,6 @@ function renderCalendar(results, prompts) {
     html += '</div>';
   }
   html += '</div>'; // .calendar-grid
-
   html += '</div>'; // .calendar-body
 
   // Legend
@@ -708,7 +709,7 @@ function renderCalendar(results, prompts) {
   html += '<span>More</span>';
   html += '</div>';
 
-  html += '</div>'; // .calendar
+  html += '</div></div>'; // .calendar-scroll, .calendar
   container.innerHTML = html;
 }
 
