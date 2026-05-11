@@ -293,6 +293,38 @@ header h1 {
   border-radius: var(--radius-md);
   padding: var(--space-md);
   margin-bottom: var(--space-md);
+  position: relative;
+}
+
+#transcript-box.recording {
+  border-color: rgba(63, 185, 80, 0.3);
+  box-shadow: 0 0 0 1px rgba(63, 185, 80, 0.1);
+}
+
+.recording-indicator {
+  display: none;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.7rem;
+  color: var(--green-pass);
+  margin-bottom: var(--space-xs);
+}
+
+.recording-indicator.active {
+  display: flex;
+}
+
+.recording-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green-pass);
+  animation: pulse-dot 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
 }
 
 .transcript {

@@ -205,6 +205,8 @@ let recognition = null;
 let finalTranscript = ""; // accumulates confirmed final results
 let currentTranscript = ""; // final + interim for display
 let lastError = null;
+let isRecording = false; // tracks actual recording state
+let restartTimer = null; // debounce timer for restarts
 
 function initSpeechRecognition() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -241,57 +243,90 @@ function initSpeechRecognition() {
   recognition.onerror = (event) => {
     lastError = event.error;
     console.error("Speech recognition error:", event.error);
+
     if (event.error === "not-allowed") {
-      const btn = document.getElementById("btn-speak");
-      btn.classList.remove("recording");
-      btn.textContent = "Start Speaking";
+      isRecording = false;
+      updateRecordingUI(false);
       document.getElementById("transcript-text").textContent =
         "Microphone access denied. Please allow it in your browser settings, then try again.";
     } else if (event.error === "no-speech") {
-      // Silence detected — don't stop, just log
-      console.warn("No speech detected");
+      // Silence detected — keep listening, just show a hint
+      if (!currentTranscript.trim()) {
+        document.getElementById("transcript-text").textContent = "Listening... speak when ready.";
+      }
+    } else if (event.error === "aborted") {
+      // Often triggered by rapid stop/start — ignore if we just stopped
+      console.warn("Recognition aborted (likely from stop/start race)");
     } else {
-      // Other errors: reset UI so user can retry
-      const btn = document.getElementById("btn-speak");
-      btn.classList.remove("recording");
-      btn.textContent = "Start Speaking";
+      // Other errors (network-audio, service-not-allowed, etc.)
+      isRecording = false;
+      updateRecordingUI(false);
       document.getElementById("transcript-text").textContent =
         `Speech error: ${event.error}. Please try again.`;
     }
   };
 
-  // No auto-restart on onend — let the API manage continuous mode
+  // Auto-restart for continuous mode, but with debounce
   recognition.onend = () => {
-    lastError = null;
+    if (isRecording && !lastError) {
+      // Small delay to avoid rapid restart race conditions
+      clearTimeout(restartTimer);
+      restartTimer = setTimeout(() => {
+        try {
+          recognition.start();
+        } catch (e) {
+          // Already started or can't start
+        }
+      }, 100);
+    }
   };
 
   return true;
+}
+
+function updateRecordingUI(recording) {
+  const btn = document.getElementById("btn-speak");
+  const transcriptBox = document.getElementById("transcript-box");
+  const indicator = document.getElementById("recording-indicator");
+
+  if (recording) {
+    btn.classList.add("recording");
+    btn.innerHTML = '<span class="icon"></span> Stop';
+    transcriptBox.classList.add("recording");
+    indicator.classList.add("active");
+  } else {
+    btn.classList.remove("recording");
+    btn.innerHTML = '<span class="icon"></span> Start Speaking';
+    transcriptBox.classList.remove("recording");
+    indicator.classList.remove("active");
+  }
 }
 
 function toggleRecording() {
   const btn = document.getElementById("btn-speak");
   if (!recognition) return;
 
-  if (btn.classList.contains("recording")) {
+  if (isRecording) {
+    // Stop recording
+    clearTimeout(restartTimer);
+    isRecording = false;
     recognition.stop();
-    btn.classList.remove("recording");
-    btn.innerHTML = '<span class="icon"></span> Start Speaking';
+    updateRecordingUI(false);
     document.getElementById("btn-submit").style.display = "block";
-    // Keep whatever transcript was captured
   } else {
+    // Start recording
     finalTranscript = "";
     currentTranscript = "";
-    document.getElementById("transcript-text").textContent = "";
     lastError = null;
+    document.getElementById("transcript-text").textContent = "Listening...";
     try {
       recognition.start();
-      btn.classList.add("recording");
-      btn.innerHTML = '<span class="icon"></span> Stop';
+      isRecording = true;
+      updateRecordingUI(true);
       document.getElementById("btn-submit").style.display = "none";
     } catch (e) {
-      // Start failed — reset UI state
-      btn.classList.remove("recording");
-      btn.textContent = "Start Speaking";
+      isRecording = false;
+      updateRecordingUI(false);
       document.getElementById("transcript-text").textContent =
         "Could not start speech recognition. Please try again.";
       console.error("Failed to start recognition:", e);
