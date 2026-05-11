@@ -206,27 +206,24 @@ let finalTranscript = ""; // accumulates confirmed final results
 let currentTranscript = ""; // final + interim for display
 let lastError = null;
 let isRecording = false; // tracks actual recording state
-let restartTimer = null; // debounce timer for restarts
+let silenceTimer = null; // timeout to detect if mic is actually working
 
-function initSpeechRecognition() {
+function createRecognition() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SpeechRecognition) {
-    // Show manual input fallback
-    document.getElementById("speech-controls").style.display = "none";
-    document.getElementById("manual-input").style.display = "block";
-    return false;
-  }
+  if (!SpeechRecognition) return null;
 
-  recognition = new SpeechRecognition();
-  recognition.lang = "en-US";
-  recognition.interimResults = true;
-  recognition.continuous = true;
-  recognition.maxAlternatives = 1;
+  const r = new SpeechRecognition();
+  r.lang = "en-US";
+  r.interimResults = true;
+  r.continuous = false; // More reliable across browsers; we restart manually
+  r.maxAlternatives = 1;
 
-  recognition.onresult = (event) => {
+  r.onresult = (event) => {
+    lastError = null;
+    clearTimeout(silenceTimer);
+
     let interimTranscript = "";
 
-    // Iterate ALL results each time (resultIndex can be unreliable across restarts)
     for (let i = 0; i < event.results.length; i++) {
       const text = event.results[i][0].transcript;
       if (event.results[i].isFinal) {
@@ -238,10 +235,20 @@ function initSpeechRecognition() {
 
     currentTranscript = finalTranscript + interimTranscript;
     document.getElementById("transcript-text").textContent = currentTranscript.trim();
+
+    // If still recording, restart for more input
+    if (isRecording) {
+      try {
+        r.start();
+      } catch (e) {
+        // Already started
+      }
+    }
   };
 
-  recognition.onerror = (event) => {
+  r.onerror = (event) => {
     lastError = event.error;
+    clearTimeout(silenceTimer);
     console.error("Speech recognition error:", event.error);
 
     if (event.error === "not-allowed") {
@@ -250,15 +257,16 @@ function initSpeechRecognition() {
       document.getElementById("transcript-text").textContent =
         "Microphone access denied. Please allow it in your browser settings, then try again.";
     } else if (event.error === "no-speech") {
-      // Silence detected — keep listening, just show a hint
-      if (!currentTranscript.trim()) {
-        document.getElementById("transcript-text").textContent = "Listening... speak when ready.";
+      // Keep listening if user is still recording
+      if (isRecording) {
+        try {
+          r.start();
+        } catch (e) { /* ignore */ }
       }
     } else if (event.error === "aborted") {
-      // Often triggered by rapid stop/start — ignore if we just stopped
-      console.warn("Recognition aborted (likely from stop/start race)");
+      // Expected on stop — ignore
+      console.warn("Recognition aborted");
     } else {
-      // Other errors (network-audio, service-not-allowed, etc.)
       isRecording = false;
       updateRecordingUI(false);
       document.getElementById("transcript-text").textContent =
@@ -266,21 +274,28 @@ function initSpeechRecognition() {
     }
   };
 
-  // Auto-restart for continuous mode, but with debounce
-  recognition.onend = () => {
+  r.onend = () => {
+    // Restart if still recording
     if (isRecording && !lastError) {
-      // Small delay to avoid rapid restart race conditions
-      clearTimeout(restartTimer);
-      restartTimer = setTimeout(() => {
-        try {
-          recognition.start();
-        } catch (e) {
-          // Already started or can't start
-        }
-      }, 100);
+      try {
+        r.start();
+      } catch (e) {
+        // Already started or can't start
+      }
     }
   };
 
+  return r;
+}
+
+function initSpeechRecognition() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    // Show manual input fallback
+    document.getElementById("speech-controls").style.display = "none";
+    document.getElementById("manual-input").style.display = "block";
+    return false;
+  }
   return true;
 }
 
@@ -304,33 +319,51 @@ function updateRecordingUI(recording) {
 
 function toggleRecording() {
   const btn = document.getElementById("btn-speak");
-  if (!recognition) return;
-
-  if (isRecording) {
-    // Stop recording
-    clearTimeout(restartTimer);
-    isRecording = false;
-    recognition.stop();
-    updateRecordingUI(false);
-    document.getElementById("btn-submit").style.display = "block";
-  } else {
-    // Start recording
+  if (!isRecording) {
+    // Start: create fresh recognition instance (avoids stale state)
     finalTranscript = "";
     currentTranscript = "";
     lastError = null;
     document.getElementById("transcript-text").textContent = "Listening...";
+
+    recognition = createRecognition();
+    if (!recognition) {
+      document.getElementById("transcript-text").textContent =
+        "Speech recognition not supported. Please use the manual input below.";
+      return;
+    }
+
     try {
       recognition.start();
       isRecording = true;
       updateRecordingUI(true);
       document.getElementById("btn-submit").style.display = "none";
+
+      // If no results after 5 seconds, show a hint
+      silenceTimer = setTimeout(() => {
+        if (isRecording && !currentTranscript.trim()) {
+          document.getElementById("transcript-text").textContent =
+            "No speech detected. Make sure your microphone is working and try again.";
+        }
+      }, 5000);
     } catch (e) {
       isRecording = false;
       updateRecordingUI(false);
       document.getElementById("transcript-text").textContent =
-        "Could not start speech recognition. Please try again.";
+        "Could not start speech recognition. Please try again or use manual input.";
       console.error("Failed to start recognition:", e);
     }
+  } else {
+    // Stop recording
+    clearTimeout(silenceTimer);
+    isRecording = false;
+    if (recognition) {
+      try {
+        recognition.stop();
+      } catch (e) { /* ignore */ }
+    }
+    updateRecordingUI(false);
+    document.getElementById("btn-submit").style.display = "block";
   }
 }
 
