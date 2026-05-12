@@ -1,5 +1,5 @@
 {
   "date": "2026-05-18",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and organizing data. There are two main types: SQL and NoSQL. SQL databases use structured tables with rows and columns, where each table represents a category like \"customers.\" To retrieve specific information, you write queries, which are commands in SQL language. In contrast, NoSQL databases store data in more flexible formats, such as documents or key-value pairs. Data modeling is the process of planning how your data will be structured and connected. Both SQL and NoSQL systems use indexes to speed up searches. An index works like a book's table of contents, allowing the database to find information quickly without scanning every record."
+  "topic": "Continuous Integration",
+  "text": "Continuous Integration is a software development practice where team members frequently merge their code changes into a shared repository. Each integration is verified by an automated build and running tests, which helps catch issues early. This process is managed through CI pipelines, which are automated sequences that build the code, run tests, and report results. By detecting problems quickly, developers can fix them before they become larger issues. This approach improves team collaboration and code quality, as changes are tested and validated continuously rather than waiting for a final release."
 }

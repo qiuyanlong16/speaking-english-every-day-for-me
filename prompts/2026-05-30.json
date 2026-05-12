@@ -1,5 +1,5 @@
 {
   "date": "2026-05-30",
-  "topic": "The Future of AI",
-  "text": "Artificial intelligence is developing rapidly, and many experts predict that general AI—machines able to perform any intellectual task like a human—could arrive within the next few decades. This is sometimes called artificial general intelligence, or AGI. The potential benefits are huge: AGI could help solve complex problems like climate change, disease, and poverty. However, there are also serious risks. For example, an uncontrolled AGI might make decisions that harm people. Scientists disagree on the timeline. Some think AGI is only 10–20 years away, while others believe it will take much longer. Either way, careful planning is needed to ensure this technology is safe and beneficial for everyone."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a field of artificial intelligence that helps computers understand and work with human language. One important use is text understanding, where computers analyze written content to extract meaning. NLP also powers translation tools like Google Translate, allowing people to communicate across different languages easily. Another common application is sentiment analysis, which identifies emotions in text, such as whether a product review is positive or negative. Finally, chatbots rely on NLP to have natural conversations with users, answering questions and providing support. From translation tools to customer service bots, NLP is changing how we interact with technology."
 }

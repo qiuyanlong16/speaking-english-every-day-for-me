@@ -1,5 +1,5 @@
 {
   "date": "2026-05-22",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of a computer or machine to perform tasks that usually require human intelligence. This includes learning, problem-solving, and decision-making. One important branch of AI is machine learning, where computers learn from data to improve their performance without being explicitly programmed. Deep learning is a more advanced type of machine learning that uses neural networks to analyse large amounts of information. Today, AI is a part of everyday life. Common applications include virtual assistants, personalised recommendations on streaming services, and facial recognition on smartphones."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several key decisions. First, you must choose between native development—building separate apps for iOS and Android using platform-specific languages like Swift or Kotlin—and cross-platform solutions like React Native or Flutter, which allow sharing code between systems. A critical aspect is responsive design: your app’s interface should adapt seamlessly to different screen sizes and orientations. Once built, you submit the app to official app stores (Google Play Store and Apple App Store), which review it for quality and security. Finally, consider performance: native apps often run faster and use device features more efficiently, while cross-platform apps can be quicker to develop but may require extra optimization to avoid lag."
 }

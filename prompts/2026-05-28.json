@@ -1,5 +1,5 @@
 {
   "date": "2026-05-28",
-  "topic": "Natural Language Processing",
-  "text": "Natural language processing, or NLP, is a field of artificial intelligence that helps computers understand and work with human language. One key task is text understanding, where a computer reads a sentence and extracts its meaning. This technology also powers translation tools, allowing people to communicate across different languages. Another important application is sentiment analysis, which identifies whether a piece of text expresses a positive, negative, or neutral feeling. Finally, NLP is the core technology behind chatbots, enabling them to understand our questions and provide helpful responses in real time."
+  "topic": "Ethics in AI",
+  "text": "As artificial intelligence becomes more common in our daily lives, questions about ethics are increasingly important. One major concern is bias in AI systems. If the data used to train AI contains unfair patterns, the AI can make discriminatory decisions. This affects fairness, especially in areas like hiring or loan applications. Another key issue is privacy. AI often collects large amounts of personal information, raising concerns about how this data is used and protected. To address these problems, transparency is essential. Users should understand how AI makes decisions. Finally, we need responsible AI development, where creators consider the ethical impact of their technology from the very beginning. This helps build trust and ensure AI benefits everyone."
 }

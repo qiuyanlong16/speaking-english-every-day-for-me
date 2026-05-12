@@ -1,5 +1,5 @@
 {
   "date": "2026-05-12",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is essential for any programmer, especially when working in a team. The most important goal is to make your code readable for others—and for your future self. A good first step is to follow naming conventions: use clear and descriptive names for variables, functions, and classes. For example, instead of `x`, use `totalPrice`. Also, it's a good practice to break your code into small, focused functions. Each function should do just one thing. This makes your code easier to understand, test, and reuse. Ultimately, clean code improves maintainability, meaning it is simpler to fix bugs and add new features later without causing errors."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a key practice in software development. When developers examine each other's code before it is merged into the main project, they can catch bugs early, long before the software is released. This saves time and money. Beyond finding errors, code reviews also promote knowledge sharing. Team members learn different approaches and techniques from one another, and new members become familiar with the codebase faster. Ultimately, this process helps raise the overall quality of the team's work, as everyone develops a shared standard for clean, reliable code."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-05-26",
-  "topic": "Ethics in AI",
-  "text": "Artificial intelligence is changing how we live and work, but it also raises important ethical questions. One major issue is bias—AI systems can learn unfair patterns from data, leading to discrimination against certain groups. To ensure fairness, developers must carefully test their algorithms and use diverse datasets. Privacy is another concern, as AI often collects personal information without clear consent. Transparency matters too; people should understand how AI makes decisions that affect them. Responsible AI development requires cooperation between engineers, lawmakers, and the public to create rules that protect everyone. By focusing on these principles, we can build technology that is both powerful and ethical."
+  "topic": "AI in the Workplace",
+  "text": "Artificial intelligence is transforming the modern workplace. One major change is automation, where AI handles repetitive tasks like data entry or scheduling. This frees up employees to focus on more complex, creative work. AI also powers productivity tools, such as smart assistants that manage emails or software that analyzes large amounts of data quickly. However, the key is human-AI collaboration. Technology works best when it supports people, not replaces them. As a result, many jobs are changing. Workers now need to learn new skills, such as working alongside AI systems and interpreting their output. While some roles may disappear, others will emerge, focusing on designing and managing these intelligent tools."
 }

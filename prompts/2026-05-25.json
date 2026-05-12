@@ -1,5 +1,5 @@
 {
   "date": "2026-05-25",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a field of artificial intelligence where computers learn from data. In supervised learning, the computer uses training data—labeled examples with known answers—to learn patterns. For instance, you might give it pictures of cats and dogs, each labeled correctly. The computer builds a model, which is like a set of rules, to tell them apart. Once the model is ready, it can make predictions on new, unseen images. To measure how well it works, we check its accuracy, or the percentage of correct predictions. The more training data we provide, the better the model usually becomes at making accurate predictions."
+  "topic": "Large Language Models",
+  "text": "Large language models, or LLMs, are a type of artificial intelligence trained to understand and generate human-like text. They work by learning patterns from massive amounts of written data, such as books, articles, and websites. This training helps them predict the next word in a sentence or answer questions. To get useful responses, people use prompt engineering—carefully crafting input to guide the model's output. LLMs can write essays, summarize texts, or chat naturally, which makes them powerful tools. However, they have limits. They don’t truly understand meaning and can produce incorrect or biased information, especially if their training data is flawed. So, while impressive, LLMs require careful use."
 }

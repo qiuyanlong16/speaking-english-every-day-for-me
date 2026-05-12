@@ -1,5 +1,5 @@
 {
   "date": "2026-06-02",
-  "topic": "Risk Management",
-  "text": "Risk management is a key skill in both business and everyday life. It starts with identifying risks, which means looking ahead to see what could go wrong. Once you know the potential problems, you can create mitigation strategies to reduce their likelihood or impact. For example, a company might improve safety training to prevent accidents. However, not all risks can be avoided, so it's wise to have contingency plans. These are backup actions you take if a problem occurs, such as having extra supplies ready. Finally, monitoring is essential; you must regularly review your plans and update them as conditions change. By following these steps, you can handle uncertainty more confidently."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a way of managing projects, often used in software development. Instead of planning everything at once, work is divided into short phases called sprints. Each sprint usually lasts two to four weeks.\n\nDaily standup meetings help the team stay on track. Everyone briefly answers three questions: what they did yesterday, what they’ll do today, and what problems they face. The team uses a product backlog, which is a list of all the features needed. Each feature is described as a user story, like “As a user, I want to reset my password.”\n\nAgile is based on iterative development. After each sprint, the team reviews the work and adjusts plans. This way, the product improves steadily, and changes are easier to handle."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-05-15",
-  "topic": "The Role of Testing",
-  "text": "Testing plays a crucial role in software development. Unit tests check individual parts of code, like functions or methods, to ensure they work correctly in isolation. Integration tests, on the other hand, verify that different components work together properly. A popular approach is test-driven development, or TDD, where developers write tests before the actual code. This practice helps catch problems early and guides better design. Together, these testing strategies build confidence in the software. When developers see that tests pass, they can be more certain that changes or new features won’t break existing functionality. Ultimately, thorough testing reduces bugs and makes software more reliable."
+  "topic": "Debugging Strategies",
+  "text": "When you are learning to code, bugs are inevitable. The first step is identifying bugs by carefully reading error messages and checking what your program actually does versus what you expected. A systematic approach saves time: instead of guessing, isolate the problem by testing one small part at a time. Modern debugging tools like breakpoints and step-through execution are very helpful, as they let you pause the code and inspect variable values. Finally, logging—adding print statements to show what is happening at key points—can reveal hidden issues. The key is to stay calm and follow a clear process."
 }

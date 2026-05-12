@@ -1,5 +1,5 @@
 {
   "date": "2026-05-19",
-  "topic": "Working with APIs",
-  "text": "Working with APIs is a common task for modern developers. When you send an HTTP request to a server, it often returns data in JSON format, which is easy to read and use. Many APIs require authentication, usually with an API key, to ensure only authorised users can access the data. You must also be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always handle errors properly. If a request fails, your code should catch the error and respond gracefully. Understanding these concepts will help you work with APIs more effectively."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. The goal is not to add new features, but to make the code cleaner, easier to read, and simpler to maintain. For example, you might rename confusing variables, split a long function into smaller parts, or remove duplicated logic. Refactoring helps reduce technical debt, which is the cost of fixing messy or inefficient code later. By regularly refactoring, developers keep projects manageable and avoid problems that slow down future work. In short, well-structured code is easier to understand and modify, saving time and effort in the long run."
 }

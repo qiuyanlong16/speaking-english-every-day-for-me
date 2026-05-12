@@ -1,5 +1,5 @@
 {
   "date": "2026-05-17",
-  "topic": "Code Refactoring",
-  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. The main goal is to make the code cleaner, more readable, and easier to maintain. Refactoring does not fix bugs or add new features; instead, it focuses on reducing technical debt—the accumulated issues that make future changes slow and risky. Common refactoring actions include renaming unclear variables, breaking long functions into smaller ones, and removing duplicated logic. By regularly refactoring, developers keep the codebase flexible and understandable, which saves time and effort in the long run."
+  "topic": "The Role of Testing",
+  "text": "Unit tests check small pieces of code, like single functions or methods. They help developers find problems early, making the code easier to debug. Integration tests, on the other hand, verify that different parts of an application work together correctly. For example, they might check if a database and a user interface communicate properly. Test-driven development is a technique where you write a test before writing the actual code. This approach forces clear planning and helps prevent bugs. Together, unit tests, integration tests, and test-driven development increase developer confidence. When changes are made, passing tests reassure the team that the software still works as expected."
 }

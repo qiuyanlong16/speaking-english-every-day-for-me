@@ -1,5 +1,5 @@
 {
   "date": "2026-05-13",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, it is normal to make mistakes. These mistakes, or bugs, can prevent your program from running correctly. The first step is identifying bugs. You need to find exactly where the problem is. A good approach is to be systematic: test one part of your code at a time, rather than guessing randomly. Using debugging tools, like breakpoints in your code editor, can help you pause the program and inspect variables. Another useful technique is logging. By adding print statements or writing messages to a log file, you can see what your program is doing step by step. With a clear, step-by-step method, you will solve bugs more quickly."
+  "topic": "Understanding Git Branching",
+  "text": "In Git, branching is a powerful way to manage your code changes without affecting the main project. Typically, developers create feature branches to work on new features or bug fixes separately. Once the work is complete, the changes are merged back into the main branch, often called \"main\" or \"master.\" This process follows a version control workflow that helps teams collaborate efficiently. Before merging, teams commonly use pull requests to review the code, discuss improvements, and ensure quality. This systematic approach keeps the main branch stable while allowing experimentation and innovation in separate branches."
 }

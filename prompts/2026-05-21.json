@@ -1,5 +1,5 @@
 {
   "date": "2026-05-21",
-  "topic": "Security in Web Development",
-  "text": "Secure web development is essential to protect user data and maintain trust. First, HTTPS encrypts traffic between the browser and the server, preventing eavesdropping. Next, strong authentication methods like passwords and two-factor verification ensure only authorised users gain access. Input validation is equally critical—never trust user input without checking it against expected formats, as this prevents attacks like SQL injection. Common vulnerabilities include cross-site scripting (XSS) and broken authentication. Regularly updating software and logging suspicious activity also help. By implementing these practices, developers minimise risks and create safer online experiences for everyone."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is an essential skill for modern developers. APIs allow different software applications to communicate with each other. When you make an API request, you typically send an HTTP request (such as GET or POST) to a server, and it returns data, usually in JSON format. To access most APIs, you need some form of authentication, often an API key. Additionally, many APIs have rate limits, meaning you can only make a certain number of requests per minute. It is also crucial to include proper error handling in your code. For example, if the server returns a 404 or 500 status code, your application should respond gracefully."
 }

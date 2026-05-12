@@ -1,5 +1,5 @@
 {
   "date": "2026-05-16",
-  "topic": "Continuous Integration",
-  "text": "Continuous Integration, or CI, is a software development practice where team members frequently merge their code changes into a shared repository. Each integration is verified by an automated build, which compiles the code, and running tests to check for errors. This process happens through CI pipelines, which are predefined workflows that automatically build, test, and validate the code every time new changes are added. By catching issues early, CI helps developers identify and fix problems quickly, before they become larger and more complex. This leads to higher quality software and a more efficient development process, as teams can release updates with greater confidence."
+  "topic": "API Design Best Practices",
+  "text": "When designing REST APIs, following best practices ensures reliability and ease of use. First, use clear, consistent endpoints that represent resources, like '/users' or '/orders', avoid vague names. Proper status codes are essential - for example, 200 for success, 201 when a resource is created, and 404 if not found. Always include documentation that explains request formats, responses, and examples, so developers understand how to integrate. Finally, versioning is crucial; include a version number, such as '/v1/', in your URL path to handle changes gracefully without breaking existing integrations. These practices create robust, developer-friendly APIs."
 }

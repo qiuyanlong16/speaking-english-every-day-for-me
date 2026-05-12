@@ -1,5 +1,5 @@
 {
   "date": "2026-05-14",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed REST API makes life easier for developers who use it. Good API design starts with clear and consistent endpoints. Endpoint names should be nouns, not verbs, like `/users` or `/orders`. Use proper HTTP status codes to tell clients what happened. For example, `200 OK` means success, `404 Not Found` means the resource doesn't exist, and `500 Internal Server Error` means something went wrong on the server. Always include good documentation so developers know how to use your API. Finally, use versioning in your API, such as `/v1/users` or `/v2/users`. This way, when you make changes, existing users are not affected. Good design saves time for everyone."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. Readable code makes it easier for others—and your future self—to understand what the code does. A good practice is to follow naming conventions: use clear, descriptive names for variables, functions, and classes. For example, instead of `x`, use `userAge`. Keep your functions short and focused on a single task. This not only simplifies testing but also improves maintainability. When each function has one purpose, updating or fixing bugs becomes much simpler. Ultimately, writing clean code saves time and reduces errors, making it a valuable skill for long-term projects."
 }
