@@ -1,5 +1,5 @@
 {
   "date": "2026-06-03",
-  "topic": "Managing a Team",
-  "text": "Managing a team effectively requires a combination of skills. First, clear communication is essential; team members need to understand their roles and goals. Delegation is equally important—you must assign tasks based on individual strengths to avoid overloading anyone. Providing regular feedback helps people improve and feel valued. Motivation can be boosted by recognizing achievements and creating a positive work environment. When conflicts arise, address them promptly through open discussion and active listening. By focusing on these areas, you can build a cohesive and productive team."
+  "topic": "Agile Methodology",
+  "text": "Agile Methodology is a popular approach to software development. Instead of working on a whole project for months, work is divided into small, time-boxed periods called **sprints**. Each sprint typically lasts one to four weeks. Every day begins with a short team **standup** meeting, where members share progress and plans. All the tasks for the project are kept in a **backlog**, a prioritized list. These tasks are described as **user stories**, which explain features from a user's perspective. With **iterative development**, the team builds, tests, and improves the product in cycles, allowing for flexibility and faster feedback from clients."
 }

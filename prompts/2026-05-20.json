@@ -1,5 +1,5 @@
 {
   "date": "2026-05-20",
-  "topic": "Understanding Databases",
-  "text": "A database is an organised collection of data. Most databases today are either relational (SQL) or non-relational (NoSQL). In SQL databases, data is stored in tables with rows and columns, like a spreadsheet. You use queries, written in the SQL language, to ask questions or find specific information. Before building a database, you need data modelling – this means planning what tables to create and how they relate to each other. To make searches faster, databases use indexes. An index is like a book's contents page: it tells the database where to find data quickly without checking every row. NoSQL databases, on the other hand, store data in flexible formats like documents, which can be better for certain modern applications."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. The main goal is to make the code cleaner, easier to read, and simpler to maintain. For example, you might rename confusing variables, break long functions into shorter ones, or remove duplicate code. Refactoring does not add new features—it focuses on reducing \"technical debt,\" which is the cost of fixing messy or inefficient code later. A clean codebase saves time for developers and helps prevent bugs. Regular refactoring keeps software healthy, just like tidying up a room makes it more pleasant to work in."
 }
