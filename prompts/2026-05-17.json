@@ -1,5 +1,5 @@
 {
   "date": "2026-05-17",
-  "topic": "API Design Best Practices",
-  "text": "When designing a REST API, following best practices ensures it is reliable and easy to use. Start by creating clear and logical endpoints, such as `/users` or `/products`, so developers understand the API's functionality. Always use appropriate HTTP status codes, like 200 for success or 404 for not found, to communicate results effectively. Good documentation is essential; it should explain how to use each endpoint, with examples. Finally, implement versioning, for example, `/v1/users`, to avoid breaking changes for existing users when you update the API. This approach makes your API maintainable and developer-friendly."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, bugs are almost certain to appear. Identifying bugs is the first step. You might notice your program crashes or gives unexpected results. A systematic approach helps you solve problems efficiently. Instead of guessing, check one part of your code at a time. Many debugging tools can assist you. For example, a debugger lets you pause the program and inspect variables. Another useful tool is logging, where you print messages to track what your code is doing. By looking at these logs, you can see where values change incorrectly. With practice, debugging becomes a logical process, not a frustrating one."
 }
