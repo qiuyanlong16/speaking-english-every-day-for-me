@@ -1,5 +1,5 @@
 {
   "date": "2026-05-16",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is essential for any developer who wants their programs to be easy to understand and modify. The most important quality of clean code is readability. When your code is readable, you and others can quickly grasp what it does. One simple way to improve readability is to follow good naming conventions. Instead of using vague names like `x` or `data`, choose clear, descriptive names such as `totalPrice` or `userEmail`. Another key practice is to break your code into small, focused functions. Each function should do just one thing. This makes your code more organised and easier to test. By writing clean code, you ensure its long-term maintainability, saving time and effort when updates are needed later."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a powerful feature of version control that helps teams work efficiently without interfering with each other’s changes. Developers commonly use feature branches to build new functionality separately from the main project. Each feature branch can be worked on independently, and once the work is complete, it is merged back into the main branch. To ensure code quality, many teams use pull requests, which allow others to review the code before merging. This workflow keeps the project stable and well-organized. By following a clear version control workflow, teams can collaborate smoothly and manage changes effectively."
 }
