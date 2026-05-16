@@ -1,5 +1,5 @@
 {
   "date": "2026-05-20",
-  "topic": "The Role of Testing",
-  "text": "Unit tests check individual parts of your code, like a single function or method. They are fast and help you find problems early. Integration tests check how those parts work together. For example, they might test if a database and a form work correctly as a system. Test-driven development means writing the test before the code itself. This ensures your code does exactly what you expect. Together, these practices give you high confidence. When you make changes, you can run the tests quickly. If everything passes, you know the system still behaves as intended, which saves time and reduces stress."
+  "topic": "API Design Best Practices",
+  "text": "Designing a good REST API is essential for creating user-friendly web services. Start by keeping your endpoints simple and logical. For example, use /users for a list of users and /users/123 for a specific user. Always use appropriate HTTP status codes, like 200 for success, 201 for created, 404 for not found, and 500 for server errors. Versioning is also critical; include a version number in your URL, such as /v1/users, so changes don't break existing clients. Finally, provide clear documentation explaining how to use each endpoint, including request examples and error messages. Good documentation saves time for developers and helps them integrate smoothly with your API."
 }

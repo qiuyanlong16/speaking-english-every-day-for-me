@@ -1,5 +1,5 @@
 {
   "date": "2026-05-18",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will often need to fix mistakes. Identifying bugs is the first step. You can look for errors by reading your code carefully or by testing small parts. A systematic approach is much more effective than guessing. One good method is to check one section of code at a time. You can use debugging tools like breakpoints, which pause the program so you can inspect values. Another helpful technique is logging, where you print messages to see what your program is doing. These strategies make finding and fixing problems faster and less frustrating."
+  "topic": "Writing Clean Code",
+  "text": "Good code is clean code, which means it is easy to read and understand. One of the best ways to achieve readability is by using clear naming conventions. Variable and function names should tell you exactly what they do, even without comments. In addition, it is important to break your code into small, focused functions. Each function should do one thing only. This makes the code easier to test and reuse. Finally, clean code improves maintainability. When you or other developers come back to the code months later, they can quickly understand and modify it without confusion. Writing clean code saves time and reduces mistakes."
 }

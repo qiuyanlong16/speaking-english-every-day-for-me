@@ -1,5 +1,5 @@
 {
   "date": "2026-05-25",
-  "topic": "Mobile App Development",
-  "text": "In mobile app development, creating a successful application involves several key decisions. One important concept is responsive design, which ensures the app looks and works well on different screen sizes and orientations. Developers also need to choose between building a native app for a specific platform like iOS or Android, which often offers better performance and access to device features, or a cross-platform app that works on multiple systems using a single codebase. After development, apps are distributed through app stores like Google Play or the Apple App Store, which have strict guidelines for approval. Finally, performance is crucial—users expect fast loading times and smooth interactions, so testing and optimization are essential for success."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you send HTTP requests to a server to get or send data. Most APIs use the JSON format, which organizes information in a simple key-value structure. Before accessing many APIs, you need authentication—often an API key—to prove you are allowed to make requests. It is also important to be aware of rate limits, which restrict how many requests you can send in a given time. If you ignore these limits, the server may block you temporarily. Finally, always handle errors properly. Check the server's response for status codes and messages, and write your code to manage issues like network failures or invalid data. This helps build reliable applications."
 }
