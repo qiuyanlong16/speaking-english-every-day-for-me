@@ -1,5 +1,5 @@
 {
   "date": "2026-05-22",
-  "topic": "Continuous Integration",
-  "text": "Continuous integration, or CI, is a software development practice where team members regularly combine their code changes into a shared main branch, often several times a day. Each time new code is added, a CI pipeline automatically starts a process that includes automated builds to compile the software and running tests to check for errors. This approach helps in catching issues early, before they become bigger problems. By fixing bugs immediately after they are introduced, teams can maintain a stable codebase and improve overall software quality. CI pipelines make development faster, more efficient, and less risky."
+  "topic": "The Role of Testing",
+  "text": "Unit tests check individual pieces of code, like functions or methods, to ensure they work correctly in isolation. Integration tests verify that different parts of a system function together as expected. While unit tests are quick and focused, integration tests are broader and can catch issues between components. Test-driven development, or TDD, involves writing tests before writing code. This approach encourages clearer design and ensures new features are testable from the start. Together, these testing methods build confidence in the software. When developers know tests cover both small units and larger interactions, they can make changes more safely and release updates with greater peace of mind."
 }

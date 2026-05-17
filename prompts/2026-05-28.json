@@ -1,5 +1,5 @@
 {
   "date": "2026-05-28",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is a branch of computer science that aims to create machines capable of performing tasks that usually require human intelligence. One key part of AI is machine learning, where computers learn from data to improve their performance over time without being explicitly programmed. A more advanced subset is deep learning, which uses complex neural networks inspired by the human brain to process information. You likely encounter AI in daily life—for instance, when your email filters spam, when a streaming service recommends movies, or when a smartphone recognises your face. These applications make tasks faster and more convenient."
+  "topic": "Security in Web Development",
+  "text": "Modern websites handle sensitive user data, making security a top priority in web development. HTTPS encrypts information sent between browsers and servers, preventing hackers from intercepting passwords or credit card details. This means both authentication processes and regular browsing stay protected. Developers must also validate all user input, such as form fields or search boxes, to block malicious code like SQL injections or cross-site scripting attacks. Common vulnerabilities include weak password storage and outdated software. By using HTTPS, implementing strong authentication measures, and carefully checking user input, developers can significantly reduce these risks and create safer online experiences for everyone."
 }
