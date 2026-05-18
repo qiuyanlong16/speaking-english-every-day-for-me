@@ -1,5 +1,5 @@
 {
   "date": "2026-05-25",
-  "topic": "Understanding Databases",
-  "text": "A database is an organized collection of information that can be easily accessed and managed. In SQL, or relational databases, data is stored in tables with rows and columns, similar to a spreadsheet. To extract specific information, you write queries using SQL language. Data modeling is the process of designing these tables and defining how they relate to each other. To speed up searches, you can create indexes on columns. NoSQL databases, on the other hand, store data in different structures like documents or key-value pairs, which are more flexible and suitable for large, unstructured datasets. The choice between SQL and NoSQL depends on your project's needs for consistency or scalability."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. In other words, you make the code cleaner and easier to understand, but it still does exactly the same thing as before. Refactoring focuses on improving readability, such as by renaming unclear variables or breaking long functions into smaller pieces. This helps reduce technical debt — the extra work caused by messy or poorly organized code. By regularly refactoring, developers maintain a healthy codebase, making future changes faster and less error-prone."
 }

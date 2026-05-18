@@ -1,5 +1,5 @@
 {
   "date": "2026-05-27",
-  "topic": "Mobile App Development",
-  "text": "Creating a mobile app involves several important considerations. First, developers must decide between native and cross-platform development. Native apps are built specifically for iOS or Android, offering better performance and full access to device features, while cross-platform tools like React Native allow one codebase to work on both systems, saving time and money. Regardless of the approach, responsive design is crucial—the app must adapt smoothly to different screen sizes and orientations. Once completed, the app is submitted to app stores like Google Play or the Apple App Store, where it undergoes review. Finally, performance must be optimized; users expect quick load times and smooth interactions, or they may abandon the app entirely."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows programs to communicate over the internet. When you make an HTTP request, such as GET or POST, the server responds with data, often in JSON format. Many APIs require authentication, usually through an API key, to verify your identity. You must also respect rate limits, which control how many requests you can make in a certain time. If you exceed them, you might be temporarily blocked. Proper error handling is essential - always check for status codes like 404 or 500, so your program can respond gracefully to problems."
 }

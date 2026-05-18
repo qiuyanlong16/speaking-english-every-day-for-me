@@ -1,5 +1,5 @@
 {
   "date": "2026-05-21",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed REST API is essential for creating a user-friendly experience. First, use clear and logical endpoints that represent resources, like `/users` or `/orders`, to keep things intuitive. Next, always use appropriate status codes; for example, `200` for success, `400` for bad requests, and `404` for not found. This helps developers understand what’s happening. Versioning is also important. By adding a version number, like `/v1/users`, you can make changes without breaking existing clients. Finally, provide thorough documentation that explains each endpoint, its parameters, and expected responses. This makes your API easy to integrate and saves developers time."
+  "topic": "Debugging Strategies",
+  "text": "One of the most important skills in programming is knowing how to fix errors, or bugs. Debugging requires a systematic approach. First, you need to identify where the bug is. Try to reproduce the problem consistently. Then, use debugging tools like breakpoints, which pause your code at a specific line, or step-through features to examine variable values. Another helpful strategy is logging: adding print statements to track what your program is doing at each stage. By following these steps, you can solve problems more efficiently and avoid frustration."
 }

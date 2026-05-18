@@ -1,5 +1,5 @@
 {
   "date": "2026-05-28",
-  "topic": "Security in Web Development",
-  "text": "Modern websites handle sensitive user data, making security a top priority in web development. HTTPS encrypts information sent between browsers and servers, preventing hackers from intercepting passwords or credit card details. This means both authentication processes and regular browsing stay protected. Developers must also validate all user input, such as form fields or search boxes, to block malicious code like SQL injections or cross-site scripting attacks. Common vulnerabilities include weak password storage and outdated software. By using HTTPS, implementing strong authentication measures, and carefully checking user input, developers can significantly reduce these risks and create safer online experiences for everyone."
+  "topic": "Mobile App Development",
+  "text": "Developing a successful mobile app requires careful planning. Responsive design is crucial, ensuring the app looks and works perfectly on different screen sizes, from phones to tablets. A key decision is choosing between native and cross-platform development. Native apps, built for iOS or Android separately, often offer the best performance. Cross-platform tools, like React Native, allow you to write code once and launch on both platforms, saving time and money. Finally, you must submit your finished app to official app stores, like Google Play or the Apple App Store. These platforms review your work before making it available for download, so meeting their guidelines is essential for success."
 }
