@@ -1,5 +1,5 @@
 {
   "date": "2026-05-19",
-  "topic": "Understanding Git Branching",
-  "text": "When working on a software project with a team, Git branching helps organize changes. Developers create feature branches from the main codebase to work on new functions or fixes without disturbing the stable version. For example, you might make a branch called \"add-login\" to build a login page. After completing and testing your changes, you create a pull request to propose merging your branch with the main branch. Teammates review the code, suggest improvements, and approve it. Then, the changes are merged. This workflow keeps the main code clean and allows multiple people to work simultaneously, making version control efficient and safe."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an important part of software development. They involve team members checking each other's code before it is added to the main project. One major benefit is catching bugs early, which saves time and money compared to fixing them later. Code reviews also encourage knowledge sharing, as developers learn different techniques and solutions from their colleagues. This helps spread expertise across the team and prevents over-reliance on a single person. Ultimately, regular code reviews improve overall team quality by creating a culture of collaboration and continuous improvement. They lead to cleaner, more reliable code and stronger, more confident developers."
 }
