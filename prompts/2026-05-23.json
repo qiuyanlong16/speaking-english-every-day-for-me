@@ -1,5 +1,5 @@
 {
   "date": "2026-05-23",
-  "topic": "API Design Best Practices",
-  "text": "Designing clear and usable REST APIs is essential for developer experience. Start by using intuitive endpoints that map to resources, like `/users` or `/orders`. Use HTTP methods correctly: GET to retrieve data, POST to create, PUT to update, and DELETE to remove resources. Always return meaningful status codes, such as 200 for success, 201 for creation, 404 for not found, and 500 for server errors. Never forget to include clear, up-to-date documentation; this helps developers integrate smoothly. Additionally, plan for evolution by implementing API versioning. Common approaches include using URL prefixes like `/v1/users` or custom headers. Good versioning allows you to improve your API without breaking existing integrations. Following these best practices makes your API robust and developer-friendly."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, you will often face bugs that prevent your program from working correctly. The first step is identifying bugs by noticing unexpected behavior or error messages. A systematic approach is essential: instead of guessing, break the problem into small parts and test each one. Use debugging tools like breakpoints to pause your code and inspect variables. Another useful strategy is logging—adding print statements to track what your program does step by step. By writing messages to the console, you can see where values go wrong. With patience and a clear method, you can solve most errors efficiently."
 }

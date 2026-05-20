@@ -1,5 +1,5 @@
 {
   "date": "2026-06-02",
-  "topic": "AI in the Workplace",
-  "text": "AI is transforming the modern workplace. One major impact is automation, where machines handle repetitive tasks like data entry or scheduling. This allows employees to focus on more complex work. Many productivity tools now use AI, such as software that analyzes emails or generates reports quickly. However, this doesn't mean humans are replaced. Instead, we see human-AI collaboration, where people and machines work together, combining creativity with efficiency. These changes mean some jobs may evolve or disappear, but new roles like AI trainers or ethics specialists are emerging. Understanding and adapting to these tools is becoming essential for career growth."
+  "topic": "Large Language Models",
+  "text": "Large Language Models, or LLMs, are AI systems trained on vast amounts of text from the internet, books, and articles. They learn patterns in language, allowing them to predict and generate words based on a user's input. To get useful responses, people use prompt engineering—carefully wording questions or instructions to guide the model. These models can write stories, answer questions, and translate languages, making them powerful tools. However, they have limits: they don't truly understand meaning, sometimes give incorrect information, and can reflect biases in their training data. So, while impressive, they require careful use."
 }

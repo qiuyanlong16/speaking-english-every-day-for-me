@@ -1,5 +1,5 @@
 {
   "date": "2026-05-29",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app requires careful planning. A key concept is responsive design, which ensures your app looks and works well on different screen sizes and orientations, from small phones to large tablets.\n\nYou must also choose between native or cross-platform development. Native apps are built specifically for iOS or Android, offering excellent performance and access to device features. Cross-platform tools like React Native let you write one codebase for both, saving time, but performance may sometimes lag.\n\nFinally, you need to publish your app through official app stores, such as the Apple App Store or Google Play, where users can download it. Balancing a great user experience with solid performance is essential for any successful app."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is a common task for many developers today. An API allows different software applications to communicate with each other over the internet, usually using **HTTP requests** like GET or POST. The data is often returned in **JSON** format, which is easy to read and process. Many APIs require **authentication**, such as an API key, to ensure that only authorized users can access the data. However, it is important to be aware of **rate limits**, which restrict how many requests you can make in a certain time period. Finally, always implement **error handling** in your code, so that you can manage problems like a server error or an invalid request gracefully."
 }
