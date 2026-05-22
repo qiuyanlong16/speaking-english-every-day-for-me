@@ -1,5 +1,5 @@
 {
   "date": "2026-05-24",
-  "topic": "Debugging Strategies",
-  "text": "When you are writing code, finding and fixing errors, or \"bugs,\" is part of the process. The first step in debugging is identifying the bug. This means understanding what the program should do versus what it actually does. A systematic approach helps here: instead of guessing, test one small part of your code at a time. Use debugging tools, like a debugger in your code editor, to pause the program and inspect variables. Another useful tool is logging. By adding log messages to different parts of your code, you can see the flow of data and spot where things go wrong. With practice, debugging becomes easier and faster."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is like writing a clear message. The most important goal is to make your code readable, both for yourself and for others. One way to achieve this is by using good naming conventions. Variables and functions should have names that clearly describe what they do, such as `calculateTotalPrice` instead of `ctp`. Additionally, keep your functions short and focused on a single task. This makes your code easier to test and reuse. When you write simple, well-named code, you improve its maintainability. This means that in the future, fixing bugs or adding new features will be much faster and less confusing for anyone working on the project."
 }

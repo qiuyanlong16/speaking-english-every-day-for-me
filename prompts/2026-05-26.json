@@ -1,5 +1,5 @@
 {
   "date": "2026-05-26",
-  "topic": "The Role of Testing",
-  "text": "When building software, testing plays a huge role. Two common types are unit tests and integration tests. Unit tests check small parts of code, like individual functions, to ensure they work correctly on their own. Integration tests verify that different parts of the system work together smoothly. Many developers use test-driven development, where they write tests first and then write the code to pass them. This process leads to cleaner, more reliable software. Overall, thorough testing gives developers confidence. They can make changes and add new features knowing that their tests will catch mistakes before the software reaches users."
+  "topic": "API Design Best Practices",
+  "text": "Designing good REST APIs makes life easier for developers who use them. Endpoints should be clear and logical, using nouns like `/users` or `/orders` instead of verbs. Status codes are important: `200` means success, `404` means not found, and `500` indicates a server error. Always keep documentation up to date so users know how to work with your API. Also, use versioning, for example `/v1/users`, so changes don't break existing applications. With clear endpoints, proper status codes, good docs, and versioning, your API will be simple and reliable to use."
 }

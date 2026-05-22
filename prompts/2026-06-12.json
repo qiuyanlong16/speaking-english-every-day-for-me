@@ -1,5 +1,5 @@
 {
   "date": "2026-06-12",
-  "topic": "Managing a Team",
-  "text": "Effective team management relies on clear communication and thoughtful delegation. A good leader ensures that each member understands their role and has the tools to succeed. Regular feedback, both positive and constructive, helps people grow and feel valued. Motivation often comes from recognising effort and celebrating small wins. When conflicts arise, they should be addressed calmly and openly, focusing on solutions rather than blame. By balancing these elements, a manager can create a supportive environment where the team works together efficiently and feels engaged in their shared goals."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach in software development because it focuses on delivering value quickly. Work is divided into short periods called sprints, usually lasting two weeks. Each sprint begins with planning, where the team selects tasks from a list of requirements called a backlog. These tasks are written as user stories, which describe a feature from the end user's perspective. Every day, the team holds brief standup meetings to share progress and identify obstacles. After each sprint, the team reviews their work and adapts the plan for the next sprint. This iterative development process allows for continuous improvement and faster responses to change."
 }
