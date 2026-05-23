@@ -1,5 +1,5 @@
 {
   "date": "2026-05-26",
-  "topic": "API Design Best Practices",
-  "text": "Designing good REST APIs makes life easier for developers who use them. Endpoints should be clear and logical, using nouns like `/users` or `/orders` instead of verbs. Status codes are important: `200` means success, `404` means not found, and `500` indicates a server error. Always keep documentation up to date so users know how to work with your API. Also, use versioning, for example `/v1/users`, so changes don't break existing applications. With clear endpoints, proper status codes, good docs, and versioning, your API will be simple and reliable to use."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a crucial skill for programmers. When your code doesn't work, start by identifying the bug. Read error messages carefully—they often point to the problem. Then, use a systematic approach: isolate the issue by testing small parts of your code. Debugging tools like breakpoints allow you to pause execution and inspect variables. Another powerful strategy is logging. Add print statements or use a logging library to track what your program is doing at each step. This helps you see unexpected values or flow. Remember, patience is key. By following these steps and staying organized, you can solve bugs more effectively and improve your code quality over time."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-05-31",
-  "topic": "Working with APIs",
-  "text": "When you work with APIs, you use HTTP requests to communicate with a server. The most common types are GET to retrieve data and POST to send data. The server often returns information in JSON format, which is easy for programs to read. Many APIs require authentication, usually through an API key, to control access. You should also be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always include error handling in your code. If a request fails, a well-designed program can retry it or show a helpful message instead of crashing."
+  "topic": "Understanding Databases",
+  "text": "Databases help us store and organise data efficiently. The two main types are SQL and NoSQL. SQL databases, like MySQL and PostgreSQL, use structured tables with rows and columns. You can run queries using Structured Query Language (SQL) to retrieve or update specific information quickly. Data modeling in SQL involves designing tables and defining relationships between them. Indexes are special lookup tables that speed up searches by providing quick paths to data. NoSQL databases, such as MongoDB, are more flexible. They store data in documents or key-value pairs, making them ideal for unstructured or rapidly changing data. Choosing between SQL and NoSQL depends on your project’s needs for structure, scalability, and performance."
 }
