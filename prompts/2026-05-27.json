@@ -1,5 +1,5 @@
 {
   "date": "2026-05-27",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed API is essential for a smooth developer experience. For REST APIs, endpoints should be clear and consistent, often using nouns for resources like `/users` or `/orders`. Always use appropriate HTTP status codes: `200` for success, `201` for created, `400` for bad request, and `404` for not found. Good documentation is crucial—explain each endpoint, its parameters, and expected responses. Also, plan for versioning from the start, for example, `/v1/orders`. This allows you to make changes later without breaking existing users. Keep these practices in mind, and your APIs will be easier to use and maintain over time."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, you will inevitably encounter bugs. Identifying bugs starts with understanding what the program should do versus what it actually does. A systematic approach is essential: first, reproduce the error consistently, then isolate the part of the code causing the problem. Use debugging tools like breakpoints in your IDE to step through the code line by line, inspecting variable values. Alternatively, logging is a powerful technique—insert print statements or use logging libraries to track how data changes during execution. By following a logical process and analyzing the logged output, you can locate and fix errors efficiently."
 }

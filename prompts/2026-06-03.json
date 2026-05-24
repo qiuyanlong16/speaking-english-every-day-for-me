@@ -1,5 +1,5 @@
 {
   "date": "2026-06-03",
-  "topic": "Security in Web Development",
-  "text": "Modern web development requires careful attention to security. One basic measure is using HTTPS, which encrypts data between the user and the website. This prevents attackers from stealing sensitive information like passwords. Additionally, proper authentication systems are necessary. They verify user identity through passwords or other methods, ensuring only authorized people access accounts. Another critical step is input validation—checking all data users submit. Without it, hackers can inject malicious code, leading to common vulnerabilities like SQL injection or cross-site scripting attacks. By implementing these practices, developers can protect both users and data from harm."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development involves creating software for smartphones and tablets. A key principle is responsive design, which ensures the app looks and works well on different screen sizes. Developers must choose between native development, where apps are built specifically for iOS or Android, and cross-platform development, which uses a single codebase for both systems. Once completed, the app must be submitted to app stores like Google Play or the Apple App Store for approval. Performance is also critical; users expect fast load times and smooth navigation. A slow or buggy app can quickly lose users, so testing is essential before launch."
 }

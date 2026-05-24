@@ -1,5 +1,5 @@
 {
   "date": "2026-06-01",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, you typically make HTTP requests to a server and receive data back in JSON format. Authentication is often required, which may involve API keys or access tokens. Rate limits control how many requests you can make within a certain time period, so it's important to handle these by checking response headers. Error handling is also key—you should always check the status code of the response and handle issues like 404 Not Found or 429 Too Many Requests gracefully. By following these principles, you can build reliable integrations with external services."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and organising information efficiently. The two main types are SQL and NoSQL databases. SQL databases, like MySQL, use structured tables with rows and columns, making them ideal for complex queries and relationships between data. NoSQL databases, such as MongoDB, are more flexible, handling unstructured data like documents or graphs. Data modeling involves designing how information is structured, whether in fixed tables or flexible formats. Queries allow you to retrieve specific data, with SQL using commands like SELECT and NoSQL using its own syntax. Indexes speed up these queries by acting as shortcuts to data, reducing search time. Choosing the right type depends on your project’s needs for structure, scalability, or flexibility."
 }
