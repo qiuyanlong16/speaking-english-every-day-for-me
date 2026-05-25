@@ -1,5 +1,5 @@
 {
   "date": "2026-06-02",
-  "topic": "Working with APIs",
-  "text": "When you work with APIs, you send HTTP requests to a server to get or send data. Most APIs return data in JSON format, which is easy to read and use in programming. Before using many APIs, you need authentication, often with an API key. This key is a secret code that identifies you. APIs often have rate limits, which restrict how many requests you can make in a certain time. If you exceed this limit, you may be blocked temporarily. Good error handling is important. You should always check the server's response for errors like \"404 Not Found\" or \"429 Too Many Requests\"."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and organizing data. In relational databases, data is arranged in tables consisting of rows and columns. You can retrieve information using SQL (Structured Query Language) by writing queries to select, insert, or update data. Data modeling involves planning how tables and relationships are structured to avoid duplication. Indexes are special structures that speed up queries by allowing the database to find data faster, like an index in a book. In contrast, NoSQL databases are more flexible, storing data in formats like documents or graphs rather than tables. They are often used for large-scale applications where relationships are less rigid."
 }
