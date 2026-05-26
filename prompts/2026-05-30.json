@@ -1,5 +1,5 @@
 {
   "date": "2026-05-30",
-  "topic": "The Role of Testing",
-  "text": "Unit tests focus on individual components, like a single function or class, verifying they work correctly in isolation. Integration tests, on the other hand, check how different parts of the system interact with each other. Many developers follow test-driven development, where they write tests before writing the actual code. This approach can increase confidence significantly. When a project has a robust suite of tests, making changes becomes less risky. You can refactor or add new features, knowing that if you break something, the tests will quickly alert you. This safety net allows for faster development and higher-quality software. In short, good testing practices are essential for maintaining reliable code."
+  "topic": "API Design Best Practices",
+  "text": "When designing a REST API, following best practices makes your system reliable and easy to use. First, create clear, logical endpoints that represent resources, like `/users` or `/products`. Use standard HTTP status codes—for example, `200 OK` for successful requests, `404 Not Found` when a resource doesn’t exist, and `500 Internal Server Error` for server problems. This helps developers understand what happened. Good documentation is essential; explain each endpoint, its expected inputs, and the responses it can return. Finally, always include versioning in your API, such as `/v1/users`. This allows you to update the API over time without breaking existing applications that depend on older versions."
 }

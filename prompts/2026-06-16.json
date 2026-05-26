@@ -1,5 +1,5 @@
 {
   "date": "2026-06-16",
-  "topic": "Managing a Team",
-  "text": "Managing a team effectively requires a combination of skills. First, clear **communication** is essential to ensure everyone understands goals and expectations. Regular meetings and open channels help avoid misunderstandings. Second, **delegation** involves assigning tasks based on team members’ strengths, which boosts efficiency and trust. Providing constructive **feedback** helps employees improve and feel valued. To keep the team motivated, recognition and opportunities for growth are key. Finally, **conflict resolution** is crucial; addressing disagreements calmly and fairly prevents them from harming team morale. When leaders balance these elements, they create a supportive environment where people work well together and achieve shared objectives."
+  "topic": "Agile Methodology",
+  "text": "In Agile methodology, teams work in short phases called sprints, usually lasting one to four weeks. Each day begins with a standup meeting, where team members briefly share what they did yesterday, what they will do today, and any obstacles. All tasks are kept in a backlog, a prioritized list of work. Features are described as user stories, which explain a task from the end-user’s perspective, like “As a customer, I want to pay online.” Agile uses iterative development, meaning the team builds small pieces of the project, reviews them, and then improves. This allows teams to adapt quickly to changes and deliver value early."
 }

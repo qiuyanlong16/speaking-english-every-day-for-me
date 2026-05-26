@@ -1,5 +1,5 @@
 {
   "date": "2026-06-05",
-  "topic": "Security in Web Development",
-  "text": "HTTPS is a critical first step in web security, encrypting data transferred between the user's browser and the server. This prevents attackers from intercepting sensitive information like passwords or credit card numbers. Authentication systems, such as multi-factor login, ensure that only authorized users can access certain parts of a website. Input validation is equally important—it checks that user data, like form submissions, is safe and correctly formatted before processing. Common vulnerabilities include SQL injection, where malicious code is inserted into database queries, and cross-site scripting (XSS), which allows attackers to inject harmful scripts into web pages. By addressing these areas, developers can significantly reduce security risks."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several important decisions. First, you must choose between native and cross-platform development. Native apps are built specifically for iOS or Android, offering excellent performance and full access to device features. Cross-platform tools like React Native let you write one codebase for both systems, saving time but sometimes sacrificing performance. Second, responsive design ensures your app looks and works well on different screen sizes. Finally, after development, you submit your app to stores like the Apple App Store or Google Play, where quality and performance are reviewed before public release."
 }
