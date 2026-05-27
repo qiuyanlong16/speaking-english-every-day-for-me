@@ -1,5 +1,5 @@
 {
   "date": "2026-06-07",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, refers to computer systems designed to perform tasks that usually require human intelligence. The most common type of AI today is narrow AI, which can do specific jobs like recognising faces or translating languages. A key part of AI is machine learning, where computers learn from data instead of being programmed with exact rules. Deep learning, a more advanced form of machine learning, uses complex layers of algorithms to process information, similar to how our brains work. You probably use AI every day—for example, when your phone suggests the next word you want to type, or when Netflix recommends a show you might like."
+  "topic": "Security in Web Development",
+  "text": "When building websites, security is essential. First, use HTTPS to encrypt data between the user and the server, which prevents hackers from stealing sensitive information. Next, implement strong authentication, like passwords or multi-factor login, to verify users' identities. Input validation is also critical: always check and sanitise user data before processing it. This stops attackers from injecting malicious code, such as SQL commands or scripts, into your site. Common vulnerabilities include cross-site scripting (XSS) and SQL injection, where attackers exploit weak input handling. By following these practices, web developers can protect both their applications and their users from harm."
 }

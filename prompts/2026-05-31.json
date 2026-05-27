@@ -1,5 +1,5 @@
 {
   "date": "2026-05-31",
-  "topic": "The Role of Testing",
-  "text": "Unit tests check individual pieces of code, like a single function or method, to ensure they work correctly in isolation. Integration tests, on the other hand, verify that different parts of a system work together as expected. A popular approach is test-driven development (TDD), where developers write tests before writing the actual code. This might seem backwards at first, but it helps clarify requirements and prevent bugs early on. Ultimately, all types of testing give the team confidence. When a codebase has thorough tests, developers can make changes or add new features without worrying about breaking existing functionality."
+  "topic": "API Design Best Practices",
+  "text": "When designing a REST API, it’s important to follow best practices for clarity and reliability. Start by creating clear and logical endpoints, such as `/users` or `/orders`, that represent resources. Use standard HTTP methods like GET, POST, PUT, and DELETE to perform actions. Always return appropriate status codes—for example, 200 for success, 201 for created resources, and 404 when something is not found. Include versioning in your API, such as `/v1/users`, to allow for changes without breaking existing users. Finally, provide thorough documentation that explains each endpoint, expected inputs, and example responses. This helps developers understand and use your API effectively."
 }

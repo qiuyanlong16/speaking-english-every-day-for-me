@@ -1,5 +1,5 @@
 {
   "date": "2026-06-06",
-  "topic": "Security in Web Development",
-  "text": "Using HTTPS is the first step to secure any website. It encrypts data between the user’s browser and the server, protecting sensitive information like passwords. Authentication ensures only authorized users can access certain areas, often requiring strong passwords or two-factor methods. Input validation is crucial—it checks user-submitted data for harmful content, such as SQL commands that could delete a database. Without these measures, common vulnerabilities like cross-site scripting (XSS) and data breaches can occur. Developers must regularly update software and test for weaknesses, as security requires constant attention in today’s digital world."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app requires careful planning. A key principle is responsive design, ensuring the app looks and works well on different screen sizes, from small phones to large tablets.\n\nYou must also decide between native and cross-platform development. Native apps are built for one specific system like iOS or Android, offering the best performance. Cross-platform tools allow you to write code once and deploy it on multiple platforms, saving time and money.\n\nAfter building, you submit your app to app stores like Google Play or the Apple App Store. All apps must pass review processes here. Finally, never ignore performance; a slow or crashing app will quickly lose users."
 }
