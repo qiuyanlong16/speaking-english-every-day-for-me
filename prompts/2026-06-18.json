@@ -1,5 +1,5 @@
 {
   "date": "2026-06-18",
-  "topic": "Managing a Team",
-  "text": "Managing a team requires a blend of soft skills. First, clear communication is essential; ensure everyone understands their roles and goals. Delegation involves trusting team members with tasks that fit their strengths, which boosts efficiency. Regular feedback, both positive and constructive, helps people grow and feel valued. To keep motivation high, recognize achievements and provide opportunities for development. Finally, conflict resolution is key. Address disagreements early by listening to all sides and finding fair solutions. A good leader creates a supportive environment where the team can thrive."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach to project management, especially in software development. Instead of planning everything at the start, teams work in short cycles called sprints. Each sprint usually lasts one to four weeks, and at the end, the team delivers a small but working part of the project. Every day, team members hold short standup meetings to discuss progress and any problems. All tasks are kept in a backlog, which is a list of work to be done. These tasks are often written as user stories, describing what a user needs from the software. This iterative development process allows teams to adapt quickly to changes."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-06-17",
-  "topic": "Agile Methodology",
-  "text": "Agile methodology is a way of managing projects, especially in software development. It focuses on breaking work into small, manageable parts called sprints. Each sprint usually lasts two to four weeks. Every morning, the team holds a short standup meeting to share progress and discuss any problems. Before a sprint begins, the team selects items from a backlog, which is a list of tasks or features to complete. These tasks are often described as user stories, short descriptions from a user’s perspective. This approach is called iterative development, meaning the team continues to improve the product through repeated cycles until the final result meets the users' needs."
+  "topic": "The Future of AI",
+  "text": "General AI, also known as Artificial General Intelligence or AGI, is a type of artificial intelligence that can understand and learn any intellectual task like a human. Unlike today's narrow AI, which focuses on specific jobs, AGI would be flexible and adaptive. Some experts predict we could achieve this within the next few decades.\n\nThe potential benefits are enormous. AGI could help solve complex problems like climate change, disease, and poverty. It might improve education, healthcare, and scientific research.\n\nHowever, there are serious risks. If not carefully designed, AGI could be misused or behave in unexpected ways. Managing these risks will be crucial before such powerful technology becomes reality."
 }
