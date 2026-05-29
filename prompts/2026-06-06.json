@@ -1,5 +1,5 @@
 {
   "date": "2026-06-06",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows different software systems to communicate with each other. When you make an HTTP request to an API, you typically receive a response in JSON format, which is easy for computers to read and process. Many APIs require authentication, often using an API key, to ensure only authorised users can access the data. It is also important to be aware of rate limits, which restrict how many requests you can make in a certain period. Finally, good error handling is essential, as APIs may return errors due to network issues or incorrect parameters, and you should always check the status code of each response."
+  "topic": "Understanding Databases",
+  "text": "Databases are like digital filing cabinets where information is stored and organized. The most common way to structure data is through tables, similar to spreadsheets with rows and columns. To work with this kind of data, you use SQL (Structured Query Language) to write queries—special commands that ask questions like \"Find all customers from New York.\" However, not all data fits neatly into tables. That’s where NoSQL databases come in. They're more flexible, storing information in documents or graphs without a fixed structure. When designing a database, data modeling is crucial: you plan how tables relate to each other. Finally, indexes act like a book's table of contents; they speed up queries by helping the database find information quickly."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-06-08",
-  "topic": "Security in Web Development",
-  "text": "Web security is essential for any website. First, use HTTPS to encrypt data between the user and the server, which prevents attackers from reading private information. Second, implement strong authentication, such as requiring a username and password, and consider adding two-factor authentication for extra protection. Third, always validate user input to prevent malicious code from being executed. Common vulnerabilities include SQL injection, where attackers insert harmful database commands, and cross-site scripting, which allows them to inject scripts into pages. By addressing these points, developers can create safer web applications."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several important decisions. First, you need responsive design to ensure your app looks good and works well on different screen sizes. Next, you must choose between native and cross-platform development. Native apps are built specifically for iOS or Android, offering high performance and access to device features. Cross-platform apps, like those made with React Native or Flutter, use one codebase for both systems. While they save time and money, they may have slight performance issues. Finally, you submit your app to app stores like Google Play or the Apple App Store, where users can download it. Balancing performance with development costs is key to success."
 }

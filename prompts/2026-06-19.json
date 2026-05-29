@@ -1,5 +1,5 @@
 {
   "date": "2026-06-19",
-  "topic": "Managing a Team",
-  "text": "Managing a team effectively requires several key skills. First, clear communication is essential so everyone understands their tasks and goals. Good delegation means assigning the right work to the right people, trusting them to complete it, and avoiding micromanagement. Regular feedback helps team members improve and feel valued. Motivation is also crucial; recognizing achievements and encouraging growth keeps morale high. Finally, conflict resolution must be handled calmly and fairly, addressing disagreements before they harm teamwork. By focusing on these areas, a manager can create a productive, positive environment where everyone contributes to success."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach in software development. It focuses on iterative development, meaning the project is built in small, repeatable cycles. Each cycle is called a sprint, usually lasting two to four weeks. During a sprint, the team works on a set of tasks from a prioritized list known as the backlog. These tasks are described as user stories, which explain what a user needs from the software. Every day, the team holds a short meeting called a standup, where members share their progress and any problems. By working in this flexible, step-by-step way, Agile teams can quickly adapt to changes and deliver value to users early and often."
 }
