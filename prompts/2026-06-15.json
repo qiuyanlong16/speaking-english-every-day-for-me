@@ -1,5 +1,5 @@
 {
   "date": "2026-06-15",
-  "topic": "Computer Vision",
-  "text": "Computer vision allows computers to understand images and videos the way humans do. One important task is image recognition, where a computer can identify what is in a picture, such as a cat or a tree. Another task is object detection, which helps the computer find and label specific items within an image, like cars or pedestrians. These technologies have many practical applications. For example, in self-driving cars, computer vision systems constantly scan the road to detect traffic lights, signs, and other vehicles, helping the car navigate safely on its own."
+  "topic": "Ethics in AI",
+  "text": "Artificial intelligence is transforming many industries, but it also raises important ethical questions. One major concern is bias, as AI systems can learn unfair patterns from flawed data. For example, a hiring algorithm might favor certain groups over others, making fairness a critical issue. Privacy is another key challenge, with AI often relying on large amounts of personal information. This requires careful data management to protect individuals. Transparency is equally important: users should understand how AI makes decisions. To address these issues, responsible AI development involves creating systems that are ethical by design, with clear guidelines and regular checks to ensure they serve everyone fairly."
 }

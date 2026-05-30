@@ -1,5 +1,5 @@
 {
   "date": "2026-06-14",
-  "topic": "Ethics in AI",
-  "text": "Artificial intelligence is becoming a bigger part of our daily lives, making many decisions for us. This raises important ethical questions. One major issue is **bias**: if an AI is trained on biased data, it can make unfair decisions, such as in hiring or lending. Ensuring **fairness** means we must check that these systems treat all people equally. **Privacy** is also a concern, as AI often collects large amounts of personal data. To build trust, we need **transparency** so that people understand how AI reaches its conclusions. Ultimately, **responsible AI development** requires designers, companies, and governments to work together to create technology that benefits everyone while minimizing harm."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a way for computers to learn from data without being explicitly programmed. One common type is supervised learning, where the computer learns from labelled training data. This data consists of examples with known answers, such as emails labelled \"spam\" or \"not spam.\" The computer uses this data to build a model, which is like a set of rules or patterns. Once the model is trained, it can make predictions on new, unseen data. For example, it can predict whether a new email is spam. The accuracy of the model measures how often its predictions are correct. The goal is to improve accuracy through more and better training data."
 }

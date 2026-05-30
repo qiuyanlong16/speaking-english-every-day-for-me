@@ -1,5 +1,5 @@
 {
   "date": "2026-06-06",
-  "topic": "Understanding Databases",
-  "text": "Databases are like digital filing cabinets where information is stored and organized. The most common way to structure data is through tables, similar to spreadsheets with rows and columns. To work with this kind of data, you use SQL (Structured Query Language) to write queries—special commands that ask questions like \"Find all customers from New York.\" However, not all data fits neatly into tables. That’s where NoSQL databases come in. They're more flexible, storing information in documents or graphs without a fixed structure. When designing a database, data modeling is crucial: you plan how tables relate to each other. Finally, indexes act like a book's table of contents; they speed up queries by helping the database find information quickly."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. Think of it like reorganizing a messy room—everything remains in the same place functionally, but it becomes easier to navigate. The main goal is to enhance readability and maintainability, making the code simpler to understand and modify in the future. Refactoring also helps reduce technical debt, which is the extra work required to fix poorly written code over time. By regularly refactoring, developers can keep a codebase clean, efficient, and adaptable to new requirements, ultimately saving time and effort."
 }

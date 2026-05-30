@@ -1,5 +1,5 @@
 {
   "date": "2026-06-03",
-  "topic": "The Role of Testing",
-  "text": "Unit tests check individual parts of software, like a single function. Integration tests make sure those parts work together correctly. Many developers use test-driven development (TDD), where they write the test first, then code to pass it. This approach helps prevent bugs early. Using both unit and integration tests gives developers confidence to change code, as they know the tests will catch mistakes. This is especially useful when working on large projects or in teams. Overall, good testing is not just about finding problems—it is about building reliable software and reducing stress for developers."
+  "topic": "API Design Best Practices",
+  "text": "REST APIs are a common way for software programs to communicate. When designing them, you should follow best practices to make them reliable and easy to use. First, use clear and logical endpoints, like /users for user data. Second, always return appropriate HTTP status codes, such as 200 for success, 404 for not found, and 500 for server errors. Versioning is also important; you can include a version number in the URL (e.g., /v1/users) to avoid breaking existing users when you update the API. Finally, write good documentation. Explain what each endpoint does, what parameters it needs, and what responses to expect. This helps other developers use your API quickly and correctly."
 }

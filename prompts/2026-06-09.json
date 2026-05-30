@@ -1,5 +1,5 @@
 {
   "date": "2026-06-09",
-  "topic": "Security in Web Development",
-  "text": "In web development, security is a crucial concern that developers must address from the start. One essential measure is using HTTPS, which encrypts data between the user's browser and the server, preventing eavesdropping. Another key aspect is authentication—ensuring that users prove who they are, usually with passwords or multi-factor methods. Developers must also implement input validation, which checks that user-provided data, such as form entries, are safe and correctly formatted. Without these precautions, websites become vulnerable to common threats like SQL injection, where attackers can manipulate databases, or cross-site scripting, which allows malicious code to run in users' browsers. Always prioritize security to protect both users and data."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app requires careful planning. One crucial aspect is *responsive design*, which ensures your app looks good and works well on various screen sizes, from small phones to tablets. Another major decision is choosing between *native* development (building separate versions for iOS and Android) and *cross-platform* development (using one codebase for multiple systems). Native apps often offer better *performance* and access to device features, while cross-platform tools can save time and money. Finally, you need to publish your app on official *app stores* like Google Play or the Apple App Store, which have their own guidelines and review processes."
 }
