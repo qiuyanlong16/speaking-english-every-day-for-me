@@ -1,5 +1,5 @@
 {
   "date": "2026-06-21",
-  "topic": "Managing a Team",
-  "text": "Effectively managing a team is essential for achieving shared goals. Open communication is the foundation, ensuring everyone understands their roles and responsibilities. A good manager also practices delegation, trusting team members with tasks that match their skills, which builds confidence. Regular feedback, both positive and constructive, helps people improve and feel valued. Motivation comes from recognizing hard work and creating a positive environment where everyone contributes. When conflicts arise, as they sometimes do, a leader focuses on conflict resolution by listening to all sides and finding a fair solution. By combining these elements, a manager can create a productive and strong team."
+  "topic": "Agile Methodology",
+  "text": "Agile is a popular method for managing projects, especially in software development. Work is done in short cycles called **sprints**, usually lasting two weeks. Each sprint begins with a plan based on the **backlog**, a list of tasks to be completed. These tasks are written as **user stories**, which describe a feature from the user’s perspective. Every day, the team has a short meeting called a **standup** to discuss progress and any problems. The process is **iterative**: after each sprint, the team reviews the work and adjusts the plan. This allows teams to deliver value quickly and improve continuously."
 }

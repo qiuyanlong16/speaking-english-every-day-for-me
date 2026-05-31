@@ -1,5 +1,5 @@
 {
   "date": "2026-06-02",
-  "topic": "Debugging Strategies",
-  "text": "When you encounter a bug in your code, the first step is to identify the problem by observing unexpected behavior. A systematic approach helps you avoid guessing randomly. Start by reading error messages carefully, then use debugging tools like breakpoints to pause the program and inspect variable values. Another useful strategy is logging, where you add print statements to track how data changes step by step. This makes it easier to isolate where things go wrong. By checking each part of your code methodically, you can fix errors efficiently and become a more confident programmer."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. Readable code is easy to understand, which helps you and others work with it later. Using clear naming conventions is a great start—choose variable and function names that describe their purpose, like `calculateTotal()` instead of `doStuff()`. Keep your functions short and focused on one task; this makes them reusable and easier to test. When your code follows these practices, it becomes more maintainable over time. A well-structured project saves hours of debugging and allows new team members to contribute quickly. Remember, write code for humans first, computers second."
 }
