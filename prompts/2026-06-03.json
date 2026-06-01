@@ -1,5 +1,5 @@
 {
   "date": "2026-06-03",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, bugs are inevitable. The first step in fixing them is identifying what went wrong—this could be a typo, a logic error, or an unexpected input. A systematic approach is essential: reproduce the problem, isolate the cause, and test your fix. Useful debugging tools include breakpoints to pause execution, step-through features to watch variable changes, and error messages that point to the issue. Another powerful technique is logging—adding print statements or using a logger to track program flow. By staying calm and following these steps, you can solve most bugs efficiently."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. Clean code is easy to read and understand, which makes it more maintainable over time. One key aspect is using clear naming conventions for variables and functions. For example, instead of naming a variable `x`, use something like `user_age` to show its purpose. Additionally, functions should do one specific thing and have descriptive names, such as `calculate_total_price`. This makes the code easier to follow and debug. By focusing on readability and organization, you create code that you and others can modify quickly in the future."
 }

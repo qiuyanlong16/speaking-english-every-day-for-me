@@ -1,5 +1,5 @@
 {
   "date": "2026-06-06",
-  "topic": "Continuous Integration",
-  "text": "In modern software development, teams use Continuous Integration (CI) to improve code quality and speed up delivery. The core idea is simple: whenever a developer pushes code changes to a shared repository, a CI pipeline automatically triggers. This pipeline first runs an automated build, compiling the new code and checking for errors. Then, it runs a series of tests to verify that everything works correctly. The main benefit is catching issues early, before they cause bigger problems later. If a build fails or a test breaks, the team is notified immediately, so they can fix the problem quickly. This process helps keep the codebase stable and reliable."
+  "topic": "The Role of Testing",
+  "text": "In software development, testing plays a crucial role in ensuring quality. One common approach is test-driven development, where developers write tests before the actual code. This method helps them think carefully about the desired behavior. Unit tests check small, individual parts of the code, such as a single function. In contrast, integration tests verify that different components work together properly. The main benefit of testing is confidence. When you have a comprehensive set of tests, you can make changes or add new features without worrying as much about breaking something. Testing ultimately saves time and prevents frustrating bugs."
 }
