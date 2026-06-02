@@ -1,5 +1,5 @@
 {
   "date": "2026-06-11",
-  "topic": "Mobile App Development",
-  "text": "Mobile apps are now an essential part of daily life. Developing a successful app requires careful thought about design and technology. One important concept is responsive design, which ensures the app looks and works well on all screen sizes, from small phones to tablets.\n\nDevelopers must choose between native and cross-platform approaches. Native apps are built for a specific system, like iOS or Android, offering top performance. Cross-platform apps use a single codebase for multiple systems, saving time but sometimes sacrificing speed.\n\nFinally, app stores, such as Apple’s App Store and Google Play, are where users download apps. These platforms have strict guidelines, so developers must test thoroughly for performance and stability before release."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you typically send HTTP requests to a server to get or send data. The server often responds with JSON, a lightweight format that is easy to read and structure. Many APIs require authentication, usually via an API key, to ensure only authorised users can access the service. It’s also important to be aware of rate limits, which restrict how many requests you can make in a certain period. Finally, you should always include error handling in your code. This helps manage problems like network failures or unexpected responses, making your application more reliable and user-friendly."
 }

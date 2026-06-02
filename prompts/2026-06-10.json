@@ -1,5 +1,5 @@
 {
   "date": "2026-06-10",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows different software applications to communicate with each other. An API typically uses HTTP requests, such as GET to retrieve data or POST to send data. Most modern APIs return data in JSON format, which is easy for both humans and machines to read. To access an API, you often need authentication, like an API key, which proves you have permission to use the service. APIs also enforce rate limits, which restrict how many requests you can make in a certain time period. Finally, good error handling is essential. When an API fails, it usually sends an error code, such as 404 or 500, and your code should check for these and respond appropriately."
+  "topic": "Understanding Databases",
+  "text": "A database is a system for storing and organising data. In a relational database, data is arranged in tables with rows and columns. To get information, you write **queries** using SQL, a special language. SQL databases use fixed **data modelling**, so you plan the table structure and relationships in advance.\n\nHowever, some data doesn't fit well into tables. This is where **NoSQL** databases come in. They store data flexibly, often as documents or key-value pairs, without needing a strict schema. This makes them good for unstructured information.\n\nTo speed up searches, both types use **indexes**, which are like book indexes. They allow the database to find specific items quickly without checking every row."
 }
