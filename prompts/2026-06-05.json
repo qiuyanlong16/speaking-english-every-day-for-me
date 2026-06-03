@@ -1,5 +1,5 @@
 {
   "date": "2026-06-05",
-  "topic": "Debugging Strategies",
-  "text": "When you are learning to code, finding bugs in your programs is completely normal. A good first step is to identify the bug by reading your code carefully or checking the error messages. Using debugging tools, like breakpoints in your editor, can help you pause the program and see what each variable is doing. However, the most effective method is a systematic approach: isolate the problem, make one small change at a time, and test frequently. Finally, adding logging to your code is very helpful, as it prints out values and lets you track what happens step by step. These strategies will save you time and frustration."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code means writing code that is easy for others to read and understand. A key principle is using proper naming conventions. For example, variable and function names should clearly describe their purpose, like `calculateTotalPrice` instead of just `calc`. Additionally, each function should have a single, specific responsibility. This makes the code simpler to test and modify. When functions are short and focused, the overall system becomes more maintainable. As a result, other developers can quickly grasp the logic and make changes without breaking other parts. In short, clean code is not just for computers—it is for people, too."
 }
