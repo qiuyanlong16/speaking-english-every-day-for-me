@@ -1,5 +1,5 @@
 {
   "date": "2026-06-22",
-  "topic": "AI and Creativity",
-  "text": "Art created by artificial intelligence is no longer science fiction. AI programs can now produce paintings, compose symphonies, and write articles or poems. Some people worry that machines will replace human artists, but this is unlikely. While AI can copy styles and generate new combinations quickly, it lacks true emotion and personal experience. Human creativity comes from our feelings, memories, and unique perspectives. AI might be a useful tool to inspire us or help us work faster, but the most meaningful art still requires a human touch. In the future, we will probably see more collaboration between people and machines, combining the best of both."
+  "topic": "Natural Language Processing",
+  "text": "Natural language processing, or NLP, is a field of artificial intelligence that helps computers understand and work with human language. One common use is text understanding, where a computer can read a sentence and grasp its meaning. NLP also powers translation services, allowing instant conversion between languages. Sentiment analysis is another important application, used to determine if a text expresses positive, negative, or neutral feelings, for example in product reviews. Finally, chatbots rely on NLP to talk with users, answering questions or providing help in a natural way. These technologies are becoming more common in everyday life."
 }

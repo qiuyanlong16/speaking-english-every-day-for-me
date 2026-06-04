@@ -1,5 +1,5 @@
 {
   "date": "2026-06-19",
-  "topic": "Ethics in AI",
-  "text": "Artificial intelligence is becoming part of our daily lives, from recommendation systems to hiring algorithms. However, we must consider the ethics behind it. One major issue is bias: if the data used to train AI contains biases, the system may make unfair decisions. For example, an AI for job applications could favour certain groups. This raises questions about fairness and equality. Privacy is also vital, as many AIs collect personal data. Transparency means we need to understand how AI reaches its conclusions. Finally, responsible AI development ensures that creators consider these risks, testing systems thoroughly and involving diverse perspectives. Only then can we build trustworthy technology."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a way for computers to learn from data. In supervised learning, the computer uses training data that includes both inputs and correct outputs. By studying this data, the computer builds a model, which is a mathematical representation of the patterns it finds. Once the model is ready, it can make predictions on new, unseen data. For example, a model trained on pictures of cats and dogs can then predict whether a new picture shows a cat or a dog. The accuracy of these predictions tells us how well the model has learned. Improving accuracy often requires better training data or more advanced models."
 }

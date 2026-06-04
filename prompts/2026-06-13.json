@@ -1,5 +1,5 @@
 {
   "date": "2026-06-13",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development involves creating software for smartphones and tablets. A key principle is responsive design, meaning the app must adapt smoothly to different screen sizes and orientations. Developers often choose between native or cross-platform approaches. Native apps are built for a specific system, like iOS or Android, while cross-platform apps work on multiple systems using one codebase. After development, the app is submitted to app stores, such as Google Play or the Apple App Store, where users can download it. Performance is crucial—a well-optimized app runs quickly, uses less battery, and provides a better user experience."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is a fundamental skill for modern developers. APIs allow different software applications to communicate with each other. When you make an HTTP request to an API, it usually returns data in JSON format, which is easy for both humans and machines to read. However, before accessing many APIs, you need authentication—often an API key or token—to prove your identity. Once connected, you must respect rate limits, which restrict how many requests you can make in a certain time period. Finally, always implement error handling to manage problems like network failures or incorrect requests. This keeps your application stable and reliable."
 }
