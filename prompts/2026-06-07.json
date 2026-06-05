@@ -1,5 +1,5 @@
 {
   "date": "2026-06-07",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, encountering bugs is normal. Identifying bugs can be challenging, so it's helpful to take a systematic approach. First, try to reproduce the error and observe its behavior. Use debugging tools like breakpoints to pause the code and inspect variables step by step. Logging is also very useful — by adding print statements or log messages, you can track how data flows through your program. This gives you a clear picture of where things go wrong. A systematic method saves time and reduces frustration. Remember, debugging is a skill you improve with practice."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer, especially when working in a team. Clean code is readable code, meaning that another developer can understand it quickly without needing extensive comments. One of the most important practices is using clear naming conventions. Variable and function names should describe what they do or represent, like `calculateTotalPrice` instead of `calc`. Good code also relies on well-structured functions. Each function should have a single, clear purpose and be short enough to understand easily. Finally, focusing on maintainability saves time in the long run. When code is clean, it is easier to fix bugs, add new features, and collaborate with others."
 }

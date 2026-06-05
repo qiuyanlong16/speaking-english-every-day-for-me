@@ -1,5 +1,5 @@
 {
   "date": "2026-06-08",
-  "topic": "API Design Best Practices",
-  "text": "When designing a REST API, careful planning is essential for long-term success. First, endpoints should be clear and consistent, using nouns like `/users` rather than verbs. Proper use of HTTP status codes helps clients understand what happened: `200` for success, `404` for not found, and `500` for server errors. Versioning is also critical; including a version number in the URL, such as `/v1/users`, allows you to make changes without breaking existing integrations. Finally, good documentation is vital. It should explain each endpoint, the data it expects, and the responses it returns. This helps developers use your API correctly and build reliable applications quickly."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, bugs are almost inevitable. The first step is identifying the bug—reproducing the error and understanding when it happens. Don't just guess; use a systematic approach. Start by isolating the problem area, then test one possible cause at a time. Debugging tools like breakpoints in an IDE help you pause execution and inspect variables. Logging is another powerful strategy: by adding print statements or log messages, you can trace the flow of your program and see exactly where things go wrong. With patience and a clear method, you can fix bugs efficiently."
 }

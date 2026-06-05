@@ -1,5 +1,5 @@
 {
   "date": "2026-06-18",
-  "topic": "AI in the Workplace",
-  "text": "The use of artificial intelligence in the workplace is growing rapidly. One major area is automation, where AI takes over repetitive tasks like data entry or scheduling, allowing employees to focus on more creative work. Many companies now offer productivity tools powered by AI, such as smart email assistants and software that predicts project timelines. Rather than replacing people, the emphasis is often on human-AI collaboration, where technology helps humans make better decisions. However, this shift is leading to significant job changes. Some roles are disappearing, while new ones—like AI trainers or ethics officers—are emerging. Workers need to learn new digital skills to stay valuable in this changing environment."
+  "topic": "Large Language Models",
+  "text": "Large language models, or LLMs, are a type of artificial intelligence that can understand and create human-like text. They work by learning patterns from huge amounts of text data, such as books, articles, and websites. This training helps them predict what word comes next in a sentence. When you use an LLM, you provide a prompt, which is a question or instruction. Prompt engineering is the skill of writing effective prompts to get better results. LLMs have many capabilities, like writing stories, answering questions, or summarizing information. However, they also have limits: they can make mistakes, sometimes produce false information, and don’t truly understand meaning or emotions."
 }

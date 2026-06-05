@@ -1,5 +1,5 @@
 {
   "date": "2026-06-23",
-  "topic": "AI and Creativity",
-  "text": "AI is now creating art, music, and writing. Some paintings made by AI are being sold for high prices, and musicians use AI to compose pieces, even complete songs. Writers also experiment with AI tools that can generate short stories or poems based on simple prompts. However, this raises a question: is this truly creativity? Human creativity comes from emotion, personal experiences, and intentional choices. An AI only learns from existing data and mimics patterns. While AI can produce impressive results, it does not feel or understand what it creates. Many people argue that AI is a powerful tool to support human artists, but it cannot replace the spark of genuine human imagination and expression."
+  "topic": "Natural Language Processing",
+  "text": "Natural language processing, or NLP, is a field of artificial intelligence that helps computers understand human language. It allows machines to read and interpret text for tasks like translation from one language to another. For example, NLP powers sentiment analysis, which determines if a review is positive or negative. It also enables chatbots to answer questions and hold simple conversations. Today, NLP is used in many applications, from email filters to voice assistants, making communication between humans and technology smoother and more natural."
 }
