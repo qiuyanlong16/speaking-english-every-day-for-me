@@ -1,5 +1,5 @@
 {
   "date": "2026-06-15",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become a major industry. One key concept is responsive design, which means the app adapts smoothly to different screen sizes, like phones and tablets. Developers often choose between building a native app, designed specifically for iOS or Android, or a cross-platform app, which works on both systems using a single codebase. Native apps typically offer better performance and access to device features, but they require more separate work. Cross-platform development is faster and cheaper, though it may not be as powerful. Finally, after coding and testing, the app is submitted to app stores, like Google Play or the Apple App Store, for users to download."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows your software to communicate with other services. Typically, you send an HTTP request, like GET or POST, to a specific URL. The server then responds with data, often in JSON format, which is easy for programs to read. Many APIs also require authentication, such as an API key, to verify your identity. It's important to be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always implement error handling. Your code should gracefully manage issues like failed requests or incorrect responses, ensuring your application remains stable."
 }
