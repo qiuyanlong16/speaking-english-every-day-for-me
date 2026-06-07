@@ -1,5 +1,5 @@
 {
   "date": "2026-06-10",
-  "topic": "API Design Best Practices",
-  "text": "Good API design makes your application easier to use and maintain. When building REST APIs, you should focus on clear and consistent endpoints. Use nouns, not verbs, for your resource URLs, like `/users` instead of `/getUsers`. Choose meaningful HTTP status codes to inform clients about success or errors, such as `200` for success, `201` for created, or `404` for not found. Always provide clear documentation explaining each endpoint and its parameters. Additionally, implement versioning, for example by using `/v1/` in your URL path. This ensures that when you make changes, existing users can continue using the old version while you develop new features."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, you will sometimes find errors, or \"bugs.\" Identifying bugs is the first step in fixing them. A systematic approach is helpful: start by checking the most recent changes you made, then test each part of your code separately. Many debugging tools can make this process easier. For example, most code editors have a debugger that lets you pause your program and inspect variables. Another useful tool is logging. By adding log statements to your code, you can track its flow and see where things go wrong. Using these strategies will help you solve problems more quickly and confidently."
 }

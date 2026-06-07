@@ -1,5 +1,5 @@
 {
   "date": "2026-06-28",
-  "topic": "Managing a Team",
-  "text": "Managing a team is both a challenge and a rewarding responsibility. First, clear communication is essential. You need to explain tasks and expectations so everyone understands their role. Equally important is delegation—trusting your team members with responsibilities helps them grow and gives you time to focus on bigger goals. Regular feedback motivates the team; praise achievements and offer constructive advice when needed. When disagreements arise, conflict resolution requires patience and active listening to find a fair solution. Finally, remember that motivation comes from recognizing each person’s effort and creating a supportive environment. A good leader balances these elements to build a strong, productive team."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach to project management, especially in software development. Work is divided into short, focused periods called sprints, usually lasting two weeks. Each sprint begins with planning, where the team selects tasks from a prioritized list known as the backlog. These tasks are based on user stories, simple descriptions of features from the end user's perspective. Every day, the team holds a quick standup meeting to discuss progress and any obstacles. This is followed by iterative development, meaning the team builds and improves the product gradually through repeated cycles. This flexible process allows teams to adapt quickly to changes and deliver value regularly."
 }

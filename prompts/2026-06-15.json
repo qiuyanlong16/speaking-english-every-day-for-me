@@ -1,5 +1,5 @@
 {
   "date": "2026-06-15",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows your software to communicate with other services. Typically, you send an HTTP request, like GET or POST, to a specific URL. The server then responds with data, often in JSON format, which is easy for programs to read. Many APIs also require authentication, such as an API key, to verify your identity. It's important to be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always implement error handling. Your code should gracefully manage issues like failed requests or incorrect responses, ensuring your application remains stable."
+  "topic": "Understanding Databases",
+  "text": "A database is an organized collection of data that computers can easily access and manage. The most common type is the relational database, which stores information in tables with rows and columns, like a spreadsheet. To work with this data, you use SQL (Structured Query Language) to write queries – specific questions that retrieve or update information. For example, you can query a table of customers to find everyone living in a certain city. Indexes are special lookup tables that speed up these queries significantly. However, not all data fits neatly into tables. For flexible, unstructured data like social media posts, NoSQL databases are often better. The key difference lies in data modeling: SQL requires a fixed schema, while NoSQL offers more freedom. Understanding when to use each is essential for building efficient applications."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-06-09",
-  "topic": "Debugging Strategies",
-  "text": "When you first notice a bug in your code, the most important step is to identify exactly what is wrong. Instead of guessing, take a systematic approach: first, reproduce the error, then isolate the part of the code that causes it. Many programming tools, like debuggers and linters, can help you step through your code line by line. Another useful technique is logging, where you add print statements or use a logging library to track variable values as your program runs. By combining these strategies and staying patient, you can solve problems more efficiently and avoid wasting time on random changes."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an essential skill for any programmer. The most important aspect is readability—your code should be easy for others (and your future self) to understand. Use clear and descriptive naming conventions for variables, functions, and classes; for example, use `calculateTotalPrice` instead of `ctp`. Keep functions short and focused on a single task, which makes them easier to test and reuse. By following these practices, you improve the maintainability of your code, making it simpler to update and debug over time."
 }
