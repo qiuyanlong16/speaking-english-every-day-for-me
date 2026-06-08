@@ -1,5 +1,5 @@
 {
   "date": "2026-06-16",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows developers to connect different software applications. Most APIs use HTTP requests to communicate, such as GET to retrieve data or POST to create new data. The data is often sent and received in JSON format, which is lightweight and easy to read. Many APIs also require authentication, usually through an API key, to ensure only authorised users can access the service. It's important to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, always include error handling in your code. This helps you manage problems like incorrect requests or server issues gracefully."
+  "topic": "Understanding Databases",
+  "text": "A database is an organised collection of information. Most traditional databases, called relational databases, use tables with rows and columns, similar to a spreadsheet. To interact with them, you use SQL, a standard language for writing queries to find or update data. Data modelling is the process of designing these tables and their relationships.\n\nHowever, not all data fits neatly into tables. For unstructured or rapidly changing information, NoSQL databases are a better choice. They don't rely on fixed tables and can handle different data types more flexibly. Whether using SQL or NoSQL, indexes are crucial. They act like a book's index, allowing the database to find information faster without scanning every row. Choosing the right database type depends on your specific data and needs."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-06-17",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app requires careful planning. First, you need to choose between native and cross-platform development. Native apps are built for a specific system, like iOS or Android, and offer the best performance. Cross-platform tools, such as React Native, let you write one codebase for both platforms, saving time. Next, responsive design is essential to ensure your app looks great on different screen sizes. After building and testing, you submit your app to app stores like Apple's App Store or Google Play for review. A smooth launch and good performance are key to user satisfaction."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is a key skill for modern developers. An API allows different software applications to communicate. Most web APIs use HTTP requests, where you send a request to a server and receive a response. Data is often exchanged in JSON format, which is easy for both humans and machines to read. Many APIs require authentication, usually through an API key, to ensure only authorised users can access the data. When making requests, you should be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, always include error handling in your code so you can manage problems like failed requests or incorrect data gracefully."
 }
