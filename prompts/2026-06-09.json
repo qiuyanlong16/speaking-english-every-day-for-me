@@ -1,5 +1,5 @@
 {
   "date": "2026-06-09",
-  "topic": "Understanding Git Branching",
-  "text": "When working on a software project, Git branching allows multiple developers to work simultaneously without interfering with each other's code. A common workflow involves creating *feature branches* from the main codebase. Each developer can build a new feature or fix a bug on their own branch. Once the work is complete, the next step is *merging*, where the changes are combined back into the main branch. To maintain quality, many teams use *pull requests* before merging. This lets other members review the code, discuss improvements, and catch errors. This structured *version control workflow* helps keep the project organized and ensures that new features are integrated smoothly and safely."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential part of software development. In this process, one or more team members check a developer’s code before it is added to the main project. A key advantage is catching bugs early. When someone else reviews the code, they often spot mistakes or unclear parts that the original writer missed. This saves time and effort later. Additionally, code reviews encourage knowledge sharing. Team members learn different coding styles, techniques, and parts of the project they might not work on daily. Ultimately, this improves overall team quality, as everyone grows their skills and produces better, more consistent code together."
 }

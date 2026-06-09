@@ -1,5 +1,5 @@
 {
   "date": "2026-06-16",
-  "topic": "Understanding Databases",
-  "text": "A database is an organised collection of information. Most traditional databases, called relational databases, use tables with rows and columns, similar to a spreadsheet. To interact with them, you use SQL, a standard language for writing queries to find or update data. Data modelling is the process of designing these tables and their relationships.\n\nHowever, not all data fits neatly into tables. For unstructured or rapidly changing information, NoSQL databases are a better choice. They don't rely on fixed tables and can handle different data types more flexibly. Whether using SQL or NoSQL, indexes are crucial. They act like a book's index, allowing the database to find information faster without scanning every row. Choosing the right database type depends on your specific data and needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. Instead of adding new features, you focus on making the code cleaner, more organized, and easier to understand. Common techniques include renaming variables, splitting long functions into smaller ones, and removing duplicate code. Refactoring is important because it reduces technical debt—the hidden cost of messy code that slows down future development. When you refactor regularly, you make the codebase more readable for yourself and your teammates, which saves time and prevents bugs in the long run."
 }
