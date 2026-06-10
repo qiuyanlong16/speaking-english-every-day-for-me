@@ -1,5 +1,5 @@
 {
   "date": "2026-06-19",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development involves creating software for smartphones and tablets. One key consideration is responsive design, which ensures the app works well on different screen sizes, from small phones to large tablets. Developers also choose between native and cross-platform approaches. Native apps are built for a specific system, like iOS or Android, offering better performance and access to device features. Cross-platform tools, like React Native, allow a single codebase to run on both systems, saving time but sometimes sacrificing smoother performance. After development, apps are distributed through app stores, such as the Apple App Store or Google Play, where they must meet strict guidelines to reach users."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows you to integrate external data and services into your applications. APIs communicate using HTTP requests, such as GET to retrieve data or POST to send new information. Most modern APIs return data in JSON format, which is lightweight and easy for programs to parse. To access many APIs, you need authentication, often using an API key or token. It's also important to be aware of rate limits, which restrict the number of requests you can make in a given time period. When an error occurs, such as an invalid request or server problem, the API returns an HTTP status code like 404 for \"Not Found\" or 500 for \"Server Error.\" Proper error handling checks these codes and reacts accordingly."
 }

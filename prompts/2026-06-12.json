@@ -1,5 +1,5 @@
 {
   "date": "2026-06-12",
-  "topic": "Debugging Strategies",
-  "text": "When you find that your code isn't working as expected, the first step is identifying bugs. Look carefully at error messages and unexpected outputs. A systematic approach helps you stay organised: check one part of your code at a time rather than guessing randomly. Debugging tools like breakpoints and step-through features let you pause the program and examine variables. Logging is another useful strategy — by printing values to the console at key points, you can trace how data changes. Combining these techniques saves time and makes fixing problems much easier."
+  "topic": "Writing Clean Code",
+  "text": "Clean code is easy for other developers to read and understand. One key practice is using clear naming conventions: variables and functions should have names that describe their purpose, like `calculateTotalPrice` instead of `doStuff`. It is also important to break code into small, focused functions. Each function should do one specific task, making it simpler to test and fix. The goal is to write code that is maintainable over time. When your code is clean, adding new features or fixing problems becomes much faster and less confusing for your team."
 }
