@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "Managing a Team",
-  "text": "Effective team management requires several key skills. First, clear communication is essential. You should explain tasks and goals directly to avoid confusion. Next, good delegation means trusting team members with responsibilities that match their strengths. Regular, constructive feedback helps people improve and feel valued. To keep motivation high, recognise achievements and create a positive work environment. Finally, conflict resolution is crucial. When disagreements arise, listen to both sides calmly and seek a fair solution. By balancing these elements, you can lead a productive, cohesive team where everyone feels respected and engaged."
+  "topic": "Agile Methodology",
+  "text": "In Agile methodology, work is divided into short cycles called sprints, usually lasting two to four weeks. This approach is part of iterative development, where teams build and improve products step by step. Each day, team members hold a quick meeting called a standup to discuss progress and any problems. A product backlog lists all the tasks to be done, and these tasks are often written as user stories. A user story describes a feature from the end user’s perspective, like “As a user, I want to log in quickly.” During a sprint, the team selects a few user stories from the backlog to complete. After each sprint, the team reviews the work and adjusts plans for the next cycle. This helps the team adapt to changes and deliver value regularly."
 }
