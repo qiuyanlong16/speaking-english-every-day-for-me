@@ -1,5 +1,5 @@
 {
   "date": "2026-06-19",
-  "topic": "Understanding Databases",
-  "text": "A database is a structured way to store and manage data. In a relational database, data is organized into tables with rows and columns, and you use SQL (Structured Query Language) to create queries that retrieve or update this information. For example, you might query a customer table to find all orders from last month. Data modeling is the process of planning how these tables relate to each other to avoid redundancy. Indexes are special lookup tables that speed up queries by allowing the database to find data quickly without scanning every row. However, not all databases are relational. NoSQL databases handle unstructured data, like documents or social media posts, offering flexibility without fixed schemas. Each type suits different needs, so choosing wisely depends on your project."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing its behavior. Think of it like cleaning a messy room—you don't buy new furniture; you just organize what you already have. For programmers, this means renaming unclear variables, breaking long functions into smaller parts, or removing duplicate code. The goal is to make the code easier to read and understand. Good refactoring also reduces a problem called \"technical debt.\" This is like the extra work you create when you take shortcuts. By regularly refactoring, you keep your code clean and avoid bigger headaches later."
 }

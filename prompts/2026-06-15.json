@@ -1,5 +1,5 @@
 {
   "date": "2026-06-15",
-  "topic": "API Design Best Practices",
-  "text": "REST APIs are an important part of modern web development. When designing an API, it is crucial to use clear and logical endpoints. For example, instead of /getUsers, use /users. Always use appropriate HTTP status codes to communicate results: 200 for success, 404 for not found, and 500 for server errors. Good documentation is essential for developers who will use your API. It should explain each endpoint, its parameters, and what it returns. Additionally, you should plan for API versioning, such as /v1/users. This allows you to make changes without breaking existing integrations. Following these best practices makes your API easy to use and maintain."
+  "topic": "Debugging Strategies",
+  "text": "When you encounter a bug in your code, the first step is to identify exactly where and why the problem occurs. Instead of guessing, use a systematic approach: reproduce the bug consistently, then isolate the faulty section. Debugging tools like breakpoints and step-through execution help you examine your program’s behaviour line by line. Additionally, logging is invaluable—insert print statements or use a logging library to track variable values and program flow. This way, you get a clear record of what happened before the error. By combining these strategies, you make debugging less frustrating and more effective."
 }

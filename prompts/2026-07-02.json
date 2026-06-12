@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "Agile Methodology",
-  "text": "In Agile methodology, work is divided into short cycles called sprints, usually lasting two to four weeks. This approach is part of iterative development, where teams build and improve products step by step. Each day, team members hold a quick meeting called a standup to discuss progress and any problems. A product backlog lists all the tasks to be done, and these tasks are often written as user stories. A user story describes a feature from the end user’s perspective, like “As a user, I want to log in quickly.” During a sprint, the team selects a few user stories from the backlog to complete. After each sprint, the team reviews the work and adjusts plans for the next cycle. This helps the team adapt to changes and deliver value regularly."
+  "topic": "The Future of AI",
+  "text": "Artificial intelligence is advancing rapidly, and many experts predict that within a few decades we will see the emergence of Artificial General Intelligence, or AGI. Unlike current AI, which can only perform specific tasks like playing chess or translating languages, AGI would be able to think, learn, and reason across almost any topic, much like a human. Potential benefits include breakthroughs in healthcare, education, and solving climate change. However, risks such as job displacement, ethical concerns, and loss of control must be carefully managed. While no one knows the exact timeline, many researchers believe AGI could arrive between 2050 and 2100, depending on progress and investment."
 }

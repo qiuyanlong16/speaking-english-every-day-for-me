@@ -1,5 +1,5 @@
 {
   "date": "2026-06-21",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development requires careful planning and technical skill. A key principle is responsive design, which ensures an app works well on different screen sizes, from phones to tablets. Developers must also choose between native and cross-platform approaches. Native apps are built for a specific system like iOS or Android, offering better performance and full access to device features. Cross-platform tools, such as React Native, allow one codebase to run on multiple systems, but performance may sometimes be lower. Once the app is ready, it is submitted to app stores like Google Play or the Apple App Store. These platforms review apps for quality and safety before they become available to users."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is a key skill for modern developers. An API allows different software applications to communicate with each other. When you send an HTTP request, such as a GET or POST, the API responds with data, often in JSON format. To access private data, you typically need authentication, for example using an API key. However, APIs often have rate limits, which restrict how many requests you can make in a specific time period. Finally, you should always handle errors by checking status codes like 404 or 500. This helps your application respond appropriately when something goes wrong, rather than crashing unexpectedly."
 }
