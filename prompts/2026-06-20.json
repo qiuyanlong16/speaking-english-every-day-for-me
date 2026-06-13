@@ -1,5 +1,5 @@
 {
   "date": "2026-06-20",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and organizing data. In the relational model, data is held in tables with rows and columns. To retrieve information, you use queries written in SQL, a standard language for managing structured data. For example, you can ask the database to show all customers from a specific city.\n\nHowever, not all data fits neatly into tables. NoSQL databases offer flexibility for unstructured or rapidly changing data, using documents, graphs, or key-value pairs. Both types require careful data modeling—planning how information relates and is stored. To speed up searches, indexes are created, allowing the database to find records quickly without scanning every row. Understanding these concepts helps you choose the right database for your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing its external behavior. The main goal is to make the code cleaner and easier to understand. By renaming unclear variables, breaking long functions into smaller ones, and removing duplicate code, developers can boost readability. This reduces what is called \"technical debt\"—the hidden cost of messy code that slows down future development. Refactoring does not add new features, but it helps prevent bugs and makes the code simpler to modify later. Regular refactoring keeps a project healthy and saves time in the long run."
 }

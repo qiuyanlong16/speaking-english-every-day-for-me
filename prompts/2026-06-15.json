@@ -1,5 +1,5 @@
 {
   "date": "2026-06-15",
-  "topic": "Debugging Strategies",
-  "text": "When you encounter a bug in your code, the first step is to identify exactly where and why the problem occurs. Instead of guessing, use a systematic approach: reproduce the bug consistently, then isolate the faulty section. Debugging tools like breakpoints and step-through execution help you examine your program’s behaviour line by line. Additionally, logging is invaluable—insert print statements or use a logging library to track variable values and program flow. This way, you get a clear record of what happened before the error. By combining these strategies, you make debugging less frustrating and more effective."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. The most important quality of clean code is that it is readable. This means using clear naming conventions for variables, functions, and classes; a name like `calculateTotalPrice` is far better than `ctp`. Good naming makes your code almost self-explanatory. Additionally, keep your functions small and focused on a single task. A long function that tries to do everything is hard to understand and test. By breaking your program into small, specific functions, you improve maintainability. Other developers can easily read, fix, or update your code later, which saves time and reduces errors in the long run."
 }

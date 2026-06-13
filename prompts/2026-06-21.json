@@ -1,5 +1,5 @@
 {
   "date": "2026-06-21",
-  "topic": "Working with APIs",
-  "text": "Working with APIs is a key skill for modern developers. An API allows different software applications to communicate with each other. When you send an HTTP request, such as a GET or POST, the API responds with data, often in JSON format. To access private data, you typically need authentication, for example using an API key. However, APIs often have rate limits, which restrict how many requests you can make in a specific time period. Finally, you should always handle errors by checking status codes like 404 or 500. This helps your application respond appropriately when something goes wrong, rather than crashing unexpectedly."
+  "topic": "Understanding Databases",
+  "text": "Understanding databases can help you manage information more effectively. When choosing a database, you often compare SQL and NoSQL systems. SQL databases use tables with rows and columns, like a spreadsheet, which is great for structured data. You retrieve data by writing queries using SQL language. In contrast, NoSQL databases are more flexible, storing data as documents or graphs, ideal for unstructured or rapidly changing data. Data modeling is the process of designing your database structure before building it. Finally, indexes are special data structures that speed up queries, similar to an index in a book helping you find information faster. These concepts form the foundation of working with databases."
 }
