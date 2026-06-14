@@ -1,5 +1,5 @@
 {
   "date": "2026-06-22",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows you to connect different software applications and access data from external sources. Most APIs work through HTTP requests, such as GET to retrieve data or POST to send new information. The data is often returned in JSON format, which is easy for both humans and machines to read. Before you can use many APIs, you'll need authentication, usually in the form of an API key. Be aware that APIs often have rate limits, which restrict how many requests you can make in a certain time period. Finally, good error handling is essential. Always check the response status codes, like 404 for \"not found\" or 500 for \"server error,\" and write your code to handle these situations gracefully."
+  "topic": "Understanding Databases",
+  "text": "When working with databases, you have two main types: SQL and NoSQL. SQL databases use tables with structured rows and columns, where data relationships are clearly defined. NoSQL databases are more flexible and can store data as documents, graphs, or key-value pairs. To access information, you use queries—commands that retrieve, update, or delete data. Before storing data, careful data modeling is essential to organize it efficiently and avoid redundancy. Additionally, indexes are special structures that speed up database queries by allowing faster data retrieval. Choosing between SQL and NoSQL depends on your project's needs and how you plan to manage the data."
 }

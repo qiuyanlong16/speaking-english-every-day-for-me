@@ -1,5 +1,5 @@
 {
   "date": "2026-06-21",
-  "topic": "Understanding Databases",
-  "text": "Understanding databases can help you manage information more effectively. When choosing a database, you often compare SQL and NoSQL systems. SQL databases use tables with rows and columns, like a spreadsheet, which is great for structured data. You retrieve data by writing queries using SQL language. In contrast, NoSQL databases are more flexible, storing data as documents or graphs, ideal for unstructured or rapidly changing data. Data modeling is the process of designing your database structure before building it. Finally, indexes are special data structures that speed up queries, similar to an index in a book helping you find information faster. These concepts form the foundation of working with databases."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving your code's structure without changing what it does. Think of it like tidying a messy kitchen: you reorganize drawers and clean countertops, but you don't change the recipes. The main goal is to make code easier to read and understand. When developers work on a project for a long time, they often add quick fixes that create \"technical debt\" — messy, complicated code that becomes hard to modify. Refactoring helps pay off this debt by simplifying confusing parts, removing duplicate code, and giving variables clearer names. While it may take extra time now, it saves much more time later when you need to make changes."
 }
