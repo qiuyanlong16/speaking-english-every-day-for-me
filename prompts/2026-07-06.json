@@ -1,5 +1,5 @@
 {
   "date": "2026-07-06",
-  "topic": "Managing a Team",
-  "text": "Good team management relies on several key skills. First, clear communication helps everyone understand their tasks and goals. As a manager, you should communicate regularly and listen to your team's ideas. Delegation is also important; you must assign tasks based on each person's strengths, not just do everything yourself. Giving constructive feedback is essential, as it helps team members improve and feel valued. Additionally, keeping the team motivated through recognition or shared goals can boost morale. Finally, conflict resolution is crucial. When disagreements arise, address them calmly and fairly, focusing on solutions rather than blame. By using these approaches, you can build a productive and positive team environment."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular way to manage projects, especially in software development. Instead of planning everything at once, teams work in short phases called sprints, usually lasting two to four weeks. Each day starts with a quick standup meeting where members share what they did yesterday, what they will do today, and any problems they face. The team keeps a backlog, which is a list of tasks to complete. These tasks are often written as user stories, describing a feature from the user's perspective. This approach is called iterative development because teams repeat the cycle, improving the product step by step based on feedback."
 }

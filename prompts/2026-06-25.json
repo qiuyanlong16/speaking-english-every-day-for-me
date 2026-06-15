@@ -1,5 +1,5 @@
 {
   "date": "2026-06-25",
-  "topic": "Security in Web Development",
-  "text": "Using HTTPS ensures that data sent between a user and a website is encrypted, protecting it from being intercepted. Authentication, such as requiring a username and password, verifies the user's identity. Input validation is also critical: it checks that data entered by users, like email addresses or search terms, is in the correct format, preventing harmful code from being injected. Without these measures, websites face common vulnerabilities like SQL injection or cross-site scripting, where attackers can steal data or take control of the site. Together, these practices build a strong defense against cyber threats."
+  "topic": "Mobile App Development",
+  "text": "The success of a mobile app depends on many factors, starting with responsive design. This means the app must adapt smoothly to different screen sizes and orientations, ensuring a user-friendly experience on any device. Choosing the right development approach is also crucial. You can build a native app specifically for iOS or Android, which offers the best performance and access to device features. Alternatively, cross-platform frameworks like React Native allow you to write a single codebase for both systems, saving time and money. Finally, app stores are essential for distribution, but they require you to follow strict guidelines. Performance is key: users expect fast loading times, smooth animations, and minimal battery usage."
 }
