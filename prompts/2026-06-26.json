@@ -1,5 +1,5 @@
 {
   "date": "2026-06-26",
-  "topic": "Security in Web Development",
-  "text": "HTTPS is essential for secure web development because it encrypts data between the user's browser and the server. Authentication systems, like passwords or two-factor verification, ensure only authorized users access sensitive information. Input validation is another critical practice — by checking all user inputs, developers can prevent attacks such as SQL injection or cross-site scripting. Common vulnerabilities include broken authentication, sensitive data exposure, and insecure design. To protect a website, developers should always validate inputs, use HTTPS, implement strong authentication, and regularly test for weaknesses. These steps help create a safer online environment for everyone."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development has become a thriving field in today's digital world. One crucial aspect is responsive design, which ensures that apps look and work well on different screen sizes, from phones to tablets. Developers often choose between building native apps, created specifically for iOS or Android using their core languages, or cross-platform apps, which use a single codebase that works on both systems. After development, apps are submitted to official app stores, like the Apple App Store or Google Play, where they must pass review processes. Ultimately, success depends on performance—apps must load quickly, run smoothly, and use device resources efficiently to retain users and receive positive reviews."
 }

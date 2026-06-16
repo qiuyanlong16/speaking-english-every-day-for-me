@@ -1,5 +1,5 @@
 {
   "date": "2026-07-07",
-  "topic": "Managing a Team",
-  "text": "Good team management relies on four core skills: communication, delegation, feedback, and motivation. Clear communication ensures everyone knows their tasks and goals, preventing misunderstandings. Delegation involves assigning tasks based on team members' skills, not just distributing work evenly. Regular feedback helps individuals improve and feel valued, but it must be constructive. Motivation keeps the team engaged—simple recognition of effort often works better than large rewards. Conflict resolution is equally important; when disagreements arise, address them quickly by listening to each side and finding a fair solution. A manager who balances these elements creates a productive, supportive environment where the team can thrive."
+  "topic": "Agile Methodology",
+  "text": "In Agile methodology, a development project is divided into short, focused periods called sprints. Each sprint typically lasts two weeks. The team starts each day with a quick standup meeting where members share progress and any problems. Work is managed using a backlog, which is a list of tasks to be completed. These tasks come from user stories, which describe features in simple language from the user's perspective. Agile uses iterative development, meaning the team builds and improves the product in small cycles. This allows for regular feedback and adjustments, ensuring the final result better meets users' needs."
 }

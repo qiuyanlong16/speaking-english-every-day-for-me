@@ -1,5 +1,5 @@
 {
   "date": "2026-06-19",
-  "topic": "API Design Best Practices",
-  "text": "Designing a good API is essential for creating reliable and user-friendly web services. REST APIs are the most common type, using standard HTTP methods like GET and POST. When designing endpoints, use clear, noun-based paths such as `/users` or `/orders`. Always return appropriate status codes, like 200 for success, 404 for not found, and 500 for server errors. Good documentation is crucial—it helps developers understand how to use your API quickly. Finally, implement versioning, for example by adding `v1` to the URL path. This ensures that changes don't break existing clients, allowing for smooth updates and long-term maintenance."
+  "topic": "Debugging Strategies",
+  "text": "When a program doesn't work as expected, you've likely found a bug. The first step in debugging is identifying where the problem occurs. A systematic approach helps you locate errors faster rather than guessing randomly. You can start by checking the most recent code changes or using debugging tools built into your code editor, which let you pause execution and inspect variable values. Another useful strategy is logging: adding print statements or writing messages to a log file helps you track what the program is doing step by step. By patiently following these methods, you can solve problems efficiently and improve your code's reliability."
 }
