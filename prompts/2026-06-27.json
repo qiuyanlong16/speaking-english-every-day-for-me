@@ -1,5 +1,5 @@
 {
   "date": "2026-06-27",
-  "topic": "Security in Web Development",
-  "text": "HTTPS encrypts data between a user's browser and a website, preventing hackers from stealing sensitive information. For authentication, strong passwords and two-factor login help verify user identities. Input validation is equally important—websites should check all user-provided data for unexpected characters or scripts that could cause errors. Common vulnerabilities include SQL injection, where attackers manipulate database queries, and cross-site scripting (XSS), which injects malicious code into webpages. By applying these protective measures against such threats, developers can create safer, more reliable web applications for everyone."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development has become increasingly accessible, but creating a successful app requires careful planning. One key consideration is responsive design, which ensures the app works well on devices with different screen sizes. Developers also face a choice between native and cross-platform development. Native apps are built for a specific operating system, like iOS or Android, offering better performance. Cross-platform tools allow a single codebase for both, saving time but sometimes sacrificing speed. Once developed, apps must be submitted to app stores, where they undergo review before being available to users. Ultimately, a well-designed app balances visuals, functionality, and performance for a smooth user experience."
 }

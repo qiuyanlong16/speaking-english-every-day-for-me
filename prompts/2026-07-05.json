@@ -1,5 +1,5 @@
 {
   "date": "2026-07-05",
-  "topic": "AI and Creativity",
-  "text": "AI is increasingly involved in creative fields. Algorithms can now generate paintings, compose music, and write stories. For example, some artists use AI programs to create unique digital images, while musicians experiment with AI that composes original symphonies. Similarly, AI writing tools can produce poems or news articles in seconds.\n\nHowever, many argue that human creativity remains unique. While machines can imitate patterns and styles, they lack true emotions, personal experiences, or the intention to create. A human artist paints from feeling and memory, whereas an AI simply follows data. Ultimately, AI can be a helpful tool, but it does not replace the depth and soul of human imagination."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a branch of artificial intelligence that helps computers understand human language. It goes beyond simply reading words; it focuses on text understanding, allowing machines to grasp the meaning and context of sentences. One practical use is automatic translation, which can convert a text from English to Spanish almost instantly. Another key application is sentiment analysis, where companies analyze customer reviews to determine if people are happy or unhappy. Finally, NLP powers modern chatbots, which can hold conversations, answer questions, and provide customer support. Thanks to these technologies, our interaction with computers is becoming more natural every day."
 }

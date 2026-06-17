@@ -1,5 +1,5 @@
 {
   "date": "2026-06-26",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become a thriving field in today's digital world. One crucial aspect is responsive design, which ensures that apps look and work well on different screen sizes, from phones to tablets. Developers often choose between building native apps, created specifically for iOS or Android using their core languages, or cross-platform apps, which use a single codebase that works on both systems. After development, apps are submitted to official app stores, like the Apple App Store or Google Play, where they must pass review processes. Ultimately, success depends on performance—apps must load quickly, run smoothly, and use device resources efficiently to retain users and receive positive reviews."
+  "topic": "Working with APIs",
+  "text": "An API, or Application Programming Interface, allows different software applications to communicate with each other. When working with an API, you typically send HTTP requests, such as GET to retrieve data or POST to send data. The response usually comes in JSON format, which is easy for computers to read and parse. Many APIs require authentication, often using an API key, to ensure only authorized users can access the data. You also need to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, good error handling is essential, as you should always check for HTTP status codes like 404 or 500 to handle failures gracefully."
 }
