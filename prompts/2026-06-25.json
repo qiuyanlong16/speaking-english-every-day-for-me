@@ -1,5 +1,5 @@
 {
   "date": "2026-06-25",
-  "topic": "Understanding Databases",
-  "text": "A database is an organised collection of data. The most common type is the relational database, which stores data in tables. These tables have rows and columns, similar to a spreadsheet. To interact with the data, you use a language called SQL (Structured Query Language). For example, a SQL query can retrieve, insert, or update specific information. However, not all data fits neatly into tables. For flexible, unstructured data (like social media posts), there are NoSQL databases. They often use documents or graphs instead of tables. An important part of database design is data modeling—planning how data will be stored and related. To speed up searches, databases use indexes, which work like a book's table of contents."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving a program's internal structure without changing how it works. The main goal is to make the code cleaner and more organized. For example, you might rename unclear variables, split a long function into smaller ones, or remove duplicated sections. Refactoring does not add new features or fix bugs—it only changes the code's layout. This practice helps reduce \"technical debt,\" which is the extra work created by messy or rushed code. Regular refactoring also improves readability, making it easier for other developers (or your future self) to understand and modify the code. A well-structured codebase saves time and prevents errors in the long run."
 }

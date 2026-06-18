@@ -1,5 +1,5 @@
 {
   "date": "2026-06-28",
-  "topic": "Security in Web Development",
-  "text": "HTTPS encrypts communication between a user's browser and the server, making it difficult for attackers to steal sensitive data. Web developers must also implement strong authentication systems, such as passwords combined with two-factor verification, to prevent unauthorized access. Another critical practice is input validation, which checks all user-submitted data before processing it. This helps prevent attacks like SQL injection, where malicious code can compromise the database. By addressing these common vulnerabilities, developers can build safer websites that protect both their users and their systems from exploitation."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several key decisions. First, responsive design ensures your app looks good and works well on different screen sizes, from phones to tablets. You'll also need to choose between native development, building separate apps for iOS and Android, and cross-platform tools like React Native that let you write one codebase for both systems. This affects performance: native apps often run faster and smoother. Finally, once your app is ready, you must submit it to app stores like Google Play or the Apple App Store, which have specific guidelines. A successful launch requires careful planning to balance cost, performance, and user experience."
 }
