@@ -1,5 +1,5 @@
 {
   "date": "2026-06-29",
-  "topic": "Security in Web Development",
-  "text": "When building websites, security is essential to protect both data and users. One fundamental practice is using HTTPS, which encrypts information sent between a browser and a server, preventing hackers from intercepting sensitive details. Another critical step is strong authentication. This means requiring users to prove their identity, often with a password and sometimes additional verification like a code sent to their phone. Additionally, input validation is vital. Websites should check all data submitted by users, such as in forms or search bars, to block harmful content like malicious scripts. Ignoring these measures can lead to common vulnerabilities, such as cross-site scripting or data breaches, which can damage trust and compromise user privacy."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several important choices. First, responsive design ensures the app looks and works well on different screen sizes, from phones to tablets. A key decision is whether to build a native app for one platform, like iOS or Android, which often offers better performance, or a cross-platform app that works on multiple systems with shared code. Once developed, the app is submitted to app stores, such as the Apple App Store or Google Play, where it must meet guidelines for approval. Finally, performance is crucial; a smooth, fast app keeps users engaged and satisfied."
 }

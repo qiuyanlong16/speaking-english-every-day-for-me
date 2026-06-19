@@ -1,5 +1,5 @@
 {
   "date": "2026-07-03",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a way for computers to learn from data without being explicitly programmed for every task. One common type is supervised learning, where the computer trains on labeled data: for example, photos of cats and dogs with correct names. This training data helps the computer build a model—a kind of internal rule set. Once the model is ready, it can make predictions on new, unseen photos. The model's accuracy shows how often its predictions are correct. By improving the training data and adjusting the model, engineers can make predictions more reliable over time."
+  "topic": "AI in the Workplace",
+  "text": "AI is increasingly common in the workplace, transforming how tasks are completed. Automation handles repetitive jobs like data entry, freeing employees to focus on more creative and strategic work. Many businesses now use productivity tools powered by AI, such as smart scheduling assistants and automated report generators. These tools help teams work faster and with fewer errors.\n\nRather than replacing humans entirely, AI encourages human-AI collaboration. For example, customer service agents use AI chatbots to handle simple questions, which allows them to spend more time on complex issues. This shift means some job roles change, requiring new skills like managing AI systems or interpreting data. While certain jobs may disappear, new opportunities are also created, and workers who adapt can find their roles becoming more engaging and valuable."
 }

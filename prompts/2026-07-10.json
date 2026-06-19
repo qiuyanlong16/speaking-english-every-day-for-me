@@ -1,5 +1,5 @@
 {
   "date": "2026-07-10",
-  "topic": "Managing a Team",
-  "text": "Effective team management requires a careful balance of skills. Clear communication ensures that everyone understands their role and the project's goals. A good leader delegates tasks based on each person's strengths, rather than doing everything alone. This builds trust and efficiency. Regular, honest feedback helps team members improve and feel valued. When problems arise, it's important to address conflict resolution early, by listening to different viewpoints and finding a fair solution. Finally, to maintain motivation, a leader should recognize achievements and create a positive work environment where people feel supported and inspired to do their best."
+  "topic": "Agile Methodology",
+  "text": "In agile methodology, teams work in short development cycles called sprints, usually lasting one to four weeks. Each sprint begins with planning, where the team selects tasks from a backlog—a prioritized list of features and fixes. Team members describe user stories in simple language to explain what users need, like \"As a customer, I want to track my order.\" Daily standups are short meetings where everyone shares progress and any obstacles. After each sprint, the team reviews the work and adjusts plans. This iterative development process allows for continuous feedback and improvement, ensuring the final product better meets user needs."
 }
