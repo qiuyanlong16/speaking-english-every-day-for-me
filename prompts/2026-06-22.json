@@ -1,5 +1,5 @@
 {
   "date": "2026-06-22",
-  "topic": "Debugging Strategies",
-  "text": "When you find a bug in your code, the first step is to identify exactly what is going wrong. A systematic approach helps you avoid wasting time. Start by reading error messages carefully; they often point to the problem. Then, use debugging tools like breakpoints in your code editor to pause the program and inspect values step by step. Another useful technique is adding logging statements to print variable states at key points. By logging information, you can track how data changes during execution. This systematic method makes debugging less frustrating and more efficient, allowing you to fix errors quickly and improve your code."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an essential skill for every programmer. Clean code is code that is easy to read and understand, even by someone who did not write it. One key practice is using good naming conventions. Variable and function names should clearly describe what they do, like `calculateTotalPrice` instead of `ctp`. Another important idea is to break your code into small, focused functions that each do one specific task. This makes the code easier to test and modify. Ultimately, clean code improves maintainability, meaning it is simpler to update and fix later, saving time and effort in the long run."
 }
