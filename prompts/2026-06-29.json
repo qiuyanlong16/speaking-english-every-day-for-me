@@ -1,5 +1,5 @@
 {
   "date": "2026-06-29",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential tools for storing and organising information. The most common type is a relational database, which uses tables made up of rows and columns. To work with this data, people write queries in SQL (Structured Query Language), a standard language for retrieving and updating information. Before building a database, careful data modeling is needed to define how data connects. Indexes can then be added to speed up searches.\n\nHowever, not all data fits neatly into tables. For flexible, unstructured data like social media posts, NoSQL databases are often a better choice. They store information in more varied formats, and they don’t require fixed schemas like SQL databases do. Understanding when to use each type is key to good database design."
+  "topic": "Code Refactoring",
+  "text": "Refactoring is the process of improving the structure of existing code without changing what it does. The goal is to make the code cleaner, more readable, and easier to maintain. For example, a programmer might rename unclear variables, split long functions into smaller ones, or remove duplicate logic. These changes do not alter the software's behavior or add new features. Over time, code can become messy and difficult to work with—this is known as technical debt. Regular refactoring helps pay off this debt, reducing bugs and saving time in the long run. Good refactoring makes the codebase more understandable for the whole team."
 }
