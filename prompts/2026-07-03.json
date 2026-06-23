@@ -1,5 +1,5 @@
 {
   "date": "2026-07-03",
-  "topic": "Security in Web Development",
-  "text": "Security is a critical concern in web development. Using HTTPS encrypts data between the user's browser and the server, protecting sensitive information. Developers must also implement strong authentication, such as password hashing and multi-factor login, to verify user identities. Additionally, input validation is essential to prevent malicious data from entering the system. Without it, common vulnerabilities like SQL injection or cross-site scripting (XSS) can occur, allowing attackers to steal or manipulate data. By following these practices, developers can build safer web applications that protect both users and their information."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app requires careful planning from the start. One key concept is responsive design, which ensures the app looks good and functions well on different screen sizes, from small phones to large tablets. Developers must also decide between building native apps, which are made specifically for iOS or Android, and cross-platform apps, which work on both systems using the same codebase. Native apps often offer better performance, but cross-platform development saves time and money. Finally, once the app is ready, it must be published on app stores like Google Play or the Apple App Store, where users can download it. Balancing design, performance, and platform choice is crucial for success."
 }

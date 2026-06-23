@@ -1,5 +1,5 @@
 {
   "date": "2026-07-04",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is a branch of computer science that creates systems capable of performing tasks that normally require human intelligence. These tasks include learning, problem-solving, and decision-making. A key part of AI is machine learning, where computers learn from data without being explicitly programmed. Deep learning, a more advanced subset, uses artificial neural networks to process complex information, like recognizing faces or understanding speech. AI is already part of daily life. It powers voice assistants like Siri, recommends movies on streaming services, and helps doctors diagnose diseases. As AI improves, it continues to change how we work, communicate, and live."
+  "topic": "Security in Web Development",
+  "text": "HTTPS is essential for secure web communication, encrypting data between a user's browser and the server to prevent eavesdropping. Authentication systems, such as passwords or multi-factor login, verify user identities and restrict access. Input validation is critical because it checks that user-provided data meets expected formats, blocking malicious code or SQL injection attempts. Common vulnerabilities include cross-site scripting (XSS) when unsanitized inputs execute scripts, and broken authentication that allows unauthorized access. Developers must regularly update software, use secure headers, and test for these flaws to protect user data and maintain trust."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-07",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning helps computers learn from data. One common type is supervised learning. Here, we give the computer a lot of examples with correct answers, called training data. For instance, we might show it many pictures labeled \"cat\" or \"dog.\" The computer uses this data to build a model, which is like a set of rules based on patterns it finds. Once the model is ready, it can make predictions about new, unseen data, such as identifying if a new photo shows a cat or a dog. Finally, we check its accuracy—the percentage of correct guesses—to see how well it has learned."
+  "topic": "AI in the Workplace",
+  "text": "AI is increasingly common in modern workplaces. One major role is automation, where AI handles repetitive tasks like data entry or sorting emails, allowing employees to focus on more creative work. Many productivity tools now use AI to streamline scheduling, generate reports, or summarise meetings. Instead of replacing humans, the trend is human-AI collaboration, where people work alongside AI to make better decisions. For example, AI can analyse large datasets, while a human interprets the results. This shift means some jobs will change; routine roles may disappear, but new ones in AI management and training are emerging. Ultimately, understanding how to work with AI is becoming an essential job skill."
 }
