@@ -1,5 +1,5 @@
 {
   "date": "2026-07-05",
-  "topic": "Security in Web Development",
-  "text": "When building a website, security should be a top priority. One of the first steps is to use **HTTPS**, which encrypts data between the user's browser and the server, protecting sensitive information like passwords. Next, strong **authentication** is essential. This usually means requiring a password and, ideally, two-factor authentication to confirm the user’s identity. Another key practice is **input validation**—checking that all data from users is safe before processing it. For example, never trust form inputs directly; always verify they are the correct type and length. Without these measures, sites are vulnerable to common threats like SQL injection and cross-site scripting, which can lead to data breaches or site defacement."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development is a growing field in technology. One important concept is responsive design, which ensures that an app looks good and works well on different screen sizes, from phones to tablets. Developers often choose between building a native app for a specific platform like iOS or Android, or using cross-platform tools like React Native to create one app for both. Each app must be published through an app store, such as the Apple App Store or Google Play Store, where users can download it. Performance is also key—a smooth, fast app keeps users happy and loyal."
 }

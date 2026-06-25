@@ -1,5 +1,5 @@
 {
   "date": "2026-06-27",
-  "topic": "Debugging Strategies",
-  "text": "When you discover that your code isn't working as expected, the first step is to identify the bug. Start by carefully reading your code to find obvious mistakes, such as typos or incorrect logic. A systematic approach is crucial: isolate the problem by testing smaller parts of your program individually. This helps narrow down where the error occurs.\n\nModern debugging tools can make this process much easier. For example, most code editors offer a debugger that lets you pause execution, inspect variables, and step through your code line by line. Additionally, using logging is a powerful technique. By adding print statements or writing messages to a log file, you can track what your program is doing and see the values of variables at different stages. Combining these strategies will help you find and fix bugs efficiently."
+  "topic": "Writing Clean Code",
+  "text": "Clean code is easier to read and understand. One important habit is to use clear naming conventions. Variables and functions should have names that describe their purpose, like `calculateTotalPrice` instead of `ctp`. This makes the code self-explanatory. Functions should do one thing only. A short function with a single task is much easier to test and reuse. Finally, good code is maintainable. When you or another developer return to the code after months, clear structure and naming help you quickly fix bugs or add new features. Following these simple rules saves time and reduces frustration."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-08",
-  "topic": "AI in the Workplace",
-  "text": "AI is rapidly transforming the workplace. Automation handles repetitive tasks like data entry and scheduling, freeing employees for more creative work. Productivity tools, such as smart email assistants and project management software, help teams work faster and make fewer mistakes. Instead of replacing humans entirely, the focus is on human-AI collaboration. For example, an AI might analyze sales data while a manager uses that insight to make strategic decisions. This shift is changing jobs—some roles may disappear, but new ones, like AI trainers and ethics officers, are emerging. Workers will need to adapt by learning new skills and embracing technology as a partner."
+  "topic": "Large Language Models",
+  "text": "Large language models, or LLMs, are a type of artificial intelligence trained to understand and generate human-like text. They work by learning patterns from massive amounts of written data, such as books, articles, and websites. This training allows them to predict the next word in a sentence or answer questions based on what they have learned. When we use an LLM, we give it a prompt, which is a short instruction or question. A well-written prompt often leads to a better response. LLMs can summarize, write stories, or translate languages, but they have limits. They may produce incorrect or biased information, and they do not truly understand meaning like a human does."
 }

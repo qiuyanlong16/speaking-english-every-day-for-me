@@ -1,5 +1,5 @@
 {
   "date": "2026-07-03",
-  "topic": "Working with APIs",
-  "text": "When you work with APIs, you often send HTTP requests to a server to get or send data. Most APIs use JSON format to exchange information, which is easy to read and process. Many APIs require authentication, usually with an API key, to control who can access the service. You also need to follow rate limits, which restrict how many requests you can make in a certain time. If you ignore these limits, your access may be blocked. Error handling is important too—you should check the HTTP status codes to understand if a request failed and handle problems like incorrect inputs or server issues properly."
+  "topic": "Understanding Databases",
+  "text": "Databases are systems that store and organize data. The two main types are SQL and NoSQL. SQL databases, like MySQL and PostgreSQL, use tables with rows and columns, similar to spreadsheets. They require a fixed structure, called a data model, where you define columns and data types in advance. To retrieve information, you write queries using SQL language. NoSQL databases, such as MongoDB, are more flexible and store data as documents or key-value pairs. They work well with changing data structures. Both types use indexes, which are special data structures that speed up queries by allowing the database to find information faster without scanning every record."
 }
