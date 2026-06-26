@@ -1,5 +1,5 @@
 {
   "date": "2026-07-05",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development is a growing field in technology. One important concept is responsive design, which ensures that an app looks good and works well on different screen sizes, from phones to tablets. Developers often choose between building a native app for a specific platform like iOS or Android, or using cross-platform tools like React Native to create one app for both. Each app must be published through an app store, such as the Apple App Store or Google Play Store, where users can download it. Performance is also key—a smooth, fast app keeps users happy and loyal."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows you to connect different software systems. When you make an HTTP request to an API, you typically receive data back in JSON format, which is lightweight and easy to read. Before accessing many APIs, you need authentication, often using an API key, to verify your identity. It's also important to be aware of rate limits, which control how many requests you can make within a certain time. Finally, always implement error handling in your code. APIs can return errors for many reasons, such as invalid input or server issues, so handling them gracefully ensures your application runs smoothly."
 }

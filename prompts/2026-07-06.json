@@ -1,5 +1,5 @@
 {
   "date": "2026-07-06",
-  "topic": "Security in Web Development",
-  "text": "Using HTTPS across your website ensures all data transferred between users and servers is encrypted. For authentication, strong password policies and multi-factor login protect user accounts. Input validation is critical—never trust user data without checking it. Validate and sanitize all input to block attacks like SQL injection and cross-site scripting (XSS). Common vulnerabilities, including these injection flaws and insecure session management, can expose sensitive information. By combining secure coding practices, regular updates, and HTTPS, you significantly reduce the risk of breaches. Remember, security is not optional in web development; it is a fundamental requirement for safe and reliable web applications."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several key decisions. First, you must focus on responsive design so the app looks and works well on different screen sizes. Then, choose between native development—building separate apps for iOS and Android—or cross-platform tools like React Native or Flutter, which let you write one codebase for both systems. Native apps often offer better performance and deeper integration with device features, but require more time and cost. Once built, you submit your app to official app stores like Google Play or the Apple App Store for review. Finally, test thoroughly for performance to ensure fast loading and smooth navigation, as users expect a seamless experience."
 }
