@@ -1,5 +1,5 @@
 {
   "date": "2026-07-18",
-  "topic": "Managing a Team",
-  "text": "Managing a team requires a balance of different skills. Clear communication is essential so that everyone understands their roles and the team’s goals. Effective delegation involves assigning tasks to the right people, trusting them to complete the work. Regular feedback helps team members grow, both positive comments for motivation and constructive advice for improvement. Motivation can be strengthened by recognizing effort and celebrating small successes. When conflicts arise, address them quickly and fairly, listening to each person’s viewpoint. By focusing on these strategies, you can build a cooperative and productive team environment."
+  "topic": "Agile Methodology",
+  "text": "In Agile methodology, teams work in short cycles called sprints, usually lasting two to four weeks. Each sprint focuses on completing a set of tasks from a backlog, which is a prioritized list of work items. The team starts each sprint by selecting user stories—simple descriptions of features from the user's perspective. Daily standups are quick meetings where team members share what they did yesterday, what they will do today, and any obstacles they face. This process supports iterative development, meaning the product is improved gradually through repeated cycles. Feedback from each sprint helps the team adjust and deliver value more effectively."
 }

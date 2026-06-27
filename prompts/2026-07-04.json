@@ -1,5 +1,5 @@
 {
   "date": "2026-07-04",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and managing information in modern applications. The two main types are SQL and NoSQL. SQL databases, like MySQL, organize data into tables with rows and columns, using a structured format. They rely on queries written in SQL to retrieve or update specific data. On the other hand, NoSQL databases, such as MongoDB, are more flexible, storing data in documents or key-value pairs, which works well for unstructured information.\n\nData modeling is the process of designing how data is organized and related. Indexes are another key feature; they speed up queries by creating efficient search paths. To sum up, choosing between SQL and NoSQL depends on your project's needs for structure, scalability, and data relationships."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of code without changing its external behavior. The main goal is to make the code cleaner and easier to understand, which increases readability for developers. Common refactoring actions include renaming variables for clarity, splitting long functions into smaller ones, and removing duplicate code. By doing this regularly, teams can reduce technical debt—the hidden cost of writing messy code that becomes difficult to maintain over time. It's important to remember that refactoring is not about adding new features; it's simply about making the existing code better."
 }

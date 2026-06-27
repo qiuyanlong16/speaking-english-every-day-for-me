@@ -1,5 +1,5 @@
 {
   "date": "2026-07-06",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves several key decisions. First, you must focus on responsive design so the app looks and works well on different screen sizes. Then, choose between native development—building separate apps for iOS and Android—or cross-platform tools like React Native or Flutter, which let you write one codebase for both systems. Native apps often offer better performance and deeper integration with device features, but require more time and cost. Once built, you submit your app to official app stores like Google Play or the Apple App Store for review. Finally, test thoroughly for performance to ensure fast loading and smooth navigation, as users expect a seamless experience."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows you to connect different software applications and access data or services. To interact with an API, you typically send HTTP requests, such as GET to retrieve data or POST to submit information. The API usually responds with data in JSON format, which is easy for programs to read and process. Many APIs require authentication, often using an API key, to ensure only authorized users can access them. You also need to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, proper error handling is important; check response codes like 404 or 500 so your application can react gracefully when something goes wrong."
 }
