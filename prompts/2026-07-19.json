@@ -1,5 +1,5 @@
 {
   "date": "2026-07-19",
-  "topic": "Managing a Team",
-  "text": "Managing a team requires a mix of skills to keep everyone working well together. First, clear communication is essential so that tasks and goals are understood by all team members. Once objectives are set, effective delegation involves assigning tasks based on each person's strengths and workload. Providing regular feedback is also important, as it helps individuals improve and feel valued. Additionally, a good leader knows how to maintain motivation by recognizing achievements and encouraging progress. When disagreements arise, conflict resolution skills are needed, such as listening to both sides and finding a fair compromise. By focusing on these areas, you can build a productive and harmonious team."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach to managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, typically lasting two to four weeks. Each sprint begins with a planning meeting where the team selects tasks from a list called a backlog. These tasks are often written as user stories—simple descriptions of a feature from the user's perspective. Every day, the team holds a short standup meeting to discuss progress and any problems. This iterative development allows the team to adapt quickly to changes and deliver working parts of the product regularly."
 }

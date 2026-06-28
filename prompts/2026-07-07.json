@@ -1,5 +1,5 @@
 {
   "date": "2026-07-07",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become an accessible field for many aspiring developers. One crucial concept is responsive design, which ensures an app looks and works well on different screen sizes, from phones to tablets. Developers also face the choice between native and cross-platform development. Native apps are built for a specific platform, like iOS or Android, offering excellent performance and access to device features. Cross-platform tools, such as React Native, allow a single codebase to run on multiple systems, saving time but sometimes compromising performance. Once built, apps are distributed through official app stores like Google Play and the Apple App Store, where they must pass strict quality reviews. Balancing user experience, speed, and reach is key to success."
+  "topic": "Working with APIs",
+  "text": "An API, or Application Programming Interface, allows different software programs to communicate with each other. When working with APIs, you typically make HTTP requests to a server and receive data in JSON format. JSON is a lightweight way to structure data, similar to a list or dictionary. Many APIs require authentication, often using an API key, to ensure only authorised users can access the data. It’s also important to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, you should include error handling in your code to manage problems like network issues or invalid responses."
 }

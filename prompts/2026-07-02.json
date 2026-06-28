@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "The Role of Testing",
-  "text": "Software testing plays a crucial role in developing reliable applications. Unit tests check individual pieces of code, like functions or methods, to make sure they work correctly on their own. Integration tests go further by verifying that different parts of the system work well together. One useful approach is test-driven development (TDD), where you write a test before writing the actual code. This helps you think carefully about what your code should do and leads to cleaner, more focused solutions. The main benefit of thorough testing is confidence—you can make changes or add new features without worrying about breaking existing functionality."
+  "topic": "API Design Best Practices",
+  "text": "When designing REST APIs, clear planning is essential for successful integration. Your endpoints should be intuitive and consistent, using nouns instead of verbs – for example, `/users` instead of `/getUsers`. Proper status codes help clients understand responses: 200 for success, 201 for resource creation, 400 for bad requests, and 404 when resources aren't found. Documentation is critical, as even the best-designed API is useless if developers can't understand how to use it. Tools like Swagger or OpenAPI make this easier. Additionally, version your API from the start using URLs like `/v1/users` to avoid breaking existing clients when making future changes. Good design saves time for everyone."
 }
