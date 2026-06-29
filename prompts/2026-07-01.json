@@ -1,5 +1,5 @@
 {
   "date": "2026-07-01",
-  "topic": "Debugging Strategies",
-  "text": "One of the most important skills in programming is knowing how to find and fix bugs. This process is called debugging, and it often starts with identifying the bug. You might notice unexpected output or a crash. A systematic approach helps you stay organized: first, reproduce the error, then narrow down the possible causes. Most developers use debugging tools like breakpoints and step-through execution to examine their code line by line. Another common strategy is logging, where you add print statements to see what values your variables hold at different points. With a clear method and the right tools, even complex bugs become much easier to solve."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. The most important goal is to make your code readable for yourself and others. A good first step is to follow clear naming conventions: choose meaningful names for variables and functions that describe what they do. For example, instead of \"x,\" use \"userAge.\" Next, break your code into small, focused functions that each perform a single task. This makes the code easier to test and reuse. Finally, remember that clean code is about maintainability. When your code is clear and organized, it is much simpler to fix bugs or add new features later."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-07",
-  "topic": "Working with APIs",
-  "text": "An API, or Application Programming Interface, allows different software programs to communicate with each other. When working with APIs, you typically make HTTP requests to a server and receive data in JSON format. JSON is a lightweight way to structure data, similar to a list or dictionary. Many APIs require authentication, often using an API key, to ensure only authorised users can access the data. It’s also important to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, you should include error handling in your code to manage problems like network issues or invalid responses."
+  "topic": "Understanding Databases",
+  "text": "Understanding databases is essential for anyone working with data. Two main types exist: SQL and NoSQL. SQL databases organize information into tables with rows and columns, much like a spreadsheet. You retrieve or update data using queries, which are precise commands written in Structured Query Language. Data modeling involves planning how your tables relate to each other before building them. Indexes are special structures that speed up queries by acting like a book’s index, allowing the database to find data quickly without scanning every row. NoSQL databases are more flexible, storing data in documents or key-value pairs, and are often used for large-scale or unstructured data."
 }
