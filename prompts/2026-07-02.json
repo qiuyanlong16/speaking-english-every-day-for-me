@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "Debugging Strategies",
-  "text": "One common way to find bugs is to use simple logging. By adding print statements or writing messages to a log file, you can see what your code is doing at each step. Another helpful tool is a debugger, which lets you pause your program and inspect variables. However, the most important thing is a systematic approach. Instead of guessing, change one thing at a time and test. This helps you pinpoint the exact source of a bug, making debugging much faster and less frustrating."
+  "topic": "Writing Clean Code",
+  "text": "Clean code is easier to read and maintain. One important practice is using clear naming conventions: variable and function names should describe their purpose, like `calculateTotalPrice` instead of `calc`. Functions should be short and do only one thing. This makes the code simpler to test and modify later. For example, instead of writing one long block of code, you can split it into small functions, each handling a specific task. Finally, consistent formatting, like proper indentation and spacing, helps others understand your code quickly. When code is readable and well-organised, it saves time for everyone who works on it."
 }

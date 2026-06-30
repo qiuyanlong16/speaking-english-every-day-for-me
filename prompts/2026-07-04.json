@@ -1,5 +1,5 @@
 {
   "date": "2026-07-04",
-  "topic": "The Role of Testing",
-  "text": "Testing plays a vital role in software development. Unit tests check individual parts of code, like a single function, to ensure they work correctly in isolation. Integration tests go further by verifying that different parts of the system work together properly. Many developers use test-driven development (TDD), where you write a failing test first, then write just enough code to make it pass. This approach leads to cleaner, more reliable code. Overall, good testing practices build confidence in your software. When you have thorough tests, you can make changes or add new features knowing that any problems will be quickly caught."
+  "topic": "API Design Best Practices",
+  "text": "When designing a REST API, following best practices ensures it is easy to use and maintain. Endpoints should be named using nouns, not verbs, and represent resources clearly, like `/users` or `/orders`. Use standard HTTP status codes to indicate results: `200` for success, `201` for created resources, `400` for bad requests, and `404` for not found. Good documentation is crucial—it helps developers understand how to interact with your API. Finally, always implement versioning, such as `/v1/users`, so that changes don’t break existing applications. By keeping these principles in mind, your API will be reliable and developer-friendly."
 }

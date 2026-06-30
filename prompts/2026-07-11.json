@@ -1,5 +1,5 @@
 {
   "date": "2026-07-11",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is a branch of computer science that creates machines capable of performing tasks that normally require human intelligence. At its core, machine learning allows AI systems to learn from data rather than being explicitly programmed for every task. A more advanced subset is deep learning, which uses artificial neural networks to process information in layers, enabling systems to handle complex patterns like speech or image recognition. In daily life, AI powers virtual assistants like Siri, suggests movies on streaming platforms, filters spam emails, and helps navigation apps find the fastest route. As these technologies improve, AI continues to shape how we work, communicate, and relax."
+  "topic": "Security in Web Development",
+  "text": "Using HTTPS is the first step to securing a website. It encrypts data between the user’s browser and the server, protecting sensitive information like passwords. However, encryption alone is not enough. Strong authentication, such as requiring complex passwords and two-factor verification, helps prevent unauthorised access. Another critical practice is input validation. Always check and sanitise user input to avoid attacks like SQL injection or cross-site scripting. Common vulnerabilities also include insecure session management and outdated software. Regularly updating libraries and testing for weaknesses can significantly reduce risks. A secure website protects both users and business data."
 }
