@@ -1,5 +1,5 @@
 {
   "date": "2026-07-08",
-  "topic": "Understanding Databases",
-  "text": "A database is a system for storing and organizing data. Most traditional databases use tables, which are like spreadsheets with rows and columns. To manage this data, we use SQL (Structured Query Language), which lets us run queries to find, add, or update information. However, not all data fits neatly into tables. That is where NoSQL databases come in—they handle unstructured data like documents or social media posts. A key part of building a database is data modeling, which means planning how your data will be structured. To speed up searches, we also use indexes, which work like a book’s index to help find data quickly. Understanding these concepts helps you choose the right database for your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of code without changing what it does. Instead of adding new features, developers clean up existing code to make it clearer and easier to work with. This often means renaming confusing variables, breaking long functions into smaller parts, or removing duplicate logic. The goal is to improve readability—making the code easier for other developers (or yourself in the future) to understand and modify. Refactoring also helps reduce technical debt, which is the cost of keeping messy or inefficient code. By regularly refactoring, you prevent bugs and keep the project healthy, even as it grows."
 }

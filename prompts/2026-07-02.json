@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "Writing Clean Code",
-  "text": "Clean code is easier to read and maintain. One important practice is using clear naming conventions: variable and function names should describe their purpose, like `calculateTotalPrice` instead of `calc`. Functions should be short and do only one thing. This makes the code simpler to test and modify later. For example, instead of writing one long block of code, you can split it into small functions, each handling a specific task. Finally, consistent formatting, like proper indentation and spacing, helps others understand your code quickly. When code is readable and well-organised, it saves time for everyone who works on it."
+  "topic": "Understanding Git Branching",
+  "text": "When working on a project with Git, developers use feature branches to work on new tasks without affecting the main codebase. Each feature branch is created from the main branch, allowing team members to make changes independently. Once the work is complete and tested, the changes are merged back into the main branch. This is often done through a pull request, which lets other team members review the code before the update is added. This version control workflow helps teams collaborate smoothly, reduces errors, and keeps the project history clear and organised. Understanding how branching works is essential for efficient software development."
 }

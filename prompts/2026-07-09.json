@@ -1,5 +1,5 @@
 {
   "date": "2026-07-09",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, you need to understand a few key concepts. First, you make HTTP requests, usually GET or POST, to get data or send information. Many APIs return data in JSON format, which is easy to read and work with. Authentication is often required, such as an API key, to prove you have access. Be careful with rate limits, as APIs only allow a certain number of requests over time. It is also important to handle errors when requests fail, like a \"404 Not Found\" response. By following these practices, interacting with APIs becomes much simpler and more reliable."
+  "topic": "Understanding Databases",
+  "text": "A database is a structured collection of data that can be easily accessed and managed. The two main types are SQL and NoSQL databases. SQL databases organize data into tables with rows and columns, much like a spreadsheet. They use a language called SQL to perform queries, which are commands that ask for specific information. Data modeling is the process of designing how data will be stored and related. To speed up queries, SQL databases use indexes, which are like a book's index for quickly locating information. NoSQL databases are more flexible, storing data in documents or graphs, and don't require a fixed table structure."
 }
