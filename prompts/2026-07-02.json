@@ -1,5 +1,5 @@
 {
   "date": "2026-07-02",
-  "topic": "Understanding Git Branching",
-  "text": "When working on a project with Git, developers use feature branches to work on new tasks without affecting the main codebase. Each feature branch is created from the main branch, allowing team members to make changes independently. Once the work is complete and tested, the changes are merged back into the main branch. This is often done through a pull request, which lets other team members review the code before the update is added. This version control workflow helps teams collaborate smoothly, reduces errors, and keeps the project history clear and organised. Understanding how branching works is essential for efficient software development."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a crucial part of software development. In a code review, a developer checks a colleague's work before it is added to the main project. This helps catch bugs early, when they are much easier and cheaper to fix. Beyond finding errors, reviews are an excellent tool for knowledge sharing. Team members learn different coding styles and techniques from each other. This process builds a stronger, more consistent team, raising the overall quality of the code everyone produces. Ultimately, code reviews create a culture of collaboration and continuous improvement."
 }

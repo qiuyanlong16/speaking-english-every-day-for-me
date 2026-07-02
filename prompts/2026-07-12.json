@@ -1,5 +1,5 @@
 {
   "date": "2026-07-12",
-  "topic": "Security in Web Development",
-  "text": "HTTPS encrypts communication between a user's browser and the website, preventing hackers from stealing sensitive data like passwords or credit card information. Strong authentication, such as two-factor verification, helps ensure only authorised users can access an account. Input validation is also critical; it checks that user-entered data, like email addresses or search queries, is safe and correctly formatted. This can stop common web vulnerabilities, including SQL injection and cross-site scripting (XSS), which allow attackers to manipulate databases or inject malicious code. By combining HTTPS, robust authentication, and thorough input validation, developers can significantly reduce security risks."
+  "topic": "Mobile App Development",
+  "text": "Developing a successful mobile app involves several key decisions. One crucial aspect is responsive design, which ensures the app looks and works well on different screen sizes and orientations. Developers must also choose between native apps, built specifically for iOS or Android, and cross-platform frameworks like React Native, which allow code sharing between systems. While native apps often offer better performance, cross-platform tools reduce development time. After development, the app must be submitted to app stores like Google Play or Apple’s App Store, where it goes through a review process. Finally, performance—including fast loading times and smooth navigation—is essential for user satisfaction and retention."
 }

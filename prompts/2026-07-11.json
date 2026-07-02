@@ -1,5 +1,5 @@
 {
   "date": "2026-07-11",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become an essential skill in today's digital world. When creating an app, developers must consider responsive design to ensure it works well on different devices and screen sizes. A key decision is choosing between native and cross-platform development. Native apps are built for specific operating systems like iOS or Android, offering better performance and smoother user experience. Cross-platform tools like Flutter or React Native allow developers to write code once and deploy on both platforms, saving time and money. Once completed, the app is submitted to official app stores such as Apple's App Store or Google Play for review and distribution. Performance remains crucial—users expect fast loading times, minimal crashes, and efficient resource use."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you send HTTP requests to a server to get or send data. Most modern APIs return data in JSON format, which is easy for programs to read. To access many APIs, you need authentication, often using an API key. This key is included in your request so the server knows who you are. Be aware that APIs often have rate limits, which restrict how many requests you can make in a certain time. Exceeding these limits may result in an error. Therefore, it is important to implement error handling in your code. This helps you manage problems like failed requests or incorrect responses and keep your application running smoothly."
 }

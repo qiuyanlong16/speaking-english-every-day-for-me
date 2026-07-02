@@ -1,5 +1,5 @@
 {
   "date": "2026-07-04",
-  "topic": "Debugging Strategies",
-  "text": "When a program doesn't work as expected, the first step is identifying bugs by carefully observing what happens versus what should happen. A systematic approach helps: reproduce the issue, check recent changes, and isolate the problematic section of code. Debugging tools like breakpoints allow you to pause execution and inspect variable values step by step. Logging is also valuable—adding print statements or using a logging library to track what's happening at key points. By following a logical method and using these tools, you can find and fix errors more efficiently without guessing randomly."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any software developer. Clean code is readable and easy to understand, even for someone who did not write it. One important practice is to follow naming conventions, using clear and descriptive names for variables and functions. This makes your intentions obvious and reduces confusion. Another key idea is to use functions effectively. Each function should do one small task, making it reusable and simple to test. When code is clean and well-organised, it improves maintainability. This means you or other developers can easily fix bugs and add new features without breaking the existing system."
 }
