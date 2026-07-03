@@ -1,5 +1,5 @@
 {
   "date": "2026-07-24",
-  "topic": "Managing a Team",
-  "text": "Effective team management requires clear communication. As a leader, you must clearly explain goals and expectations, ensuring everyone is on the same page. Delegation is equally important: assign tasks based on individual strengths to increase efficiency and ownership. Regular feedback helps team members understand their progress and areas for improvement. To keep motivation high, recognize achievements and provide support when challenges arise. Conflict resolution is a key skill; when disagreements occur, address them calmly, listen to all sides, and work towards a fair compromise. By focusing on these elements, you can build a cohesive, productive team that feels valued and engaged."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a project management approach often used in software development. Work is divided into short cycles called **sprints**, usually lasting two weeks. Each sprint begins with a planning session where the team selects tasks from a **backlog**, which is a list of all the work to be done. These tasks are described as **user stories** – simple explanations of a feature from the end user’s perspective. Every day, the team holds a brief **standup** meeting to discuss progress and obstacles. After each sprint, the team reviews the work and adapts their plan. This **iterative development** process allows teams to respond quickly to changes and deliver value regularly."
 }

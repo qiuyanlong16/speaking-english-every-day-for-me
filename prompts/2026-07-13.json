@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "Security in Web Development",
-  "text": "HTTPS encrypts data between a user's browser and a website, making it essential for protecting sensitive information like passwords. Authentication systems, such as password-based logins or two-factor authentication, confirm user identities and prevent unauthorized access. Input validation is equally important; by checking and sanitizing user input, developers can block malicious data that might exploit common vulnerabilities like SQL injection or cross-site scripting. These security measures help defend against attacks that could steal data, hijack sessions, or damage a site. Together, they form a basic yet critical layer of protection in web development."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app requires careful planning. A key principle is responsive design, ensuring the app looks and works well on various screen sizes, from phones to tablets. Developers must choose between building a native app for a single platform like iOS or Android, which often offers better performance, or a cross-platform app that works on multiple systems with shared code. Once built, apps are submitted to app stores like Google Play or the Apple App Store for review and distribution. Finally, optimizing performance is crucial; users expect fast loading times and smooth interactions, or they may delete the app entirely."
 }

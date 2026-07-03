@@ -1,5 +1,5 @@
 {
   "date": "2026-07-12",
-  "topic": "Mobile App Development",
-  "text": "Developing a successful mobile app involves several key decisions. One crucial aspect is responsive design, which ensures the app looks and works well on different screen sizes and orientations. Developers must also choose between native apps, built specifically for iOS or Android, and cross-platform frameworks like React Native, which allow code sharing between systems. While native apps often offer better performance, cross-platform tools reduce development time. After development, the app must be submitted to app stores like Google Play or Apple’s App Store, where it goes through a review process. Finally, performance—including fast loading times and smooth navigation—is essential for user satisfaction and retention."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you send HTTP requests to a server to retrieve or send data. Most APIs return information in JSON format, which is easy to read and process. To access certain data, you often need authentication, such as an API key, which confirms your identity. It's also important to be aware of rate limits, which restrict how many requests you can make in a given time period. Finally, good error handling is essential. You should always check the server's response and handle errors like network issues or invalid requests gracefully. This helps make your application reliable and user-friendly."
 }
