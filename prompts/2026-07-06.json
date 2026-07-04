@@ -1,5 +1,5 @@
 {
   "date": "2026-07-06",
-  "topic": "Debugging Strategies",
-  "text": "When you're learning to code, bugs are a normal part of the process. Identifying bugs is the first step: notice when your program doesn't behave as expected. A systematic approach helps you solve problems efficiently. Instead of guessing, break your code into smaller parts and test each one. Debugging tools like breakpoints or step-through execution let you pause your program and check variable values. Another useful strategy is logging, where you print messages to see what your code is doing at different stages. By combining these tools and a methodical mindset, you can fix errors more quickly and become a better programmer."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. Clean code is readable code that others can understand easily. Good naming conventions are very important; use clear names for variables and functions so that their purpose is obvious. For example, instead of naming a variable \"a\", name it \"userAge\". Functions should do one thing and do it well. If a function is too long, break it into smaller, focused functions. This makes your code easier to test and update later. Ultimately, clean code improves maintainability, saving time and effort for yourself and your team."
 }

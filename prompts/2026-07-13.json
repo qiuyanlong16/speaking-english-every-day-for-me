@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app requires careful planning. A key principle is responsive design, ensuring the app looks and works well on various screen sizes, from phones to tablets. Developers must choose between building a native app for a single platform like iOS or Android, which often offers better performance, or a cross-platform app that works on multiple systems with shared code. Once built, apps are submitted to app stores like Google Play or the Apple App Store for review and distribution. Finally, optimizing performance is crucial; users expect fast loading times and smooth interactions, or they may delete the app entirely."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows applications to communicate with each other. To access an API, you send an HTTP request, often using methods like GET to retrieve data or POST to send data. Most modern APIs return data in JSON format, which is easy to read and work with in many programming languages.\n\nTo use many APIs, you need authentication, such as an API key. This ensures only authorised users can access the service. However, APIs often have rate limits, meaning you can only send a certain number of requests in a specific time period. If you exceed this, the API may return an error. Good error handling is important: always check the response status codes and handle failures gracefully in your code."
 }
