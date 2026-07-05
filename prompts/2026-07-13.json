@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows applications to communicate with each other. To access an API, you send an HTTP request, often using methods like GET to retrieve data or POST to send data. Most modern APIs return data in JSON format, which is easy to read and work with in many programming languages.\n\nTo use many APIs, you need authentication, such as an API key. This ensures only authorised users can access the service. However, APIs often have rate limits, meaning you can only send a certain number of requests in a specific time period. If you exceed this, the API may return an error. Good error handling is important: always check the response status codes and handle failures gracefully in your code."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and managing data. The two main types are SQL and NoSQL. SQL databases, like MySQL and PostgreSQL, organize data into tables with rows and columns. They use structured query language (SQL) to perform queries, which allows you to retrieve specific information. NoSQL databases, like MongoDB, store data more flexibly, using documents or key-value pairs. Data modeling is the process of designing how data is structured and related, whether in tables or other formats. Indexes are special data structures that speed up query performance by allowing the database to find information faster. Understanding these concepts helps you choose the right database for your needs."
 }

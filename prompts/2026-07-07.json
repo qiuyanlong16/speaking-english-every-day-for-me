@@ -1,5 +1,5 @@
 {
   "date": "2026-07-07",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will often find bugs—errors that stop your program from working correctly. The first step is to identify the bug by understanding what the program should do and what it actually does. A systematic approach is helpful: test small parts of your code one at a time to find where the problem starts. Debugging tools, such as breakpoints and variable inspectors, can show you what happens step by step. You can also use logging to print messages at key points in your code. This lets you track values and see where things go wrong. With practice, debugging becomes a logical process, not a guessing game."
+  "topic": "Writing Clean Code",
+  "text": "Good code is not just about working – it’s about being readable and easy to maintain. One of the most important habits is following consistent naming conventions. For example, using clear names for variables and functions helps anyone understand what the code does without reading every line. Another key idea is breaking code into small functions, each with a single purpose. This makes your program more organised and easier to test or change later. Clean code saves time in the long run, especially when you or others need to update it. In short, writing clean code is a sign of a thoughtful and professional developer."
 }
