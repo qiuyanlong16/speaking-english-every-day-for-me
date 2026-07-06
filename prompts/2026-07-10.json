@@ -1,5 +1,5 @@
 {
   "date": "2026-07-10",
-  "topic": "The Role of Testing",
-  "text": "In software development, testing plays a vital role in ensuring code quality. There are different levels of testing. First, unit tests check small pieces of code, like functions or methods, to see if they work correctly alone. Then, integration tests verify that different parts of the application work together properly, such as a database connecting with a web server.\n\nMany developers use test-driven development, or TDD. In this approach, they write tests before writing the actual code. This forces them to think carefully about the desired outcome. Overall, a strong set of tests gives developers confidence. When code changes are needed, they can run the tests and know immediately if anything has broken. This makes updates safer and more efficient."
+  "topic": "API Design Best Practices",
+  "text": "When designing a REST API, it's important to follow best practices to make it easy for developers to use. First, use clear and logical endpoints that represent resources, like `/users` or `/orders`, instead of verbs. Always return appropriate HTTP status codes—`200 OK` for success, `404 Not Found` if a resource doesn't exist, and `500 Internal Server Error` for server problems. Versioning your API, for example by including `/v1/` in the URL, helps you make changes without breaking existing users. Finally, create thorough documentation that explains how to use each endpoint, what data to send, and what responses to expect. Good documentation saves developers time and reduces errors."
 }
