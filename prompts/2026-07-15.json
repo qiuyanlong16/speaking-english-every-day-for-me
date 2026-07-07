@@ -1,5 +1,5 @@
 {
   "date": "2026-07-15",
-  "topic": "Working with APIs",
-  "text": "When you work with APIs, your application communicates with a server through HTTP requests like GET and POST. The server often returns data in JSON, a structured text format that is easy for programs to read. Many APIs require authentication, usually through an API key in the request header, to ensure only authorised users can access the data. You also need to handle rate limits, which restrict how many requests you can make within a certain time frame, and you should include error handling to manage server issues or invalid input gracefully."
+  "topic": "Understanding Databases",
+  "text": "Databases help us store and organize information. Two main types are SQL and NoSQL databases. SQL databases use tables with rows and columns, like a spreadsheet. Each table represents a data entity, such as customers or products. To get specific information, you write queries using structured query language. This makes it easy to find or update data. SQL databases are great when data relationships are important. NoSQL databases are more flexible, storing data in documents or key-value pairs. They work well for large amounts of changing data. Data modeling helps you plan how to structure your database. Indexes speed up searches by creating shortcuts to data."
 }

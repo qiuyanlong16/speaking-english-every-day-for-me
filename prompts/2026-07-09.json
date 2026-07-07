@@ -1,5 +1,5 @@
 {
   "date": "2026-07-09",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is an essential skill for any programmer. When you encounter a bug, the first step is to identify where the problem is occurring. A systematic approach can save you a lot of time. Instead of guessing, try to isolate the issue by testing small parts of your code. Many programming environments offer debugging tools like breakpoints and step-through features. These allow you to pause execution and inspect variable values at specific points. Another useful strategy is logging. By adding print statements or logging messages, you can track how data changes over time. This helps you understand the flow of your program and spot unexpected behavior. With practice, debugging becomes much easier."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an essential skill for any programmer. Readable code is easy to understand not only for yourself but also for others who may work on it later. One important practice is to use clear naming conventions for variables and functions; a name like \"calculateTotal\" is much better than \"calc\". Keep your functions small and focused on a single task. This makes your code easier to test and debug. Overall, writing clean code leads to better maintainability, as it allows developers to make changes and fix bugs quickly without breaking other parts of the program."
 }

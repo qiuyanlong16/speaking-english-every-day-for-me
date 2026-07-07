@@ -1,5 +1,5 @@
 {
   "date": "2026-07-18",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that normally require human intelligence. One important branch of AI is machine learning, where computers learn from data without being explicitly programmed. A more advanced type is deep learning, which uses neural networks to process information in a way similar to the human brain. AI has many practical applications in daily life. For example, it powers virtual assistants like Siri and Alexa, recommends movies on streaming services, and helps doctors diagnose diseases. As technology improves, AI becomes an increasingly useful tool for solving complex problems."
+  "topic": "Security in Web Development",
+  "text": "HTTPS ensures secure communication between a user’s browser and a website by encrypting data in transit. This prevents attackers from intercepting sensitive information like passwords or credit card numbers. Authentication, such as using strong passwords and two-factor verification, helps confirm that users are who they claim to be. Input validation is crucial for filtering and sanitizing data entered into forms or search fields. Without it, attackers can exploit common vulnerabilities like SQL injection or cross-site scripting (XSS). These threats allow malicious code to access databases or compromise user accounts. By implementing these security measures, web developers significantly reduce the risk of data breaches and unauthorized access."
 }
