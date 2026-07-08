@@ -1,5 +1,5 @@
 {
   "date": "2026-07-29",
-  "topic": "Managing a Team",
-  "text": "Managing a team successfully requires a balance of several important skills. First, clear communication is essential; you need to explain goals and expectations so everyone understands their role. Delegation is also key—assign tasks based on each person’s strengths rather than doing everything yourself. Regular feedback helps team members improve and feel valued. Encouraging open dialogue allows you to address concerns early. To keep motivation high, recognize achievements and create a positive work environment. Finally, conflict resolution is crucial; listen to all sides and find a fair solution. When you combine these elements, your team can work together efficiently and achieve great results."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a project management approach often used in software development. Teams work in short phases called \"sprints,\" usually lasting two to four weeks. Each sprint begins with a plan based on the \"backlog,\" a prioritized list of tasks. These tasks are described as \"user stories\" — simple explanations of a feature from the end user's perspective. Every day, the team holds a short \"standup\" meeting to discuss progress and any problems. This structure supports iterative development, meaning the team releases small, working parts of the product regularly. By receiving feedback after each sprint, the team can quickly adapt and improve the final product."
 }

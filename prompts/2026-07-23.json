@@ -1,5 +1,5 @@
 {
   "date": "2026-07-23",
-  "topic": "Ethics in AI",
-  "text": "As artificial intelligence becomes more common, we must think carefully about ethics. One major concern is bias—AI systems can learn unfair patterns from data, leading to discrimination against certain groups. To ensure fairness, developers must check their data and algorithms. Privacy is also crucial; people should know how their information is used. Transparency means companies should explain how AI makes decisions. Finally, responsible AI development requires ongoing testing and collaboration to prevent harm. By focusing on these values, we can build technology that benefits everyone fairly and safely."
+  "topic": "Machine Learning Basics",
+  "text": "Supervised learning is a common method in machine learning. First, we collect a set of training data, which contains examples with known answers. For instance, if we want a system to recognize cats, we show it many pictures labeled “cat” or “not cat.” The machine then learns patterns from this data to build a model. Once trained, the model can make predictions about new, unseen data. Finally, we measure its accuracy by comparing the predictions to the correct answers. A model with high accuracy is reliable and can be used in real-world applications like email filtering or medical diagnosis."
 }
