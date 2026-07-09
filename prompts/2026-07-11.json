@@ -1,5 +1,5 @@
 {
   "date": "2026-07-11",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will inevitably encounter bugs—errors that prevent your program from running correctly. A systematic approach makes debugging much easier. Start by identifying the bug: look at error messages and figure out where the problem occurs. Next, use debugging tools like breakpoints or step-through debuggers, which let you pause your code and inspect variables. Another helpful tool is logging: add statements that print values at different points in your program. This helps you see what is actually happening versus what you expect. By following these steps calmly, you can solve problems more efficiently and become a better programmer."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer who wants to create software that is easy to understand and maintain. The most important principle is readability: your code should be clear enough that another developer can quickly grasp what it does. One way to achieve this is by using consistent naming conventions for variables, functions, and classes. Names should describe their purpose well, avoiding vague terms like \"x\" or \"temp\". Additionally, functions should focus on a single task and be short, making them easier to test and reuse. By following these simple practices, you ensure your code remains maintainable over time, saving effort for both yourself and your team."
 }

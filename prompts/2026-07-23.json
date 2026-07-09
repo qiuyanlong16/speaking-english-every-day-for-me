@@ -1,5 +1,5 @@
 {
   "date": "2026-07-23",
-  "topic": "Machine Learning Basics",
-  "text": "Supervised learning is a common method in machine learning. First, we collect a set of training data, which contains examples with known answers. For instance, if we want a system to recognize cats, we show it many pictures labeled “cat” or “not cat.” The machine then learns patterns from this data to build a model. Once trained, the model can make predictions about new, unseen data. Finally, we measure its accuracy by comparing the predictions to the correct answers. A model with high accuracy is reliable and can be used in real-world applications like email filtering or medical diagnosis."
+  "topic": "AI in the Workplace",
+  "text": "AI is increasingly common in the modern workplace. While some fear it will replace human workers, the reality is often more about automation of routine tasks. This allows employees to focus on more creative and strategic work. Productivity tools powered by AI, such as smart scheduling and data analysis software, help complete tasks faster and with fewer errors. However, the most effective approach is human-AI collaboration. AI can process huge amounts of data, but humans provide context, empathy, and complex decision-making. As a result, many jobs are changing rather than disappearing, requiring new skills like data literacy and critical thinking to work successfully alongside AI."
 }

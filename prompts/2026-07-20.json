@@ -1,5 +1,5 @@
 {
   "date": "2026-07-20",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is a branch of computer science that creates machines capable of performing tasks that normally require human intelligence. One important type of AI is machine learning, where computers learn from data without being explicitly programmed for every step. A more advanced form is deep learning, which uses complex neural networks to analyze large amounts of information. You encounter AI in daily life through virtual assistants like Siri, recommendation systems on Netflix or Amazon, and even smart home devices. These applications learn from your behavior to improve their responses over time."
+  "topic": "Security in Web Development",
+  "text": "When building a website, security is essential to protect both user data and the site itself. One of the first measures is using HTTPS, which encrypts data sent between the browser and server, preventing hackers from stealing personal information.\n\nAnother crucial step is authentication. Strong passwords, two-factor authentication, and secure login systems help ensure only authorized users can access sensitive areas.\n\nInput validation is equally important. By checking and cleaning data users submit, you can block malicious code like SQL injection or cross-site scripting (XSS).\n\nCommon vulnerabilities include weak passwords, outdated software, and poor error handling. Regular updates and security testing keep these risks under control, making web development safer for everyone."
 }

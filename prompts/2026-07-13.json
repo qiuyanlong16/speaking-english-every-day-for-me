@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "The Role of Testing",
-  "text": "Test-driven development, or TDD, is a popular approach where you write tests before writing the actual code. This method helps you focus on what your code needs to do from the start. Two important types of tests are unit tests and integration tests. Unit tests check small parts of your code, like individual functions, to make sure each works correctly on its own. Integration tests, on the other hand, check how different parts of your software work together. By using both kinds of tests, you can catch bugs early and build confidence in your code. With a strong test suite, you can make changes knowing that errors will be quickly detected."
+  "topic": "API Design Best Practices",
+  "text": "REST APIs are a common way to build web services. When designing them, it's important to use clear and logical endpoints. For example, instead of `/getUser`, use `/users` for listing users and `/users/123` for a specific user. Use standard HTTP status codes like 200 for success, 404 for not found, and 500 for server errors. This helps clients understand the result of their requests. Always include versioning in your API, like `/v1/users`, so changes don't break existing users. Finally, write good documentation. It should explain the endpoints, expected inputs, and possible responses. Well-designed APIs are easier to use and maintain."
 }
