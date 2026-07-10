@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "API Design Best Practices",
-  "text": "REST APIs are a common way to build web services. When designing them, it's important to use clear and logical endpoints. For example, instead of `/getUser`, use `/users` for listing users and `/users/123` for a specific user. Use standard HTTP status codes like 200 for success, 404 for not found, and 500 for server errors. This helps clients understand the result of their requests. Always include versioning in your API, like `/v1/users`, so changes don't break existing users. Finally, write good documentation. It should explain the endpoints, expected inputs, and possible responses. Well-designed APIs are easier to use and maintain."
+  "topic": "Debugging Strategies",
+  "text": "One of the most important skills in programming is learning how to debug effectively. The first step is identifying bugs in your code, which often involves noticing incorrect outputs or unexpected behavior. Instead of randomly changing code, experienced developers use a systematic approach: they reproduce the problem, isolate the possible cause, and test their fixes step by step. Helpful debugging tools include integrated development environments with breakpoints, which allow you to pause execution and inspect variable values. Additionally, logging—adding temporary print statements to track what your program is doing—can reveal hidden issues. A calm, patient attitude combined with these strategies makes debugging much less frustrating."
 }

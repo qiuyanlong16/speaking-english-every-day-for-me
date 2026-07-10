@@ -1,5 +1,5 @@
 {
   "date": "2026-07-12",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will often need to find and fix errors, or \"bugs.\" This process is called debugging. The first step is identifying the bug—you might notice your program crashes or gives the wrong output. A systematic approach helps you solve problems efficiently. Instead of guessing, check one part of your code at a time. Debugging tools, like breakpoints in an IDE, can pause the program and show you what is happening. Another useful technique is logging, where you add print statements to track variable values. By following these steps, you can find and fix bugs more easily and improve your code's reliability."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer who wants to create software that is easy to read and maintain. One of the most important principles is using clear naming conventions. Instead of naming a variable \"x\" or \"temp,\" use descriptive names like \"userAge\" or \"totalPrice.\" This makes your code much more understandable for others and for your future self. Another key practice is to break your code into small, focused functions. Each function should do only one thing, making it easier to test and reuse. By following these simple guidelines, you can significantly improve the maintainability of your projects."
 }
