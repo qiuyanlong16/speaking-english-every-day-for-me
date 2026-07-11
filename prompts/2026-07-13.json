@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "Debugging Strategies",
-  "text": "One of the most important skills in programming is learning how to debug effectively. The first step is identifying bugs in your code, which often involves noticing incorrect outputs or unexpected behavior. Instead of randomly changing code, experienced developers use a systematic approach: they reproduce the problem, isolate the possible cause, and test their fixes step by step. Helpful debugging tools include integrated development environments with breakpoints, which allow you to pause execution and inspect variable values. Additionally, logging—adding temporary print statements to track what your program is doing—can reveal hidden issues. A calm, patient attitude combined with these strategies makes debugging much less frustrating."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for any programmer. The main goal is to make your code readable and easy to understand. One key practice is using clear naming conventions. Instead of naming a variable \"x\", call it \"userAge\" or \"totalPrice\". This helps anyone reading your code know what each part does instantly. It is also a good idea to break your code into small, simple functions that each do one thing. This makes the code easier to test and fix later. All these habits improve maintainability, meaning you or other developers can update the code without confusion. Clean code saves time and reduces errors in the long run."
 }

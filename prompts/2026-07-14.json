@@ -1,5 +1,5 @@
 {
   "date": "2026-07-14",
-  "topic": "API Design Best Practices",
-  "text": "Designing a good REST API is essential for creating user-friendly web services. First, use clear and consistent endpoint names, like `/users` for a list of users or `/users/123` for a specific user. Always return appropriate status codes, such as 200 for success, 404 for not found, and 500 for server errors, so clients understand what happened. Good documentation is also crucial; it should explain each endpoint, its parameters, and expected responses. Finally, plan for versioning from the start, for example, by including a version number in the URL like `/v1/users`. This allows you to make changes without breaking existing clients. These practices make your API reliable and easy to maintain."
+  "topic": "Debugging Strategies",
+  "text": "When you write code, you will inevitably encounter bugs, or errors that stop your program from working correctly. The first step is identifying bugs by carefully reading error messages. A systematic approach is crucial: instead of guessing, test one part of your code at a time. You can use debugging tools like breakpoints in your editor, which pause the program so you can inspect variable values. Another helpful strategy is logging, where you print messages to track what your code is doing. By staying patient and methodical, you can find and fix issues more quickly."
 }

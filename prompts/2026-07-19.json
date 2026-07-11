@@ -1,5 +1,5 @@
 {
   "date": "2026-07-19",
-  "topic": "Working with APIs",
-  "text": "When you start working with APIs, you will likely use HTTP requests to communicate with a web server. Most APIs return data in JSON format, which is easy to read and work with in many programming languages. Some APIs require authentication, often using an API key or token, to ensure only authorized users can access the data. You should also be aware of rate limits, which restrict how many requests you can make in a certain period. Finally, always handle errors properly by checking response status codes; for example, a 404 means the resource is not found, while a 500 indicates a server issue."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential tools for storing and organising information. The two main types are SQL and NoSQL. SQL databases, like MySQL, use structured tables with rows and columns, making them ideal for handling related data. They require careful data modeling before you start, ensuring consistency. To retrieve information, you write queries using SQL language. Queries let you filter, sort, and combine data from different tables. Indexes are special structures that speed up these queries by acting like a table of contents. In contrast, NoSQL databases, like MongoDB, are more flexible with unstructured data, such as documents. They don't rely on fixed tables, making them good for rapidly changing projects. Your choice between SQL and NoSQL depends on your data's structure and needs."
 }
