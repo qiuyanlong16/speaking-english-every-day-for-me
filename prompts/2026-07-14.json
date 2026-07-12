@@ -1,5 +1,5 @@
 {
   "date": "2026-07-14",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will inevitably encounter bugs, or errors that stop your program from working correctly. The first step is identifying bugs by carefully reading error messages. A systematic approach is crucial: instead of guessing, test one part of your code at a time. You can use debugging tools like breakpoints in your editor, which pause the program so you can inspect variable values. Another helpful strategy is logging, where you print messages to track what your code is doing. By staying patient and methodical, you can find and fix issues more quickly."
+  "topic": "Writing Clean Code",
+  "text": "Good code is clean code, and clean code is easy to read. When you write code, think about the person who will read it later, even if that person is you. Always use clear naming conventions: a variable called `userAge` is much better than `x`. Break long processes into smaller functions, each with a single purpose. This makes your code easier to test and change later. Well-structured code is also much easier to maintain over time, allowing you to fix problems or add features quickly. Remember, you write code for humans first and computers second."
 }

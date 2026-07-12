@@ -1,5 +1,5 @@
 {
   "date": "2026-07-26",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a type of artificial intelligence where computers learn from data. In supervised learning, the computer is given a set of training data that includes both input information and the correct answers. For example, you could show it thousands of pictures labeled \"cat\" or \"dog.\" The computer uses this data to build a model, which is a mathematical system that recognises patterns. Once the model is trained, it can make predictions on new, unlabeled images. The machine improves its accuracy over time by comparing its predictions with the correct answers and adjusting its model accordingly."
+  "topic": "AI in the Workplace",
+  "text": "AI is transforming the modern workplace in significant ways. One major impact is automation, where routine tasks like data entry and scheduling are handled by machines. This frees up employees to focus on more creative or strategic work. Productivity tools powered by AI, such as smart email assistants and project management software, help people complete tasks faster and with fewer errors. However, rather than replacing humans entirely, many workplaces now focus on human-AI collaboration. For example, doctors use AI to analyze scans, but they make the final decisions. As a result, some jobs are changing: they require new skills, such as understanding AI outputs or maintaining these systems. Adaptability is key for workers today."
 }
