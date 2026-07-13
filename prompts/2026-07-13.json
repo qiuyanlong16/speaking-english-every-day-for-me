@@ -1,5 +1,5 @@
 {
   "date": "2026-07-13",
-  "topic": "Understanding Git Branching",
-  "text": "When working on a software project, using Git for version control allows multiple people to collaborate efficiently. Instead of editing the main code directly, developers create feature branches. These are separate copies where they can build and test new functionality without affecting the stable version. Once a feature is complete, they submit a pull request, which lets team members review the changes, discuss potential issues, and approve or request modifications. After approval, the changes are merged back into the main branch. This workflow keeps the project organised, reduces conflicts, and ensures that only well-reviewed code becomes part of the final product."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a key practice in software development where team members check each other's code before it is added to the project. The main benefit is catching bugs early, which saves time and money since fixing problems later is much harder. Beyond errors, code reviews also promote knowledge sharing. When developers read and discuss each other's work, they learn new techniques and understand different parts of the system. This helps prevent situations where only one person knows how something works. Overall, regular code reviews build stronger teams and improve the quality of the final product."
 }
