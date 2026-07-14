@@ -1,5 +1,5 @@
 {
   "date": "2026-08-04",
-  "topic": "Managing a Team",
-  "text": "To manage a team effectively, strong communication is essential. You should hold regular meetings to discuss goals and listen to your team's ideas. Delegation is also important: assign tasks based on each person's strengths, not just workload. Providing clear feedback helps everyone improve, so praise good work and offer constructive suggestions when needed. Motivation comes from recognizing achievements, setting realistic targets, and creating a positive environment. When conflicts arise, address them quickly by speaking to each person privately and finding a fair solution together. A good manager balances these elements to keep the team productive and happy."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach for managing projects, especially in software development. Instead of planning everything at the start, work is divided into short cycles called sprints, which usually last one to four weeks. Teams hold daily standups, quick morning meetings where members share what they did yesterday, what they will do today, and any obstacles they face. The project's tasks are listed in a backlog, which is a prioritized to-do list. Each task is described as a user story, explaining what the user wants and why. This process uses iterative development, meaning teams improve the product step by step based on feedback, delivering value at the end of every sprint."
 }

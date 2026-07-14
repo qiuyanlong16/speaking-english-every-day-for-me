@@ -1,5 +1,5 @@
 {
   "date": "2026-07-23",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become increasingly accessible, but choosing the right approach is crucial. Developers must decide between native and cross-platform development. Native apps are built specifically for one platform, like iOS or Android, offering better performance and access to device features. In contrast, cross-platform tools allow a single codebase to run on multiple systems, saving time and money. Regardless of the method, responsive design is essential to ensure the app looks good on different screen sizes. Once developed, apps are submitted to app stores like Google Play or the Apple App Store, where they must meet quality guidelines. Performance is also critical—users expect fast loading times and smooth interactions, or they will quickly abandon the app."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows applications to communicate and share data. You interact with APIs by making HTTP requests, such as GET to retrieve data or POST to send it. The response is usually in JSON format, which is easy to read and use. Many APIs require authentication, often using an API key, to control access. You must also be aware of rate limits, which restrict how many requests you can make in a certain time. Finally, good error handling is important—you should always check for error codes and handle them gracefully in your code."
 }
