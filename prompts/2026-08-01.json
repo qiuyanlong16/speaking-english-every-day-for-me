@@ -1,5 +1,5 @@
 {
   "date": "2026-08-01",
-  "topic": "Natural Language Processing",
-  "text": "Natural Language Processing, or NLP, is a field of artificial intelligence that helps computers understand human language. It allows machines to read and interpret text, such as analysing the meaning of a sentence. For example, NLP powers translation tools that automatically convert text from one language to another, like turning English into Spanish. Another common use is sentiment analysis, where computers examine social media posts or reviews to determine if people are happy, angry, or neutral. Finally, chatbots on websites use NLP to answer customer questions naturally. Overall, NLP makes technology smarter at processing our words."
+  "topic": "Computer Vision",
+  "text": "Computer vision is a field of artificial intelligence that enables computers to interpret and understand visual information from the world. One of its main tasks is image recognition, where computers identify objects, people, or scenes in photos. A more advanced technique is object detection, which not only recognizes objects but also locates them within an image. These technologies have many practical applications. For example, in self-driving cars, computer vision helps vehicles detect traffic lights, pedestrians, and other vehicles to navigate safely. It is also used in healthcare for medical imaging and in smartphones for facial recognition."
 }

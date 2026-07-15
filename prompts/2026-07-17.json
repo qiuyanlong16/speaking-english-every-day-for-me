@@ -1,5 +1,5 @@
 {
   "date": "2026-07-17",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a key skill for programmers. When your code doesn't work as expected, the first step is identifying the bug—figuring out where and why the error occurs. A systematic approach helps you avoid wasting time. Start by reproducing the problem consistently, then isolate the faulty section by testing small parts of your code.\n\nUse debugging tools like breakpoints to pause execution and inspect variable values. Logging is another useful strategy; adding print statements to track how data changes helps you understand program flow without pausing it. Remember, debugging is not about guessing—it's about patiently collecting evidence and fixing issues step by step."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any developer. Readable code is easy for others—and your future self—to understand. When naming variables and functions, use clear, descriptive names that explain their purpose. This helps people follow your logic without reading long comments. Also, keep each function focused on one specific task. Short, simple functions are easier to test and fix if something goes wrong. By following these habits, you improve your code's maintainability, making it simpler to update and add new features later. Good coding practices save time and reduce frustration."
 }
