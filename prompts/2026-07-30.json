@@ -1,5 +1,5 @@
 {
   "date": "2026-07-30",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning teaches computers to learn from data. One common method is supervised learning, where we use training data that includes both input examples and correct answers. The computer studies this data to build a model, which is like a set of rules. Once trained, the model can make predictions on new, unseen data. For example, if we train a model with pictures of cats and dogs, it can predict which animal is in a new photo. The model's accuracy shows how often its predictions are correct. Better training data often leads to more accurate models."
+  "topic": "AI in the Workplace",
+  "text": "AI is transforming the workplace in several important ways. Automation now handles repetitive tasks like data entry and scheduling, freeing employees for more creative work. Productivity tools using AI help workers analyse information faster and make better decisions. However, rather than replacing humans completely, the most effective approach is human-AI collaboration, where AI assists but people remain in control. This partnership means many jobs will change rather than disappear. Workers may need to learn new skills, such as managing AI systems and interpreting their outputs. Overall, AI offers opportunities to work smarter, but adapting to these changes requires ongoing learning and flexibility."
 }

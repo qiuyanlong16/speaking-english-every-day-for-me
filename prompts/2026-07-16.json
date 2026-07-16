@@ -1,5 +1,5 @@
 {
   "date": "2026-07-16",
-  "topic": "Understanding Git Branching",
-  "text": "When working with Git, feature branches are essential for organized development. A developer creates a separate branch from the main codebase to work on a new feature or fix. This keeps the main branch stable. Once the work is complete, the developer submits a pull request. This is a request for teammates to review the changes before integrating them. After approval, the changes are merged back into the main branch. This workflow is a key part of version control, helping teams collaborate efficiently, avoid conflicts, and maintain a clear history of project changes."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential part of software development. When developers check each other's code before it is added to the main project, they can catch bugs early before they cause bigger problems. This saves time and effort later. Additionally, code reviews encourage knowledge sharing within the team. A developer might learn a new technique or understand a different part of the codebase. Ultimately, this process helps improve the overall quality of the team's work. Everyone feels more responsible for the project, and the final product becomes more reliable."
 }

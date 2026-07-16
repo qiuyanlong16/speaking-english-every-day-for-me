@@ -1,5 +1,5 @@
 {
   "date": "2026-07-25",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development involves creating software for smartphones and tablets. A key principle is responsive design, which ensures the app works well on different screen sizes, from small phones to larger tablets. Developers must choose between native apps, built specifically for iOS or Android for optimal performance, and cross-platform tools like Flutter or React Native, which allow a single codebase for both systems. Once developed, apps are distributed through official app stores like Google Play and the Apple App Store, which have strict guidelines. App performance is crucial—slow loading times or crashes can lead to negative reviews and lost users, so testing is essential for success."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you communicate with a remote server using HTTP requests such as GET or POST. Most modern APIs return data in JSON format, which is easy to read and work with in code. Many APIs require authentication, usually via an API key, to ensure only authorised users have access. It's also important to be aware of rate limits, which restrict how many requests you can make in a given time. Finally, always include error handling in your code to manage issues like network failures or invalid responses, making your application more reliable."
 }
