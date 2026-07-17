@@ -1,5 +1,5 @@
 {
   "date": "2026-07-27",
-  "topic": "Security in Web Development",
-  "text": "HTTPS is essential for secure web communication. It encrypts data between a user's browser and the server, preventing attackers from intercepting sensitive information like passwords or credit card numbers. Authentication ensures that only authorised users can access protected areas, typically through strong passwords or multi-factor systems. Input validation is equally important; it checks that user-provided data, such as form entries, matches expected formats before processing, blocking malicious code injections. Common vulnerabilities include SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Developers must stay updated on these threats and apply security patches to protect both users and their data from exploitation."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several key decisions. First, you must consider **responsive design**, ensuring the interface adapts smoothly to different screen sizes and orientations. Next, choose between **native** apps, built specifically for iOS or Android for optimal **performance**, or **cross-platform** tools that allow you to write one codebase for both systems, though they may sacrifice some speed. Finally, you must prepare for **app stores**—like Google Play and the Apple App Store—which require approval processes and guidelines for distribution. Balancing these factors helps create a successful, user-friendly app."
 }

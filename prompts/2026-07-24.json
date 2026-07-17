@@ -1,5 +1,5 @@
 {
   "date": "2026-07-24",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and organizing information. There are two main types: SQL (structured) databases, which use tables with rows and columns, and NoSQL databases, which handle unstructured data like documents or graphs. In SQL databases, you write queries to retrieve specific data, such as \"SELECT * FROM customers\". Data modeling involves designing tables and relationships to avoid redundancy. Indexes speed up queries by creating a map of the data, making searches faster. Understanding these concepts helps you choose the right database for your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving code structure without changing its external behavior. Instead of adding new features, developers clean up messy code to make it more readable and maintainable. This often involves renaming confusing variables, splitting long functions into smaller ones, or removing duplicate code. The goal is to reduce technical debt—the accumulated cost of quick fixes that slow down future development. Regular refactoring keeps the codebase healthy, making it easier for teams to understand and modify the software. While it may take extra time now, it saves much more time later by preventing bugs and speeding up development."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-20",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed REST API makes it easy for developers to integrate with your service. Start by creating clear, intuitive endpoints that use nouns like `/users` or `/orders`. Always use proper HTTP status codes, such as `200` for success and `404` if a resource is not found. Good documentation is essential—it should explain endpoints, expected parameters, and sample responses. Finally, implement versioning, for example by adding `/v1/` to your URL path. This allows you to introduce changes without breaking existing clients. Following these practices leads to a reliable, user-friendly API."
+  "topic": "Debugging Strategies",
+  "text": "Developers often spend a lot of time debugging, but a systematic approach makes it easier. The first step is identifying where the bug is—find the exact line of code or function causing the problem. Then, use debugging tools like breakpoints in your code editor to pause execution and examine variable values step by step. Alternatively, logging is useful: adding `print` or `console.log` statements to see what your program is doing over time. By testing one part at a time and noting the results, you can gradually isolate and fix the issue without guessing. This method saves time and frustration."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-04",
-  "topic": "AI and Creativity",
-  "text": "Many people now encounter AI-generated art, music, and writing in their daily lives. A computer can create a realistic painting in seconds or compose a symphony that sounds surprisingly human. These works often impress us with their speed and accuracy. However, a key question remains: is this true creativity? Human creativity comes from personal experience, emotion, and intention. An artist paints to express a feeling; a writer chooses words carefully to move readers. Machines, by contrast, follow patterns in data. They can imitate styles but do not understand meaning. Therefore, while AI is a powerful tool for generating content, it is not truly creative in the human sense. It can inspire us, but it cannot replace the depth of human expression."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a field of computer science that helps machines understand human language. It involves teaching computers to read and interpret text, much like a person would. Translation tools, for example, use NLP to convert words from one language to another. Another common application is sentiment analysis, which analyzes text to determine whether the writer's opinion is positive, negative, or neutral. You might also encounter NLP in customer service, where chatbots interact with users by answering questions or solving problems. By processing language, NLP makes communication between humans and computers smoother and more natural."
 }

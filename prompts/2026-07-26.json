@@ -1,5 +1,5 @@
 {
   "date": "2026-07-26",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app requires several important decisions. First, responsive design ensures the app looks and works well on different screen sizes, from small phones to tablets. Next, you must choose between native and cross-platform development. Native apps are built specifically for iOS or Android, offering better performance and full access to device features. Cross-platform tools like React Native allow code reuse across both platforms, saving time but sometimes affecting performance. Finally, you need to publish your app on app stores like Google Play and the Apple App Store, where it must meet their guidelines. Regular updates help maintain performance and user satisfaction."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you typically send HTTP requests to a server to retrieve or send data. Most modern APIs return responses in JSON format, which is easy for both humans and machines to read. Before accessing an API, you often need authentication, usually with an API key or token. It’s also important to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, always include error handling in your code. This helps you manage problems like a failed request or incorrect data, making your application more reliable and user-friendly."
 }
