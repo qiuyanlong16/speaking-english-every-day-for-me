@@ -1,5 +1,5 @@
 {
   "date": "2026-07-21",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed API is crucial for smooth software integration. When building REST APIs, your endpoints should be clear and consistent, using nouns for resources like `/users` or `/products`. Always use appropriate HTTP status codes; for example, 200 for success, 201 for creation, and 404 for not-found errors. Good documentation is essential, explaining how to use each endpoint with examples. Finally, plan for changes by including versioning in your URL, such as `/v1/users`. This way, you can update your API without breaking existing applications that rely on older versions. Following these best practices creates a reliable and developer-friendly API."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a key skill in programming. To fix a bug, you first need to identify it. A systematic approach is helpful: reproduce the problem, then isolate the cause. Many debugging tools can assist, such as debuggers that step through code line by line. Logging is another useful strategy—by adding print statements or log messages, you can track values and see where things go wrong. Start with the most likely areas, check for common errors, and test each change. Remember: debugging is not guessing, but a logical process of elimination."
 }

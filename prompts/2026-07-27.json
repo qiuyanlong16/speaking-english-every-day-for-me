@@ -1,5 +1,5 @@
 {
   "date": "2026-07-27",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves several key decisions. First, you must consider **responsive design**, ensuring the interface adapts smoothly to different screen sizes and orientations. Next, choose between **native** apps, built specifically for iOS or Android for optimal **performance**, or **cross-platform** tools that allow you to write one codebase for both systems, though they may sacrifice some speed. Finally, you must prepare for **app stores**—like Google Play and the Apple App Store—which require approval processes and guidelines for distribution. Balancing these factors helps create a successful, user-friendly app."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you first make HTTP requests—usually GET to retrieve data or POST to send it. The response commonly comes in JSON format, which is easy to parse in most programming languages. Many APIs require authentication, often via an API key included in the request headers, to verify your identity. However, you must also respect rate limits, which restrict how many requests you can make in a given time. If you exceed these limits, your requests may be blocked. Finally, always handle errors gracefully: check the HTTP status code and implement fallback logic so your application doesn't crash when an API call fails."
 }

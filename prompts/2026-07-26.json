@@ -1,5 +1,5 @@
 {
   "date": "2026-07-26",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, you typically send HTTP requests to a server to retrieve or send data. Most modern APIs return responses in JSON format, which is easy for both humans and machines to read. Before accessing an API, you often need authentication, usually with an API key or token. It’s also important to be aware of rate limits, which restrict how many requests you can make in a certain time period. Finally, always include error handling in your code. This helps you manage problems like a failed request or incorrect data, making your application more reliable and user-friendly."
+  "topic": "Understanding Databases",
+  "text": "A database is a system for storing and organizing data. One common type is the relational database, which uses SQL (Structured Query Language). Data is stored in tables with rows and columns, similar to a spreadsheet. Users write queries to find or change specific information. Data modeling is the process of designing how tables relate to each other. Indexes are special structures that speed up query performance by working like a book's index. In contrast, NoSQL databases are non-relational. They handle unstructured data, like social media posts, and often scale better for large applications. Choosing between SQL and NoSQL depends on your project's needs for structure, flexibility, and performance."
 }

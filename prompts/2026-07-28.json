@@ -1,5 +1,5 @@
 {
   "date": "2026-07-28",
-  "topic": "Security in Web Development",
-  "text": "When building a website, security should always be a priority. Using HTTPS encrypts data sent between the user and the server, protecting sensitive information from attackers. User authentication, such as passwords or two-factor login, ensures only authorized people can access accounts. However, even with these measures, developers must validate all user input, as unchecked fields can allow harmful code or database attacks. Common vulnerabilities include cross-site scripting (XSS) and SQL injection, where malicious input steals data or corrupts databases. By following secure coding practices—like sanitizing inputs and keeping software updated—developers can greatly reduce risks and build trust with their users."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves several important choices. One key decision is responsive design, ensuring your app works well on different screen sizes and orientations. Another is whether to build a native app (made specifically for iOS or Android) or a cross-platform app (which works on both using shared code). Native apps often perform better and access device features more smoothly, while cross-platform development saves time and money. Once the app is built, you submit it to app stores like Apple’s App Store or Google Play, where it undergoes review. Good performance—fast loading, smooth navigation, and low battery usage—is essential for user satisfaction and positive reviews."
 }

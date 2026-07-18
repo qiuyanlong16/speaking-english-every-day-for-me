@@ -1,5 +1,5 @@
 {
   "date": "2026-07-25",
-  "topic": "Understanding Databases",
-  "text": "A database is an organized collection of information stored electronically. There are two main types: SQL (relational) and NoSQL (non-relational) databases. SQL databases use tables with rows and columns, much like a spreadsheet. You retrieve data using queries, which are commands written in the SQL language. Good data modeling involves designing these tables to avoid data repetition. NoSQL databases, on the other hand, are more flexible and can store data as documents, key-value pairs, or graphs. This makes them suitable for unstructured data. To speed up queries, both types often use indexes, which help the database find information quickly without scanning every record."
+  "topic": "Code Refactoring",
+  "text": "When developers talk about improving code structure, they often mean refactoring. This process focuses on changing the internal design of code without affecting how it works from the outside. The main goal is to make the code cleaner and easier to understand. By doing this regularly, developers can avoid technical debt—the extra work created by using quick, messy solutions. For example, renaming unclear variables, breaking long functions into smaller ones, or simplifying complex conditions can greatly improve readability. While refactoring takes time, it saves much more in the long run by making future changes faster and less risky."
 }
