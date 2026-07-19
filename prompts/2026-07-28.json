@@ -1,5 +1,5 @@
 {
   "date": "2026-07-28",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves several important choices. One key decision is responsive design, ensuring your app works well on different screen sizes and orientations. Another is whether to build a native app (made specifically for iOS or Android) or a cross-platform app (which works on both using shared code). Native apps often perform better and access device features more smoothly, while cross-platform development saves time and money. Once the app is built, you submit it to app stores like Apple’s App Store or Google Play, where it undergoes review. Good performance—fast loading, smooth navigation, and low battery usage—is essential for user satisfaction and positive reviews."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, developers send HTTP requests to access data or services from external applications. The most common methods are GET for retrieving information and POST for sending data. Responses typically arrive in JSON format, a lightweight data structure that is easy to read and parse. Before making requests, you often need to authenticate using an API key or token to prove your identity. Many APIs also enforce rate limits, meaning you can only send a certain number of requests within a specific time frame. If you exceed this, you may receive an error. Always implement error handling to manage failed requests or unexpected responses gracefully."
 }

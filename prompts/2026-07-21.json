@@ -1,5 +1,5 @@
 {
   "date": "2026-07-21",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a key skill in programming. To fix a bug, you first need to identify it. A systematic approach is helpful: reproduce the problem, then isolate the cause. Many debugging tools can assist, such as debuggers that step through code line by line. Logging is another useful strategy—by adding print statements or log messages, you can track values and see where things go wrong. Start with the most likely areas, check for common errors, and test each change. Remember: debugging is not guessing, but a logical process of elimination."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any programmer. Readable code is easy for others—and your future self—to understand, which is vital for long-term maintainability. Using clear naming conventions is a simple but powerful practice; variable names like `userAge` or `totalPrice` immediately reveal their purpose. Instead of writing one long block of code, break it into small functions, each with a single, focused job. For instance, a function named `calculateDiscount()` is more understandable than a giant collection of numbers and operations. Good functions make your code modular, reusable, and far easier to test and update later, saving time and reducing errors."
 }
