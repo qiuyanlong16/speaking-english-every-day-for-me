@@ -1,5 +1,5 @@
 {
   "date": "2026-07-20",
-  "topic": "Understanding Git Branching",
-  "text": "In a typical Git workflow, developers use feature branches to work on new changes without affecting the main codebase. Each feature branch is created from the main branch, allowing isolated development. Once the work is complete, the developer creates a pull request to propose the changes. Team members review the code and discuss improvements before it is merged. Merging integrates the feature branch into the main branch, creating a new version. This version control workflow helps teams collaborate efficiently, reduces conflicts, and maintains a clear history of changes. Understanding branching is essential for managing both small and large projects."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential part of software development. They involve having someone else check your code before it’s added to the main project. This practice helps catch bugs early, when they are easier and cheaper to fix. Reviews also allow team members to share their expertise, as more experienced developers can suggest better approaches. Over time, this knowledge sharing helps everyone improve their skills. Ultimately, code reviews contribute to higher team quality. When code is carefully reviewed, the final product becomes more reliable and consistent, and the whole team feels more confident about their work."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-28",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, developers send HTTP requests to access data or services from external applications. The most common methods are GET for retrieving information and POST for sending data. Responses typically arrive in JSON format, a lightweight data structure that is easy to read and parse. Before making requests, you often need to authenticate using an API key or token to prove your identity. Many APIs also enforce rate limits, meaning you can only send a certain number of requests within a specific time frame. If you exceed this, you may receive an error. Always implement error handling to manage failed requests or unexpected responses gracefully."
+  "topic": "Understanding Databases",
+  "text": "A database is a structured way to store and organize data. The two main types are SQL and NoSQL databases. SQL databases, like MySQL, use tables with rows and columns, similar to a spreadsheet. They require a fixed data model, meaning you must define the structure in advance. NoSQL databases, such as MongoDB, are more flexible and can store data without a strict schema. To access information, you use queries—commands that ask for specific data. Without indexes, the database would scan every record to find data, so indexes help speed up these searches significantly."
 }
