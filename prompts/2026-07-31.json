@@ -1,5 +1,5 @@
 {
   "date": "2026-07-31",
-  "topic": "Security in Web Development",
-  "text": "HTTPS is essential for any website. It encrypts data between the user's browser and the server, protecting sensitive information like passwords. Strong authentication, such as multi-factor authentication, prevents unauthorised access. Input validation is another critical step — never trust user data without checking it, as malicious inputs can lead to attacks like SQL injection or cross-site scripting. Common vulnerabilities include broken access controls and outdated software. Developers should regularly update libraries and test for weaknesses. By combining HTTPS, secure authentication, and rigorous input validation, developers can significantly reduce security risks and build more trustworthy applications."
+  "topic": "Mobile App Development",
+  "text": "Creating a mobile app requires careful planning. Developers must choose between native and cross-platform frameworks. Native apps are built specifically for iOS or Android, offering better performance and integration with device features. Cross-platform tools like React Native allow coding once for both systems, saving time and cost.\n\nA crucial step is implementing responsive design to ensure the app looks and works well on various screen sizes. Once developed, the app is submitted to an app store, such as Apple’s App Store or Google Play, where it goes through a review process. Finally, performance optimization is key: users expect fast loading times, smooth animations, and minimal battery drain."
 }

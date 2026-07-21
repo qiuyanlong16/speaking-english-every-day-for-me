@@ -1,5 +1,5 @@
 {
   "date": "2026-07-23",
-  "topic": "Debugging Strategies",
-  "text": "When you encounter a bug in your code, the first step is identifying the problem. Try to reproduce the error consistently. A systematic approach helps: check your recent changes, isolate the faulty section, and test each part separately. Debugging tools like breakpoints in an IDE let you pause execution and inspect variables. Logging is also valuable; by printing messages at different points, you can track the flow of data and spot where things go wrong. With practice, these strategies turn debugging from a frustrating search into a logical, solvable puzzle."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for both yourself and other developers who may work on your project. Readable code is much easier to understand and modify. One simple way to improve readability is to follow consistent naming conventions. For example, use descriptive names like `calculateTotalPrice` instead of `calcTP`. It’s also a good idea to break long pieces of logic into smaller, focused functions. Each function should do one thing well. This approach makes your code more organised and easier to test. Ultimately, clean code saves time and effort, ensuring long-term maintainability for any software project."
 }
