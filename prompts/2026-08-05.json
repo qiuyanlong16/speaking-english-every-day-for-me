@@ -1,5 +1,5 @@
 {
   "date": "2026-08-05",
-  "topic": "Machine Learning Basics",
-  "text": "Supervised learning is one of the most common types of machine learning. In this approach, a computer learns from training data, which consists of many labeled examples. For instance, if we want to teach a model to recognize cats in photos, we show it thousands of cat and non-cat images, each correctly labeled. The model studies these examples and learns patterns. Once trained, the model can make predictions on new, unseen images. To check its performance, we test its accuracy—how often its predictions are correct. Improving accuracy often requires more training data or better tuning of the model."
+  "topic": "AI in the Workplace",
+  "text": "AI is increasingly common in the workplace, bringing both opportunities and challenges. Many routine tasks are now handled through automation, which can quickly process data or manage schedules. This frees up employees to focus on more complex and creative work. Productivity tools powered by AI, such as smart assistants and project management software, help teams stay organized and meet deadlines. However, the rise of AI also means some jobs will change or disappear, requiring workers to learn new skills. The most effective workplaces are those that encourage human-AI collaboration, where people and machines work together, combining human judgment with AI's speed and accuracy."
 }

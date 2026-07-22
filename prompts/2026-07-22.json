@@ -1,5 +1,5 @@
 {
   "date": "2026-07-22",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is a core concept in version control that helps teams work on code simultaneously. Typically, developers create feature branches from the main codebase to work on new features or bug fixes without affecting the stable version. Once the feature is complete and tested, they merge it back into the main branch. In many workflows, this is done through pull requests, where team members can review the code, suggest changes, and discuss improvements before the merge is finalized. This structured process ensures a clean version control workflow and reduces the risk of introducing errors into the project."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential practice in software development. During a code review, a developer’s code is checked by one or more team members before it is added to the main project. This process helps catch bugs early, when they are much easier and cheaper to fix. For example, a simple mistake in logic can be spotted immediately. Equally important is knowledge sharing. Junior developers learn from more experienced colleagues, and the whole team becomes familiar with different parts of the codebase. Ultimately, regular code reviews improve the overall quality of the code and create a stronger, more collaborative team."
 }

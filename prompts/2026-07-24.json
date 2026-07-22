@@ -1,5 +1,5 @@
 {
   "date": "2026-07-24",
-  "topic": "Debugging Strategies",
-  "text": "When a program doesn't work as expected, the first step to fixing it is identifying the bug. You need to find where the code goes wrong. A systematic approach helps: start by isolating the problem, then form a hypothesis, and test it step by step. Using debugging tools, such as breakpoints and variable inspectors, can greatly speed up the process. Additionally, adding logging to your code helps track what's happening at different stages. By carefully reading log output, you can often spot the exact moment an error occurs. With practice, these strategies become natural and save a lot of time."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for any programmer. Readable code is easy for others—and your future self—to understand. One key practice is using clear naming conventions; variable and function names should describe their purpose, like `calculateTotal()` instead of `doStuff()`. Another important idea is to keep functions small and focused on a single task. This makes the code easier to test and reuse. When you follow these habits, your code becomes more maintainable over time, meaning it is simpler to fix bugs or add new features without breaking everything."
 }

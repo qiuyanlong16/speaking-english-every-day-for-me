@@ -1,5 +1,5 @@
 {
   "date": "2026-08-06",
-  "topic": "Ethics in AI",
-  "text": "Artificial intelligence is changing many parts of our lives, but it also raises important ethical questions. One major concern is bias. If an AI system learns from data that contains human prejudices, it can make unfair decisions, for example in hiring or lending. Fairness means we must check AI systems carefully to avoid this. Privacy is another key issue; AI often needs large amounts of personal data, so we need to protect people's information. Transparency is also crucial – users should understand how and why an AI makes a specific decision. Overall, responsible AI development requires balancing innovation with these ethical principles, so that technology benefits everyone equally."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a branch of artificial intelligence that allows computers to learn from data. One common type is supervised learning, where the system is trained using labeled examples. For instance, you might show a computer thousands of photos of cats and dogs that are already labeled. This collection is called the training data. The computer uses this data to build a model, which is a mathematical rule that can tell the difference between cats and dogs. Once the model is ready, it can make predictions about new images it has never seen before. The model's accuracy is then tested to see how often its predictions are correct. Over time, better models lead to more reliable predictions."
 }
