@@ -1,5 +1,5 @@
 {
   "date": "2026-08-03",
-  "topic": "Security in Web Development",
-  "text": "Using HTTPS ensures that data sent between a user’s browser and a website is encrypted, protecting sensitive information like passwords from being intercepted. Strong authentication methods, such as multi-factor authentication, help verify that users are who they claim to be, preventing unauthorised access. Input validation is equally important: always check and sanitise user input to block common attacks like SQL injection or cross-site scripting. Without these measures, websites become vulnerable to data breaches and malware. Simple steps, such as enforcing HTTPS, requiring proper authentication, and validating all inputs, significantly reduce security risks."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development offers exciting opportunities for creators. A key principle is responsive design, which ensures an app looks and works well on different screen sizes, from phones to tablets. Developers must choose between building native apps, designed specifically for one platform like iOS or Android, or cross-platform apps, which use a single codebase for both. Native apps often provide better performance and smoother user experiences, while cross-platform options save time and money. Once the app is complete, it is submitted to official app stores like Apple’s App Store or Google Play, where it can reach millions of users after approval and review."
 }

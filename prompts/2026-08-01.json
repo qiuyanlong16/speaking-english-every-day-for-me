@@ -1,5 +1,5 @@
 {
   "date": "2026-08-01",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, you send HTTP requests to a server and receive responses, often in JSON format. This lightweight data structure is easy to read and parse. Many APIs require authentication, typically using an API key, to control access. You also need to respect rate limits, which prevent you from making too many requests in a short time. If you exceed them, the server may block you temporarily. Finally, always handle errors gracefully; network issues or invalid inputs can cause requests to fail. By managing these aspects carefully, you can build reliable applications that interact with external services smoothly."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and organizing information. Two main types exist: SQL and NoSQL. SQL databases use tables with rows and columns, making them great for structured data like customer records. NoSQL databases, on the other hand, work better for unstructured data, such as social media posts or images.\n\nTo retrieve data, you write queries. For example, in SQL, a query like `SELECT * FROM customers WHERE city = 'Berlin'` finds all customers in Berlin. Data modeling involves designing how the data is organized. Indexes are special structures that speed up queries by allowing the database to find information quickly without scanning every record. Choosing the right database type and optimizing indexes are key for performance."
 }

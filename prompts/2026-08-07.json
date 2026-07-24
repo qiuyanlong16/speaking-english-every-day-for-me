@@ -1,5 +1,5 @@
 {
   "date": "2026-08-07",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning teaches computers to learn from data without being explicitly programmed for every task. In supervised learning, the computer is given a set of training data that includes input-output pairs. For example, you could show it emails labeled \"spam\" or \"not spam.\" Using this data, the computer builds a model—a mathematical pattern that captures the relationship between inputs and outputs. Once the model is ready, it can make predictions on new, unseen data. The accuracy of those predictions measures how often the model is correct. The more high-quality training data available, the more accurate the model usually becomes."
+  "topic": "AI in the Workplace",
+  "text": "AI is changing the workplace in significant ways. Automation of repetitive tasks, such as data entry and scheduling, allows employees to focus on more creative and strategic work. Productivity tools powered by AI can analyze large amounts of data quickly, helping teams make better decisions. However, rather than replacing humans entirely, the most effective approach often involves human-AI collaboration. For example, AI can suggest solutions, while humans evaluate and apply them based on context and experience. As a result, many jobs are evolving rather than disappearing, requiring workers to develop new skills like critical thinking and technical literacy alongside AI systems."
 }

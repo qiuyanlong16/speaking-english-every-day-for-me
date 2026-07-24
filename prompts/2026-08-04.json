@@ -1,5 +1,5 @@
 {
   "date": "2026-08-04",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is a field of computer science that creates machines able to think and learn like humans. A key part of AI is machine learning, where computers improve at tasks by analysing large amounts of data instead of following fixed instructions. Deep learning, a more advanced form, uses artificial neural networks to recognise complex patterns. You already use AI every day. It powers virtual assistants on your phone, recommends videos or products online, and helps apps recognise faces in photos. While AI can be very useful, it also raises important questions about the future of work and privacy."
+  "topic": "Security in Web Development",
+  "text": "Secure web development protects user data from attackers. HTTPS encrypts all communication between a user's browser and the server, ensuring that sensitive information like passwords and credit card numbers remains private. Strong authentication systems, which often combine passwords with additional verification steps, prevent unauthorised access. Developers must also perform rigorous input validation, checking and sanitising all data submitted through forms, as this prevents common vulnerabilities such as SQL injection and cross-site scripting. Ignoring these core security measures leaves websites, and their users, exposed to serious threats."
 }

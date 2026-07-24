@@ -1,5 +1,5 @@
 {
   "date": "2026-07-31",
-  "topic": "Understanding Databases",
-  "text": "A database is an organized collection of data that can be easily accessed and managed. The two main types are SQL and NoSQL databases. SQL databases, like MySQL, store data in structured tables with rows and columns, requiring a predefined schema. NoSQL databases, such as MongoDB, are more flexible, storing data as documents or key-value pairs without a fixed structure. Data modeling involves designing how information is organized in these systems. To retrieve data, users write queries—for example, \"SELECT * FROM customers WHERE city = 'London'\" is a SQL query. Indexes are special data structures that speed up query performance by acting like a book's index, allowing the database to find information quickly without scanning every record."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. The main goal is to make the code cleaner, simpler, and easier to understand. When developers refactor, they remove duplication, rename confusing variables, or break long functions into smaller ones. This does not add new features, but it pays off a kind of \"technical debt\"—the hidden cost of messy code. When left unpaid, technical debt slows down future changes. By regularly refactoring, teams keep the codebase healthy. This improves readability, making it easier for others to read, fix, or extend the software later."
 }
