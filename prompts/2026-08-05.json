@@ -1,5 +1,5 @@
 {
   "date": "2026-08-05",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that usually require human intelligence. Think of it as giving computers the power to learn, reason, and solve problems on their own. A key part of AI is machine learning, where systems learn from data instead of following explicit instructions. A more advanced type of this is deep learning, which uses complex neural networks to learn patterns, much like the human brain. AI is already all around us in daily life. It powers recommendation systems on streaming services, voice assistants on our phones, and even traffic prediction apps that help us choose the fastest route."
+  "topic": "Working with APIs",
+  "text": "Working with APIs allows programs to communicate with each other over the internet. When you make an API request, you typically send an HTTP request using methods like GET to retrieve data or POST to send new information. The response often comes back in JSON format, which is easy for computers to read and process. Many APIs require authentication, usually through an API key, to ensure only authorised users can access the data. It is important to be aware of rate limits, as some APIs restrict the number of requests you can make per hour. Finally, always include proper error handling in your code to manage failed requests or unexpected responses gracefully."
 }

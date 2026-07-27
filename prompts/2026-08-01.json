@@ -1,5 +1,5 @@
 {
   "date": "2026-08-01",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and organizing information. Two main types exist: SQL and NoSQL. SQL databases use tables with rows and columns, making them great for structured data like customer records. NoSQL databases, on the other hand, work better for unstructured data, such as social media posts or images.\n\nTo retrieve data, you write queries. For example, in SQL, a query like `SELECT * FROM customers WHERE city = 'Berlin'` finds all customers in Berlin. Data modeling involves designing how the data is organized. Indexes are special structures that speed up queries by allowing the database to find information quickly without scanning every record. Choosing the right database type and optimizing indexes are key for performance."
+  "topic": "The Role of Testing",
+  "text": "Software testing plays a vital role in building reliable applications. Unit tests check small pieces of code, like individual functions, to ensure they work correctly. Integration tests go further by verifying that different parts of the system interact smoothly together. Many developers follow test-driven development, where they write tests before writing the actual code. This approach helps them think carefully about requirements and design. While testing requires extra effort, it gives teams confidence to make changes or add new features without breaking existing functionality. In short, a well-tested codebase saves time and prevents unpleasant surprises in production."
 }

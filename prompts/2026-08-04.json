@@ -1,5 +1,5 @@
 {
   "date": "2026-08-04",
-  "topic": "Security in Web Development",
-  "text": "Secure web development protects user data from attackers. HTTPS encrypts all communication between a user's browser and the server, ensuring that sensitive information like passwords and credit card numbers remains private. Strong authentication systems, which often combine passwords with additional verification steps, prevent unauthorised access. Developers must also perform rigorous input validation, checking and sanitising all data submitted through forms, as this prevents common vulnerabilities such as SQL injection and cross-site scripting. Ignoring these core security measures leaves websites, and their users, exposed to serious threats."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential for storing and managing data. The two main types are SQL and NoSQL. SQL databases, like MySQL or PostgreSQL, store data in structured tables with rows and columns. You use queries written in SQL to retrieve or update information. Data modeling is important here; you need to plan tables and their relationships carefully.\n\nNoSQL databases, such as MongoDB, are more flexible. They don't use tables but store data in formats like documents or key-value pairs. This makes them ideal for unstructured or rapidly changing data. Both types use indexes to speed up searches. Indexes work like a book's index, allowing the database to find information faster without scanning everything. Choosing between SQL and NoSQL depends on your project's needs."
 }

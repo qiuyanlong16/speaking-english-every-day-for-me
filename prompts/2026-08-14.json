@@ -1,5 +1,5 @@
 {
   "date": "2026-08-14",
-  "topic": "Agile Methodology",
-  "text": "Agile methodology is a popular approach to managing projects, especially in software development. Instead of working on a whole project at once, teams use iterative development, breaking the work into small cycles called sprints. Each sprint usually lasts one or two weeks.\n\nAt the start, the team organizes tasks from a backlog, which is a list of all work items. These tasks are described as user stories, simple explanations of a feature from the user’s viewpoint. Every day, the team holds a short standup meeting to discuss progress and challenges. This flexible system helps teams adapt quickly and deliver valuable results step by step."
+  "topic": "Natural Language Processing",
+  "text": "Natural language processing, or NLP, is a field of artificial intelligence that helps computers understand human language. It allows machines to interpret text, recognise meaning, and even respond like a person. For example, NLP powers translation tools, which can convert a sentence from English to Spanish or Chinese almost instantly. Sentiment analysis is another important use, where computers analyse reviews or social media posts to decide if the writer is happy, angry, or neutral. Chatbots also rely on NLP to have simple conversations with users, answering questions or giving support. Overall, NLP makes it possible for technology to read, understand, and react to the words we use every day."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-07",
-  "topic": "AI in the Workplace",
-  "text": "AI is changing the workplace in significant ways. Automation of repetitive tasks, such as data entry and scheduling, allows employees to focus on more creative and strategic work. Productivity tools powered by AI can analyze large amounts of data quickly, helping teams make better decisions. However, rather than replacing humans entirely, the most effective approach often involves human-AI collaboration. For example, AI can suggest solutions, while humans evaluate and apply them based on context and experience. As a result, many jobs are evolving rather than disappearing, requiring workers to develop new skills like critical thinking and technical literacy alongside AI systems."
+  "topic": "Security in Web Development",
+  "text": "Secure web development is essential to protect user data and maintain trust. First, every website should use HTTPS, which encrypts communication between the user’s browser and the server, preventing hackers from intercepting sensitive information. Secondly, strong authentication methods, such as two-factor authentication, help verify users’ identities and prevent unauthorized access. Additionally, input validation is critical—developers must check all data submitted through forms to avoid attacks like SQL injection or cross-site scripting. Common vulnerabilities also include outdated software and weak passwords. By addressing these issues, developers can create safer, more reliable websites."
 }

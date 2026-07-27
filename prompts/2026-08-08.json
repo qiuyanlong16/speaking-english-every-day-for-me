@@ -1,5 +1,5 @@
 {
   "date": "2026-08-08",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a way for computers to learn from data instead of being explicitly programmed. In supervised learning, the computer is given training data that includes both input examples and correct answers. For example, you might show a computer thousands of photos of cats and dogs, each labelled correctly. The computer uses this data to build a model, which is a mathematical system that recognises patterns. Once trained, the model can make predictions on new, unseen images. After making predictions, we measure the model’s accuracy by comparing its results to the correct answers. A more accurate model is better at making reliable predictions in real-life situations."
+  "topic": "What Is Artificial Intelligence",
+  "text": "Artificial intelligence, or AI, is the ability of machines to think and learn like humans. It involves creating computer systems that can solve problems, recognize patterns, and make decisions. One important part of AI is machine learning, where computers are trained using data to improve their performance without being explicitly programmed for every task. A more advanced form is deep learning, which uses artificial neural networks inspired by the human brain to process complex information. We encounter AI in daily life through voice assistants, recommendation systems on streaming platforms, and navigation apps that predict traffic. AI continues to transform how we work and live."
 }

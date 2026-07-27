@@ -1,5 +1,5 @@
 {
   "date": "2026-07-31",
-  "topic": "Code Refactoring",
-  "text": "Code refactoring is the process of improving the internal structure of existing code without changing its external behavior. The main goal is to make the code cleaner, simpler, and easier to understand. When developers refactor, they remove duplication, rename confusing variables, or break long functions into smaller ones. This does not add new features, but it pays off a kind of \"technical debt\"—the hidden cost of messy code. When left unpaid, technical debt slows down future changes. By regularly refactoring, teams keep the codebase healthy. This improves readability, making it easier for others to read, fix, or extend the software later."
+  "topic": "API Design Best Practices",
+  "text": "When designing a REST API, following best practices ensures it is easy to use and maintain. First, use clear and consistent endpoints, such as `/users` or `/orders`, to represent resources. Always return appropriate HTTP status codes, like `200` for success and `404` for not found. Good documentation is essential; it should explain each endpoint, its parameters, and expected responses. Finally, implement versioning, for example by adding `/v1/` to the URL, so that changes do not break existing clients. These practices make your API reliable and developer-friendly."
 }

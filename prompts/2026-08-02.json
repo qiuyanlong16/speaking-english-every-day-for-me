@@ -1,5 +1,5 @@
 {
   "date": "2026-08-02",
-  "topic": "Working with APIs",
-  "text": "Working with APIs allows applications to communicate and share data. When making an API call, you send an HTTP request, such as GET to retrieve information or POST to create new data. The response often comes in JSON format, which is easy for both humans and machines to read. Most APIs require authentication, usually through an API key, to ensure only authorised users can access the service. It's also important to follow rate limits, which restrict how many requests you can make in a given time. Finally, always include error handling in your code to manage problems like network issues or invalid responses gracefully."
+  "topic": "Continuous Integration",
+  "text": "Continuous integration is a software development practice where team members frequently merge their code changes into a shared main branch. Each time new code is added, a CI pipeline automatically builds the software and runs a series of tests. This automated process helps catch issues early, before they become bigger problems. For example, if a developer's change accidentally breaks a feature, the tests will fail immediately, and the team can fix it quickly. By running automated builds and tests regularly, teams can maintain a stable codebase and collaborate more effectively. This saves time and reduces the risk of major bugs reaching production."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-29",
-  "topic": "The Role of Testing",
-  "text": "In software development, testing plays a crucial role in ensuring code quality. Unit tests check individual functions or components to verify they work correctly in isolation. Integration tests, on the other hand, examine how different parts of the system interact together, catching issues that unit tests may miss. Many developers use test-driven development (TDD), where they write tests before writing the actual code. This approach helps them think through requirements and design more carefully. Overall, thorough testing builds confidence in the software. When developers know their code passes reliable tests, they can make changes and add new features with less fear of breaking existing functionality."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an essential skill for any programmer. The main goal is to make your code as readable as possible, both for yourself and for others. This starts with using clear naming conventions. For example, a variable like `userAge` is much easier to understand than `ua`. Another important practice is to write small, focused functions. Each function should do just one thing, which makes your program easier to test and update. Overall, these habits improve maintainability, meaning you can fix bugs or add new features without causing unexpected problems. Clean code is not just about working software; it is about long-term efficiency."
 }

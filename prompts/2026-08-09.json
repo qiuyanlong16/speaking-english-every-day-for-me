@@ -1,5 +1,5 @@
 {
   "date": "2026-08-09",
-  "topic": "Ethics in AI",
-  "text": "As artificial intelligence becomes more common in our daily lives, important ethical questions arise. One major concern is bias: if an AI system is trained on unfair data, it can make biased decisions about jobs, loans, or even medical care. This makes fairness essential—developers must ensure AI treats all groups equally. Privacy is another key issue, since AI often collects and analyzes personal information. People have the right to know how their data is used. Transparency also matters; users should understand how AI reaches its conclusions. Ultimately, responsible AI development means building systems that are ethical, safe, and respectful of human rights, with clear accountability for their actions."
+  "topic": "Large Language Models",
+  "text": "A large language model, or LLM, is a type of artificial intelligence trained on vast amounts of text from the internet, books, and other sources. It learns patterns in language, such as grammar, facts, and reasoning, by predicting the next word in a sentence. When you give it a prompt, the model uses this training to generate a relevant response. This process is called prompt engineering, where crafting clear instructions helps the model produce better output. LLMs can write essays, answer questions, and even translate languages. However, they have limits. They may make up incorrect information, lack true understanding, and reflect biases from their training data."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-07-28",
-  "topic": "API Design Best Practices",
-  "text": "Good API design is essential for creating services that developers love to use. When designing REST APIs, choose clear and intuitive endpoints that represent resources, like `/users` or `/orders`. Use appropriate status codes to communicate results: `200` for success, `201` for created resources, and `404` for not found. Always include versioning in your API, for example `/v1/users`, so that changes don’t break existing users. Finally, write thorough, accessible documentation that explains endpoints, parameters, and response examples. If developers can understand and integrate your API without frustration, you’ve done a great job."
+  "topic": "Understanding Git Branching",
+  "text": "Working with Git branching makes team collaboration much easier. When developers create feature branches, they can work on new features without affecting the main codebase. This keeps the project stable while changes are made. Once a feature is complete, the developer creates a pull request to propose merging their branch back into the main branch. Team members can then review the code, suggest improvements, and discuss changes before merging. This workflow is essential for version control, as it allows multiple people to contribute simultaneously while maintaining a clear history of changes and proper code quality standards."
 }

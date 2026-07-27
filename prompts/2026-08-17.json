@@ -1,5 +1,5 @@
 {
   "date": "2026-08-17",
-  "topic": "Setting Project Goals",
-  "text": "Setting clear project goals is essential for success, and the SMART framework helps make them effective. SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound. Using this method ensures everyone knows exactly what the team is working toward. It is also important to break the project into milestones—smaller, manageable steps. Each milestone helps track progress and keeps motivation high. Deliverables, or tangible results, are linked to these milestones. For example, a completed report or a working prototype can be a deliverable. Finally, stakeholder alignment is key. All people involved—such as clients, managers, or team members—must agree on the goals, milestones, and deliverables. This prevents confusion and keeps the project on track from start to finish."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a popular approach in software development. Instead of planning everything at the start, teams work in short cycles called sprints, which usually last two weeks. Each sprint aims to produce a working part of the product. The team holds daily standups, brief morning meetings where members share updates and obstacles. Work is managed through a backlog, a list of tasks and features to complete. These are described as user stories—simple explanations of a feature from a user's perspective. Through iterative development, the product improves gradually after each sprint, allowing teams to adapt quickly to changes and customer feedback."
 }

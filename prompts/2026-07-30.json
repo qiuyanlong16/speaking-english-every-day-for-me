@@ -1,5 +1,5 @@
 {
   "date": "2026-07-30",
-  "topic": "Continuous Integration",
-  "text": "Continuous Integration, often called CI, is a development practice where team members frequently integrate their code changes into a shared repository. The key idea is that every time someone pushes new code, an automated build process starts. This build includes running tests automatically to check if the new code breaks any existing functionality. By doing this regularly, teams can catch issues early, before they become larger and more complex problems. A CI pipeline is the set of steps that code goes through, from building to testing, to ensure quality. This approach makes software development faster and more reliable."
+  "topic": "Debugging Strategies",
+  "text": "One of the most important skills in programming is debugging, which means finding and fixing errors in your code. When you identify a bug, it helps to take a systematic approach rather than guessing. Start by carefully reading the error message and checking the part of the code that is failing. Using debugging tools like breakpoints can help you pause the programme and inspect variables step by step. Another useful strategy is logging, where you print messages to see what values your code produces at different stages. This can reveal where things go wrong. By combining these techniques, you can solve problems more efficiently and write better code."
 }
