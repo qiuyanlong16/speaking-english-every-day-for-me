@@ -1,5 +1,5 @@
 {
   "date": "2026-08-06",
-  "topic": "Mobile App Development",
-  "text": "Developing a successful mobile app requires careful planning from the start. One key aspect is responsive design, which ensures the app's layout and features adapt smoothly to different screen sizes, from small smartphones to large tablets. A major decision is choosing between native and cross-platform development. Native apps are built specifically for iOS or Android, offering high performance and full access to device features. Cross-platform tools allow a single codebase to work on both systems, saving time and money, though sometimes with slightly less performance. Finally, you must submit your app to official app stores, like Apple's App Store or Google Play. These stores have strict guidelines, but they provide a valuable global distribution channel for your final product."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you typically send HTTP requests to a server and receive responses in JSON format. First, you need authentication—often an API key—to access the service. Then, you make requests like GET or POST to retrieve or send data. However, APIs usually have rate limits, so you cannot make too many requests in a short time. If you exceed the limit, you might get an error. Good error handling is important: always check the response status code and handle problems like network failures or invalid data. Understanding these basics will help you integrate APIs smoothly into your applications."
 }
