@@ -1,5 +1,5 @@
 {
   "date": "2026-07-31",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, errors called bugs can appear. Identifying bugs is the first step in fixing them. A systematic approach helps you stay organized. Start by reading the error message carefully, then test small parts of your code one by one. Using debugging tools like breakpoints in an IDE lets you pause the program and check variable values. Logging is also useful: adding `console.log()` statements prints information to the console, showing what your code does step by step. By following this method, you can find and fix bugs faster, making your code work correctly."
+  "topic": "Writing Clean Code",
+  "text": "Clean code is writing that is easy for others—and your future self—to understand. One important aspect is using clear naming conventions: variable and function names should describe exactly what they do, like `calculateTotal` instead of `doStuff`. Breaking your program into small, focused functions also helps. Each function should have a single purpose, making the code easier to test and reuse. This approach greatly improves maintainability because when code is readable and logically organized, you can quickly find and fix issues or add new features. In short, writing clean code saves time and reduces stress for everyone who works with it."
 }
