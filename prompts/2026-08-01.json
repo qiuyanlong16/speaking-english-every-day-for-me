@@ -1,5 +1,5 @@
 {
   "date": "2026-08-01",
-  "topic": "Debugging Strategies",
-  "text": "When a program doesn't work as expected, finding the bug can be challenging. The key is to adopt a systematic approach rather than making random changes. First, try to reproduce the bug consistently to understand its behaviour. Then, use debugging tools like breakpoints in your code editor to pause execution and inspect variables step by step. Another effective technique is logging: adding print statements or log messages helps track the flow of data and catch errors early. By isolating different parts of the code and testing each one carefully, you can identify the exact source of the problem and fix it efficiently."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for anyone who wants to develop software efficiently. The most important goal is to make your code readable, both for yourself and for others. One key practice is following naming conventions: use clear and descriptive names for variables, functions, and classes, so their purpose is obvious at a glance. Additionally, each function should do one specific thing and do it well. This makes your code modular and easier to test. By keeping functions small and focused, you improve maintainability, meaning that future changes or bug fixes will be much simpler and less risky to implement."
 }
