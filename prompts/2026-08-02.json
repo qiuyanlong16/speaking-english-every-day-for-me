@@ -1,5 +1,5 @@
 {
   "date": "2026-08-02",
-  "topic": "Debugging Strategies",
-  "text": "When you write code, you will inevitably encounter bugs. Identifying bugs begins with understanding what your program is supposed to do. A systematic approach helps you find errors efficiently. First, reproduce the bug consistently. Then, narrow down the problem area by checking your code step by step. Debugging tools, such as breakpoints in an IDE, let you pause and inspect variables. Logging is another powerful strategy. By adding print statements or using a logging library, you can track your program's flow and spot unexpected values. Start with clear assumptions, test each one, and you will solve most issues methodically."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is like telling a clear story to another developer. It is not just for computers; it is for people who will read your work later. The most important rule is to make your code readable. Use meaningful naming conventions, so a variable like `userAge` tells you exactly what it contains instead of a confusing `x`. Avoid writing long, complicated blocks of logic. Instead, break your work into small, focused functions that do one thing well. This makes the code easier to test and debug. Ultimately, clean code saves time and effort, ensuring your project’s maintainability for years to come."
 }

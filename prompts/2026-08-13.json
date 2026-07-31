@@ -1,5 +1,5 @@
 {
   "date": "2026-08-13",
-  "topic": "AI in the Workplace",
-  "text": "The rise of AI in the workplace is transforming how we work. Many routine tasks, such as data entry and scheduling, are now automated, which frees up employees for more creative and strategic work. Productivity tools powered by AI help teams analyze data faster and make better decisions. However, this technology is not about replacing humans entirely. The most effective workplaces focus on human-AI collaboration, where the AI handles repetitive jobs while people focus on problem-solving and communication. While some jobs will change or disappear, new roles will also emerge, requiring workers to learn new skills and adapt to this evolving landscape."
+  "topic": "Large Language Models",
+  "text": "Large Language Models, or LLMs, are computer programs trained on massive amounts of text from books, websites, and articles. They work by predicting the next word in a sentence, learning patterns and relationships between words through this vast training data. When you give a model a prompt, it uses these patterns to generate a response. Prompt engineering, or the skill of writing clear and specific instructions, is crucial because well-designed prompts lead to more useful outputs. These models can summarize documents, translate languages, and even write code. However, they have clear limits. They don't truly understand information and can confidently produce false or biased statements, so it's important to check their answers carefully."
 }
