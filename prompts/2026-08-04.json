@@ -1,5 +1,5 @@
 {
   "date": "2026-08-04",
-  "topic": "Debugging Strategies",
-  "text": "Debugging can be frustrating, but a systematic approach makes it much easier. Start by identifying the bug clearly: what should happen, and what actually happens? Reproduce the problem first, as this gives you a starting point. Then, use debugging tools like breakpoints or step-through execution to inspect your code line by line. These tools let you see variable values and spot where things go wrong. Logging is another powerful strategy; adding print statements or log messages helps you trace the flow and observe data changes over time. Finally, test one hypothesis at a time, and don’t rush—patience often reveals the simplest solution."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is a valuable skill that saves time and frustration for everyone on a team. The most important goal is to make your code readable, as if it were written for another person, not just for a computer. This starts with using clear naming conventions; variables like `userAge` are far better than vague labels like `x` or `data`. Additionally, you should break your work into small, focused functions. Each function should do one simple task and have a name that clearly states that action, such as `calculateTotalPrice`. This approach greatly improves maintainability. When someone needs to fix a bug or add a feature, they can quickly find the relevant part and make changes without accidentally breaking other parts of the program."
 }

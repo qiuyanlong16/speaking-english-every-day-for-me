@@ -1,5 +1,5 @@
 {
   "date": "2026-08-11",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves more than just writing code. A successful app must have a responsive design, meaning it adapts smoothly to different screen sizes and orientations. A major decision is choosing between native development, where you build separate apps for iOS and Android, or cross-platform tools like Flutter, which use one codebase for both systems. Once built, apps are distributed through app stores like Google Play and the App Store, which review them for quality and safety. Finally, performance is crucial; users expect fast loading times and smooth interactions, so developers must optimize memory use and battery consumption."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you send HTTP requests—like GET or POST—to a server to retrieve or send data. Most modern APIs return information in JSON format, which is easy for computers to read and organize. However, you usually need authentication first, often using an API key or a token, to prove you have permission to access the service. Once you start making calls, pay attention to rate limits, which stop you from sending too many requests in a short time. If you ignore them, the server may block you temporarily. Finally, always handle errors gracefully. Check the response status codes, such as 404 or 500, so your program can react calmly instead of crashing."
 }
