@@ -1,5 +1,5 @@
 {
   "date": "2026-08-15",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that normally require human intelligence. This includes understanding language, recognizing patterns, and making decisions. A key part of AI is machine learning, where computers learn from data instead of following fixed rules. Going further, deep learning uses complex layers of neural networks to handle very difficult problems, like recognizing faces in photos. You already use AI every day. It powers the recommendations on streaming services, voice assistants on your phone, and even the spam filters in your email. AI is not science fiction; it is a practical tool quietly shaping our modern lives."
+  "topic": "Mobile App Development",
+  "text": "Developing a mobile app involves more than just writing code. First, you must consider responsive design, ensuring the interface adapts smoothly to different screen sizes, from small phones to large tablets. A major decision is choosing between native development, which uses platform-specific languages like Swift for iOS or Kotlin for Android, and cross-platform tools like Flutter or React Native that allow one codebase for both. After building, you have to publish the app through official app stores, which have strict review guidelines. Finally, performance is crucial; users quickly delete apps that are slow, laggy, or drain too much battery. A well-optimized app feels instant and responsive."
 }

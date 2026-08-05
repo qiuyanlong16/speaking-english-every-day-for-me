@@ -1,5 +1,5 @@
 {
   "date": "2026-08-10",
-  "topic": "Code Refactoring",
-  "text": "Refactoring is the process of improving code structure without changing what the software actually does. Think of it as cleaning and organizing a messy room: the room still has the same furniture and purpose, but it becomes much easier to move around and find things. In programming, this means making the code more readable for humans, not just for machines. A programmer might rename confusing variables, break large functions into smaller ones, or remove duplicated parts. This practice directly addresses \"technical debt,\" which is the extra work created by taking shortcuts in the past. By regularly refactoring, teams save time in the long run and make future changes much safer and simpler."
+  "topic": "The Role of Testing",
+  "text": "Testing is a vital part of creating good software. It helps developers find problems early and improve their work. There are different types of tests, each with a specific job. Unit tests check small parts of the code in isolation, while integration tests ensure that different parts work together smoothly as a whole.\n\nOne popular method is test-driven development, where you write a test before you even write the code that makes it pass. This sounds strange, but it forces you to think carefully about what you’re building. The biggest benefit of testing is confidence. With a strong test suite, you can change or add features without fear of breaking something that already works."
 }

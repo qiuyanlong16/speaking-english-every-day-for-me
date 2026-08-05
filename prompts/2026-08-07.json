@@ -1,5 +1,5 @@
 {
   "date": "2026-08-07",
-  "topic": "API Design Best Practices",
-  "text": "A well-designed REST API is like a clear instruction manual for your software. To make it easy for others to use, your endpoints should be simple and consistent. For example, use nouns for resources, such as `/users` or `/orders`, rather than verbs. It is also crucial to return the correct HTTP status codes—like `200` for success, `404` for a missing resource, or `400` for a bad request—so developers instantly understand what happened. Equally important is thorough documentation. Explain every endpoint, its parameters, and possible errors. Finally, always plan for changes by using versioning, such as `/v1/users`. This way, you can update your API without breaking the apps that already rely on it."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any developer, whether you work alone or in a team. The main goal is to make your code as readable as possible, so that anyone can understand it quickly. This starts with using clear naming conventions; for example, a variable called `userAge` is far better than `x`. Instead of writing long, complex blocks, you should break your logic into small, focused functions that each do one specific job. This makes your code easier to test and debug. Ultimately, clean code improves maintainability, meaning you and others can easily update it in the future without creating new problems. It saves time and reduces frustration."
 }

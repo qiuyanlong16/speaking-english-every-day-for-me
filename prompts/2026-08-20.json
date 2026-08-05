@@ -1,5 +1,5 @@
 {
   "date": "2026-08-20",
-  "topic": "Computer Vision",
-  "text": "Computer vision is a field of artificial intelligence that teaches computers to understand and interpret images and videos. One of its core tasks is image recognition, which allows a computer to identify what is in a picture, such as a cat, a tree, or a handwritten letter. Another important task is object detection, where the computer not only names objects but also finds their exact locations, drawing boxes around them in real time. This technology has many practical applications. For example, in medicine, it helps doctors spot diseases in X-rays. Perhaps most impressively, computer vision is essential for self-driving cars, enabling them to recognize traffic lights, pedestrians, and other vehicles to navigate safely without a human driver."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a way for computers to learn from data without being explicitly programmed. One common type is supervised learning, where the computer uses training data—examples that include both inputs and correct answers—to build a model. This model is essentially a set of rules or patterns that the computer discovers from the data. Once trained, the model can make predictions on new, unseen information. For example, after learning from thousands of labeled photos of cats and dogs, a model can predict whether a new picture contains a cat or a dog. The accuracy of these predictions depends on the quality and quantity of the training data, as well as how well the model fits the patterns."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-26",
-  "topic": "Risk Management",
-  "text": "Risk management is the process of identifying potential problems before they happen and planning how to deal with them. First, you need to identify risks, such as financial losses, delays, or safety issues. Once identified, you can create mitigation strategies to reduce the chance of these risks occurring. For example, a company might train staff to prevent accidents. However, not all risks can be avoided, so it is also important to have contingency plans. These are backup actions you will take if things go wrong, like using a different supplier if your main one fails. Finally, you must monitor the situation regularly. Risks can change over time, so reviewing your plans helps you stay prepared for new challenges."
+  "topic": "Agile Methodology",
+  "text": "Agile is a popular way of working on projects, especially in software development. Instead of doing everything at once, teams use iterative development. They break the project into small parts and work in short phases called sprints, which usually last two to four weeks. At the start of each sprint, the team picks tasks from a prioritized list called the backlog. These tasks are often written as user stories, which describe a feature from the customer's perspective. Every day, the team holds a quick standup meeting to share progress and problems. This flexible approach helps teams adapt quickly to changes and deliver value regularly."
 }

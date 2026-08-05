@@ -1,5 +1,5 @@
 {
   "date": "2026-08-05",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is a skill that saves time and reduces frustration. The goal is not just to make the computer understand your program, but to make it readable for other humans. A key habit is using clear naming conventions. Instead of naming a variable `x`, call it `userAge` or `totalPrice`. This tells the reader what the data represents. Also, avoid long, complicated blocks of logic. Break your work into small, focused functions that each do one thing well. This makes testing easier and helps you reuse code. Ultimately, clean code improves maintainability, allowing you or your team to update the software months later without getting lost."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential practice in software development, where team members examine each other’s code before it is merged into the main project. The primary benefit is catching bugs early, which saves time and money compared to fixing issues after release. Beyond error detection, code reviews promote knowledge sharing, as developers explain their logic and learn new techniques from colleagues. This process also raises overall team quality by encouraging consistent coding standards and collective ownership of the codebase. When everyone participates respectfully, reviews become a learning tool, not a criticism session, ultimately leading to stronger, more reliable software."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-06",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a crucial skill for any programmer, and having a clear strategy makes the process much less stressful. The first step is always identifying the bug, which means reproducing the problem and narrowing down where the error occurs. Instead of guessing, use debugging tools like breakpoints to pause the code and inspect variable values at specific moments. However, a systematic approach is essential. Start by checking the most obvious suspects, such as recent changes or input data. If the problem remains unclear, add logging to track the flow of execution and see which parts of the program run correctly. This methodical process, moving from broad observations to specific details, is far more effective than random trial and error."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a powerful tool for managing changes in software projects. When you create a feature branch, you work on a new idea or fix without affecting the main codebase. This keeps your main branch stable and ready for release at any time. After finishing your work, you request a pull request, which lets teammates review your changes before they are merged. Merging combines your branch back into the main branch, integrating your updates. This workflow encourages collaboration and reduces errors, as everyone sees and approves changes before they become part of the project. It’s a simple yet effective way to keep your code organized and safe."
 }
