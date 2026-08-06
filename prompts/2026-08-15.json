@@ -1,5 +1,5 @@
 {
   "date": "2026-08-15",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves more than just writing code. First, you must consider responsive design, ensuring the interface adapts smoothly to different screen sizes, from small phones to large tablets. A major decision is choosing between native development, which uses platform-specific languages like Swift for iOS or Kotlin for Android, and cross-platform tools like Flutter or React Native that allow one codebase for both. After building, you have to publish the app through official app stores, which have strict review guidelines. Finally, performance is crucial; users quickly delete apps that are slow, laggy, or drain too much battery. A well-optimized app feels instant and responsive."
+  "topic": "Working with APIs",
+  "text": "APIs, or Application Programming Interfaces, allow different software systems to communicate with each other. When working with APIs, you typically send HTTP requests to a server, which then responds with data, often in JSON format. JSON is a lightweight text format that is easy for both humans and machines to read. Most APIs require authentication, usually through an API key, to ensure that only authorized users have access. Additionally, you must be aware of rate limits, which restrict how many requests you can make in a given time period. Finally, good error handling is essential; when an API fails, you need to understand error codes to fix your request or adapt your code."
 }
