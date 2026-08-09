@@ -1,5 +1,5 @@
 {
   "date": "2026-08-09",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is a core part of modern version control, especially when working on a team. The main branch, often called \"main\" or \"master,\" holds the stable version of your project. When you want to add a new feature or fix a bug, you create a separate *feature branch*. This allows you to work freely without affecting the main code. Once your work is complete, you open a *pull request*, which is a request for others to review your changes. After the review and discussion, the branch is *merged*, meaning your changes are officially combined into the main codebase. This workflow keeps the project organized and reduces the risk of errors."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a vital part of software development. When developers review each other’s code, they can catch bugs early, before these problems reach the final product. This saves both time and money, as fixing an issue later is much more difficult. Beyond finding mistakes, code reviews encourage knowledge sharing among team members. A junior developer can learn new techniques from a senior, while a senior might see a fresh, creative approach. Most importantly, this practice builds a sense of shared responsibility. The team works together to improve quality, creating better software and a stronger, more collaborative environment for everyone."
 }
