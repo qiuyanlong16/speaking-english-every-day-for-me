@@ -1,5 +1,5 @@
 {
   "date": "2026-08-12",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is like writing a clear letter to your future self. The most important rule is to make your code readable, not just for the computer, but for other humans. This starts with good naming conventions: a variable called userAge is much clearer than x, and a function named calculateTotalPrice tells you exactly what it does. Instead of writing one long, confusing block, you should break your work into small, focused functions, each with a single job. This makes testing easier and helps you avoid repeating the same logic. Ultimately, the goal is maintainability. When you or a teammate returns to the code after six months, good structure means you can understand and change it without stress or fear of breaking something."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a powerful feature in version control. Instead of working directly on the main codebase, developers create separate *feature branches* to work on new functions or fixes. This keeps the main branch stable and avoids conflicts. Once the work on a branch is complete, the developer merges it back into the main branch. Often, this is done through a *pull request*, which allows team members to review the changes before they are combined. This workflow makes collaboration easier, as multiple people can work on different features simultaneously. It also keeps a clear history of all changes, making it simpler to track bugs or roll back to an earlier version if needed."
 }

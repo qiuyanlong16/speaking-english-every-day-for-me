@@ -1,5 +1,5 @@
 {
   "date": "2026-08-13",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a crucial skill for any programmer. Finding a bug is often the hardest part, especially when your code seems perfect. To tackle this, a systematic approach is essential instead of making random changes. Start by reading error messages carefully; they often point directly to the problem. Use debugging tools, like breakpoints in your IDE, to pause the program and inspect variable values step by step. Additionally, logging is a powerful technique. Print out messages to the console to track the flow of execution and see where things go wrong. By following a clear plan and using these tools, you can isolate the issue and fix it efficiently, making the process far less frustrating."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is like writing a clear letter to a friend—it should be easy to read and understand. The most important rule is to make your code readable. This means using proper naming conventions, such as `calculateTotalPrice` instead of `ct`, so that anyone reading it knows what each variable or function does. Instead of writing long blocks of instructions, break your work into small, focused functions that each do one simple task. This approach greatly improves maintainability, because if you need to fix a bug or add a new feature, you can quickly find the relevant part without reading everything. Clean code is not just for computers; it is for the people who will read it later, including future you."
 }
