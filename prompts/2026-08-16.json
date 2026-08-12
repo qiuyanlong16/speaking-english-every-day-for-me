@@ -1,5 +1,5 @@
 {
   "date": "2026-08-16",
-  "topic": "The Role of Testing",
-  "text": "Testing is a vital part of software development. It helps teams build reliable applications and avoid frustration later on. At the most basic level, unit tests check individual pieces of code, like a single function, to ensure they work correctly in isolation. Integration tests, on the other hand, check that different parts of the software work well together as a whole.\n\nMany developers use test-driven development, or TDD, where you write a failing test first, then write the minimum code needed to make it pass. This approach guides the design and keeps the code clear. Above all, a solid testing strategy gives developers confidence. Knowing that tests cover the main functions, they can change or improve the code without constant fear of breaking something important."
+  "topic": "API Design Best Practices",
+  "text": "A well-designed REST API is a pleasure to use. First, keep your endpoints simple and logical, using nouns instead of verbs, such as `/users` rather than `/getUsers`. Next, always return proper HTTP status codes—like 200 for success, 404 for a missing resource, or 400 for a bad request—so clients can understand the outcome without guessing. Good documentation is essential; it should clearly explain each endpoint, its parameters, and example responses. Finally, implement versioning from the start, such as `/v1/` in the URL, so that future changes won’t break existing users. Following these practices makes your API reliable, intuitive, and easy to maintain."
 }

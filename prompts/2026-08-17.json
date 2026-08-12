@@ -1,5 +1,5 @@
 {
   "date": "2026-08-17",
-  "topic": "Continuous Integration",
-  "text": "Continuous Integration, or CI, is a software development practice where developers merge their code changes into a shared repository frequently. The core of this process is the CI pipeline, which is a series of automated steps that run every time new code is pushed. This pipeline automatically builds the entire application from the latest code and then runs a full suite of tests. The main goal is to catch issues early, before they become complex and costly to fix. By continuously testing small changes, teams can quickly identify bugs, integration problems, or performance issues. This automated feedback loop gives developers immediate confidence that their new code works correctly with the existing codebase, making the entire development process much more reliable."
+  "topic": "The Role of Testing",
+  "text": "Writing tests is a vital part of software development. Unit tests check small pieces of code, like a single function, to make sure they work correctly in isolation. Integration tests, on the other hand, verify that different parts of a system work together smoothly. Many developers use test-driven development, where you write a failing test first, then write the code to make it pass. This approach helps catch bugs early. Ultimately, a good testing strategy gives you confidence. You can change or improve your code, and the tests will quickly tell you if you’ve broken something, allowing you to ship more reliable software."
 }
