@@ -1,5 +1,5 @@
 {
   "date": "2026-08-25",
-  "topic": "Mobile App Development",
-  "text": "Developing a successful mobile app involves several important decisions. First, you must consider responsive design, ensuring your app looks and functions well on different screen sizes, from small phones to large tablets. Next, you need to choose between native development, which uses platform-specific languages like Swift for iOS, and cross-platform tools like Flutter, which allow one codebase for both systems. Each approach has trade-offs in cost and performance. Once built, you will distribute your app through official app stores, like Google Play and the Apple App Store, where submission guidelines can be strict. Finally, remember that performance matters: users quickly abandon apps that freeze or drain their battery, so optimizing speed and efficiency is crucial for long-term success."
+  "topic": "Working with APIs",
+  "text": "When working with APIs, you interact with a server by sending HTTP requests to obtain or send data. Most APIs return information in JSON format, which is easy to read and use in programming. Before accessing data, you usually need authentication, often with a special key or token, to prove who you are. However, you must also respect rate limits, which restrict how many requests you can make in a certain period. If you exceed these limits, the server may block you temporarily. Therefore, good error handling is essential—you need to check for problems like invalid keys or network issues and respond gracefully to keep your application reliable."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-20",
-  "topic": "The Role of Testing",
-  "text": "Testing is a crucial part of creating good software. Two main types of tests are used to check different things. Unit tests focus on small, individual pieces of code, like a single function, to make sure they work correctly on their own. Integration tests, on the other hand, check that different parts of the system work well together when combined. Many developers use a practice called test-driven development, where they write a failing test first, then write the code to make it pass. This approach helps build confidence in the software because you know immediately if a change breaks something. Regular testing reduces bugs and makes it safer to update and improve your project over time."
+  "topic": "API Design Best Practices",
+  "text": "Designing a good REST API is about making life easier for developers who use it. The key is to keep your endpoints clear, logical, and consistent—for example, using nouns like `/users` or `/orders` instead of verbs like `/getUser`. Every request should return a proper status code, such as `200` for success or `404` when a resource isn't found, so clients can react appropriately. Never skip documentation; a well-written guide with examples prevents confusion and support questions. Finally, plan for change by using versioning, like adding `/v1/` to your URLs. This way, you can improve the API without breaking existing applications."
 }
