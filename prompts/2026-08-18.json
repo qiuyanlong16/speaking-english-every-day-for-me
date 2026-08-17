@@ -1,5 +1,5 @@
 {
   "date": "2026-08-18",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is a crucial skill for any programmer, and it is much more about the human reader than the computer. The main goal is to make code readable and easy to understand, so that others—or even your future self—can work with it without frustration. Using clear naming conventions is the first step; variables like `totalPrice` or `userEmail` are far better than `x` or `data`. Furthermore, breaking a large problem into small, focused functions makes the logic simple to follow. Each function should do one thing well. Ultimately, this effort leads to better maintainability, meaning the code is cheaper to fix, update, and improve over the long term."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a powerful feature of version control that helps teams work together without confusion. Instead of everyone editing the same code directly, developers create feature branches. Each branch is a separate copy of the project where you can add new features or fix bugs safely, without affecting the main version. When your work is complete, you create a pull request, which asks your teammates to review your changes before they are added. After approval, you can merge the branch back into the main branch. This workflow keeps the main code stable and lets multiple people work on different tasks at the same time. It might seem complex at first, but once you understand the basics, branching becomes a natural and essential part of modern software development."
 }
