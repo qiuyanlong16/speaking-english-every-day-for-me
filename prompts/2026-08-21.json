@@ -1,5 +1,5 @@
 {
   "date": "2026-08-21",
-  "topic": "API Design Best Practices",
-  "text": "Designing a good API is like building a clear road for developers. Most modern services use REST APIs, where you interact with resources through endpoints like `/users` or `/orders`. A key rule is to use HTTP methods correctly: `GET` for reading, `POST` for creating, `PUT` for updating, and `DELETE` for removing. Always return meaningful status codes, such as `200` for success, `404` for not found, and `400` for bad requests. Your documentation should be simple and include examples, because developers will rely on it. Finally, version your API—for example, using `/v1/` in the URL—so that changes don’t break existing users. Following these practices makes your API intuitive, reliable, and pleasant to use."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a vital skill for any programmer. When you identify a bug, the first step is to understand the problem clearly before making random changes. A systematic approach, such as reproducing the error and isolating different parts of your code, saves a lot of time. Modern debugging tools, like breakpoints and step-by-step execution, are extremely helpful for inspecting what your program does at each moment. Additionally, logging is a powerful technique; by printing values or status messages to the console, you can track the flow of your logic. Remember, patience and a clear method are often more valuable than fast guesses."
 }
