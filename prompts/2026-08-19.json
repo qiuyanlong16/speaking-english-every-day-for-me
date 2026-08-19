@@ -1,5 +1,5 @@
 {
   "date": "2026-08-19",
-  "topic": "Understanding Git Branching",
-  "text": "Version control is essential for modern software development, and Git is its most popular tool. A key concept is branching, which lets you work on new ideas without disrupting the main codebase. Instead of editing the main line directly, you create a feature branch. This is like a separate workspace where you can experiment, fix bugs, or develop new functions safely. Once your work is complete and tested, you merge that branch back into the main branch. In team settings, this often happens through a pull request, where others review your changes before merging. This workflow keeps the main version stable, encourages collaboration, and makes it easy to track what was changed and why."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a vital part of software development, serving as a safety net for the entire team. By having another developer examine your code, you can catch bugs early—long before they reach users and become costly to fix. This process also encourages knowledge sharing; team members learn new techniques and understand different parts of the codebase. Moreover, reviews strengthen overall team quality because everyone feels accountable for the final result. They are not about criticism, but about working together to build reliable, maintainable software. When done respectfully, code reviews become a powerful tool for learning and continuous improvement."
 }

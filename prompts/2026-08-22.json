@@ -1,5 +1,5 @@
 {
   "date": "2026-08-22",
-  "topic": "API Design Best Practices",
-  "text": "Designing good APIs is essential for developers who build applications that talk to each other. One popular approach is REST, which uses simple URLs, called endpoints, to access resources. For example, a user might get data from `/users` or create a new item with `/orders`. A well-designed API must return clear status codes, like `200` for success or `404` if something is not found, so clients know what happened. Also, great documentation is crucial—it helps other developers understand how to use the API without guessing. Finally, versioning (like adding `/v1/` to the URL) ensures that changes don’t break existing users, allowing your API to grow safely over time."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a crucial skill for any programmer. When a program doesn't work as expected, the first step is identifying the bug. This means carefully reading error messages and checking which parts of the code run correctly. A systematic approach is essential: instead of guessing, you should test one section at a time. Many developers rely on debugging tools, such as breakpoints, which pause the program at specific lines so you can inspect variable values. Another powerful method is logging, where you add print statements to track the flow of execution. By combining these techniques with patience and logical thinking, you can solve even the most frustrating problems."
 }

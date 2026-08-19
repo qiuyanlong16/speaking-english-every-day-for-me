@@ -1,5 +1,5 @@
 {
   "date": "2026-08-26",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential for storing and organizing information in modern applications. Think of a traditional SQL database as a collection of tables, similar to spreadsheets, where data is arranged in rows and columns. To retrieve specific information, you write queries using a language called SQL. This works well when data has a clear, predictable structure.\n\nHowever, not all data fits neatly into tables. This is where NoSQL databases come in. They are more flexible, storing information as documents or key-value pairs, which is useful for unstructured data. Before building a database, careful data modeling is required to decide how information connects. Finally, indexes are like bookmarks; they help the database find data quickly, making queries much faster."
+  "topic": "Code Refactoring",
+  "text": "Refactoring is the process of improving the internal structure of your code without changing what it does. The main goal is to make the code cleaner and easier to read, not to add new features. For example, you might rename confusing variables, break a long function into smaller parts, or remove duplicated logic. While the external behavior stays the same, the quality of the code improves significantly. This practice helps reduce technical debt, which is the hidden cost of messy or rushed work. By regularly refactoring, you make future changes faster and safer, since clear code is simpler to understand, test, and modify."
 }
