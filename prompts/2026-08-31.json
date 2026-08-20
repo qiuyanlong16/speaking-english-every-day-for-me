@@ -1,5 +1,5 @@
 {
   "date": "2026-08-31",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that normally require human intelligence. This includes understanding language, recognizing images, and making decisions. A key part of AI is machine learning, where computers learn from data instead of following strict instructions. Going further, deep learning uses complex networks inspired by the human brain to handle even harder tasks, like recognizing faces or translating languages. You already use AI every day. When your phone predicts your next word, a streaming service suggests a movie, or a navigation app finds the fastest route, AI is at work behind the scenes."
+  "topic": "Security in Web Development",
+  "text": "HTTPS is essential for any modern website, as it encrypts data between the user’s browser and the server, protecting sensitive information like passwords and credit card numbers. Strong authentication is the next layer; this means using complex passwords, multi-factor authentication, and proper session management. Equally important is input validation, which ensures that user-supplied data is checked and sanitized before being processed. Without it, sites are open to common vulnerabilities such as SQL injection, where attackers can manipulate database queries, and cross-site scripting, which allows malicious code to run in a user’s browser. By addressing these areas, developers significantly reduce the risk of data breaches and build more trustworthy applications."
 }
