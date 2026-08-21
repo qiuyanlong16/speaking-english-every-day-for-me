@@ -1,5 +1,5 @@
 {
   "date": "2026-08-29",
-  "topic": "Working with APIs",
-  "text": "When working with APIs, you send HTTP requests to a server to get or send data. Most APIs return data in JSON format, which is easy to read and use in programming. Before making requests, you usually need authentication, like an API key, to prove who you are. This key is often included in the request header. It's also important to respect rate limits, which control how many requests you can make in a certain time. If you send too many, you may get an error. Good error handling means checking the response status and managing problems like network issues or invalid data smoothly. This helps your application stay reliable."
+  "topic": "Understanding Databases",
+  "text": "Databases are essential tools for storing and organizing information. The two main types are SQL and NoSQL. SQL databases, like MySQL, use tables with rows and columns, making them great for structured data and complex relationships. NoSQL databases, like MongoDB, are more flexible, handling unstructured data like documents or images. To interact with a database, you use queries—commands that ask for specific information, such as \"show all customers in New York.\" Before building a database, careful data modeling is needed to decide how pieces of information relate to each other. Finally, indexes are like bookmarks that speed up searches, allowing you to find data quickly even in massive datasets."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-08-21",
-  "topic": "Understanding Git Branching",
-  "text": "Version control helps developers track changes to their code. Git, a popular tool for this, lets you create feature branches. A branch is a separate workspace where you can build a new feature without affecting the main codebase, usually called 'main' or 'master'. This is a core part of a modern version control workflow.\n\nOnce your feature is complete and tested, you merge it back into the main branch. In team settings, this is often done through a pull request. A pull request is not just a merge; it’s a review process. Your teammates can see, comment on, and approve your changes before they are combined. This approach reduces errors, encourages collaboration, and keeps the main code stable."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a critical practice for any software development team. By having another developer examine your code, you can catch bugs early, before they become expensive problems in production. However, the benefits go beyond simple error detection. They are also a powerful tool for knowledge sharing; junior developers learn from senior ones, and everyone gains a deeper understanding of the codebase. This process builds a culture of shared ownership, where the quality of the code is a team responsibility, not just an individual one. Ultimately, regular code reviews lead to more reliable software and a stronger, more collaborative team."
 }
