@@ -1,5 +1,5 @@
 {
   "date": "2026-08-29",
-  "topic": "Understanding Databases",
-  "text": "Databases are essential tools for storing and organizing information. The two main types are SQL and NoSQL. SQL databases, like MySQL, use tables with rows and columns, making them great for structured data and complex relationships. NoSQL databases, like MongoDB, are more flexible, handling unstructured data like documents or images. To interact with a database, you use queries—commands that ask for specific information, such as \"show all customers in New York.\" Before building a database, careful data modeling is needed to decide how pieces of information relate to each other. Finally, indexes are like bookmarks that speed up searches, allowing you to find data quickly even in massive datasets."
+  "topic": "Code Refactoring",
+  "text": "Refactoring is the process of improving the structure of your code without changing what it actually does. Imagine cleaning and reorganizing a messy room: the furniture is still in the same places, but now everything is easier to find and move around. The main goal is to make the code more readable and easier to maintain for future developers, including your future self. When a project grows quickly, developers often take shortcuts, creating what we call \"technical debt.\" This debt means the code is messy and hard to work with. By refactoring regularly, you pay off that debt, reducing bugs and making it simpler to add new features later. This practice saves time in the long run."
 }
