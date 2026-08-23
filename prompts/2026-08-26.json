@@ -1,5 +1,5 @@
 {
   "date": "2026-08-26",
-  "topic": "API Design Best Practices",
-  "text": "Designing a good REST API is like building a clear road system for developers. First, your endpoints should be simple and logical, using nouns like `/users` or `/orders` instead of verbs. Always use proper HTTP status codes—for example, `201` when a resource is created, `404` when it is not found, and `500` for server errors. This helps clients understand what happened without reading the response body. Next, keep your documentation up to date with examples of requests and responses. Finally, never forget versioning. If you change your API later, keep the old version working by using URLs like `/v1/users`. These practices make your API reliable and easy to adopt."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a crucial skill for any programmer. When your code doesn’t work, the first step is identifying the bug. Instead of guessing, take a systematic approach: reproduce the error, then narrow down which part of the code is causing it. Many tools make this easier, such as breakpoints in an integrated development environment (IDE) or using a debugger to step through your code line by line. Another powerful technique is logging. By adding print statements or writing messages to a log file, you can track variable values and see where the logic fails. Remember, patience is key—most bugs are simple mistakes that a clear, step-by-step method will quickly reveal."
 }
