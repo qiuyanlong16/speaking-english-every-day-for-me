@@ -1,5 +1,5 @@
 {
   "date": "2026-08-30",
-  "topic": "The Role of Testing",
-  "text": "Testing is a critical part of software development, ensuring that code works as expected. Two main types of tests exist: unit tests, which check individual functions or components in isolation, and integration tests, which verify that different parts of the system work together correctly. A popular approach is test-driven development, where you write a failing test first, then write the minimum code to pass it, and finally refactor. This method encourages clean, reliable code. Ultimately, a good testing strategy gives developers confidence. When you know your tests cover the important parts, you can make changes and add new features without fear of breaking something that already works."
+  "topic": "API Design Best Practices",
+  "text": "A well-designed REST API makes life easier for both developers and users. Start by defining clear, logical endpoints that represent resources, such as `/users` or `/orders`. Use standard HTTP methods—GET to retrieve, POST to create, PUT to update, and DELETE to remove. Always return meaningful HTTP status codes, like 200 for success, 404 for missing resources, and 500 for server errors, so clients know exactly what happened. Good documentation is essential; explain each endpoint, its parameters, and possible responses with examples. Finally, implement versioning from the beginning, for example, by including `/v1/` in the URL. This allows you to improve the API without breaking existing clients."
 }
