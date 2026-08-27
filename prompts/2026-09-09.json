@@ -1,5 +1,5 @@
 {
   "date": "2026-09-09",
-  "topic": "AI in the Workplace",
-  "text": "Artificial intelligence is becoming a common part of many workplaces. One of its main benefits is automation, which takes over repetitive tasks like sorting emails, entering data, or checking inventory. This frees up time for employees to focus on more creative or complex work. Additionally, AI-powered productivity tools can schedule meetings, summarize documents, and even help with writing. However, the human-AI collaboration is not about replacing people. Instead, it works best when humans guide the technology, making final decisions and handling customer emotions. While some jobs are changing, they rarely disappear completely. Workers may need to learn new skills to work alongside AI, but this shift often leads to more interesting and less boring roles."
+  "topic": "Large Language Models",
+  "text": "Large Language Models, or LLMs, are computer programs trained on massive amounts of text from books, websites, and articles. They work by predicting the next word in a sentence based on patterns they have learned. When you give one a prompt, such as a question or instruction, it generates a response by stringing together the most likely words. This is called prompt engineering, and the way you phrase your request can greatly affect the quality of the answer. LLMs can write essays, summarize information, or even translate languages. However, they have limits: they sometimes make up facts, lack true understanding, and cannot learn new information unless they are retrained."
 }

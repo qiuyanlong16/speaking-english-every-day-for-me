@@ -1,5 +1,5 @@
 {
   "date": "2026-08-31",
-  "topic": "The Role of Testing",
-  "text": "Testing is a crucial part of building good software, and it usually happens at different levels. First, developers write unit tests to check individual functions or components in isolation. Then, integration tests verify that these different parts work together correctly as a whole system. A popular approach is test-driven development, where you write a failing test first, then write just enough code to make it pass, and finally refactor. While this takes more time at the start, it builds strong confidence. Knowing that automated tests cover your code means you can make changes and add new features without constantly worrying about breaking something that already worked."
+  "topic": "API Design Best Practices",
+  "text": "Designing a good API is like creating a map for other programmers. A well-built REST API uses clear, logical endpoints—for example, `/users` to get a list of users or `/users/123` to update one user. Always return meaningful status codes, such as `200 OK` for success, `404 Not Found` for a missing resource, or `400 Bad Request` for invalid input. This helps users instantly know what happened. Equally important is documentation: explain each endpoint, its parameters, and expected responses with simple examples. Finally, never break your existing users. Use versioning, like `/v1/users`, so you can add new features without disrupting old code. A consistent, well-documented API saves everyone time and frustration."
 }

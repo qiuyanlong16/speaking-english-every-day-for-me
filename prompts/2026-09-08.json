@@ -1,5 +1,5 @@
 {
   "date": "2026-09-08",
-  "topic": "Large Language Models",
-  "text": "Large language models, or LLMs, are computer programs trained on massive amounts of text from books, websites, and articles. They learn patterns in language, which lets them predict and generate the next word in a sequence. When you give them a prompt—like a question or instruction—they use these patterns to create a relevant response. Prompt engineering is the skill of writing clear, specific prompts to get better answers, similar to asking a friend a precise question. LLMs are impressive: they can summarize, translate, and even write creative content. However, they have limits. They don’t truly understand meaning, so they can produce false or biased information, and they struggle with factual accuracy and complex reasoning."
+  "topic": "What Is Artificial Intelligence",
+  "text": "Artificial intelligence, or AI, is the ability of computers and machines to perform tasks that usually require human intelligence. This includes understanding language, recognizing images, solving problems, and making decisions. A key part of AI is machine learning, where computers learn from data instead of being programmed with fixed rules. A more advanced method, called deep learning, uses large networks inspired by the human brain to handle complex patterns. You likely use AI every day without noticing it. For example, it powers voice assistants like Siri, recommends videos on streaming platforms, filters spam from your email, and helps navigation apps find the fastest route."
 }
