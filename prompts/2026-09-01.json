@@ -1,5 +1,5 @@
 {
   "date": "2026-09-01",
-  "topic": "The Role of Testing",
-  "text": "Testing is a vital part of creating reliable software. Developers use different kinds of checks to catch problems early. Unit tests focus on small, individual parts of the code, like a single function, to make sure each piece works correctly on its own. Integration tests, on the other hand, verify that these separate pieces work well together when combined. Many teams also adopt test-driven development, where you write a test before writing the actual code to solve a problem. While this takes more time at first, it provides a clear goal and leads to cleaner design. All this effort builds confidence. When you see a green checkmark, you feel safer making changes, knowing that if you break something, the tests will quickly tell you."
+  "topic": "API Design Best Practices",
+  "text": "Designing a good REST API is about making life easier for developers. First, keep your endpoints clear and logical, like `/users` or `/orders`, rather than confusing actions. Always use proper HTTP status codes—`200` for success, `404` for missing resources, and `400` for bad requests—so clients understand what happened. Never skip documentation; a well-written guide with examples helps everyone use your API correctly. Finally, plan for versioning, such as `/v1/users`. This allows you to make changes and add features without breaking existing apps that depend on your service. A thoughtful API saves time, reduces errors, and builds trust with its users."
 }
