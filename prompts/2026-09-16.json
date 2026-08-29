@@ -1,5 +1,5 @@
 {
   "date": "2026-09-16",
-  "topic": "AI and Creativity",
-  "text": "Artificial intelligence is changing how we think about creativity. Today, AI can paint pictures, compose music, and even write stories. Some people are amazed by these creations, while others worry that machines might replace human artists. However, the difference is important. A human artist draws on personal emotions, life experiences, and culture. AI, on the other hand, learns from large amounts of data and imitates patterns. It can copy styles, but it does not truly feel joy or sadness. In the end, AI is a useful tool. It can inspire us and save time, but real creativity—with its surprises and deep meaning—remains uniquely human."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a branch of artificial intelligence that helps computers understand and work with human language. One of its main tasks is text understanding, where machines pick out the meaning and structure from written words. NLP is also used in translation tools, allowing people to read documents or messages in their own language. Another common application is sentiment analysis, which identifies whether a piece of text sounds positive, negative, or neutral, often used by companies to gauge customer opinions. Finally, chatbots rely on NLP to have natural conversations with users, answering questions and providing support in a helpful way."
 }
