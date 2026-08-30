@@ -1,5 +1,5 @@
 {
   "date": "2026-09-08",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves making several crucial decisions. First, responsive design is essential, meaning the app must work smoothly on different screen sizes, from small phones to large tablets. Next, developers choose between native development, which creates a separate version for each platform like iOS and Android for maximum performance, and cross-platform tools that use one codebase for both systems, saving time and money. After coding comes the challenging step of publishing to app stores, where strict guidelines must be met. Finally, performance is key: users expect fast loading times and no crashes, so developers constantly test and optimize their work. A successful app balances all these elements carefully."
+  "topic": "Working with APIs",
+  "text": "Making API calls is a core skill for modern developers. When you work with an API, your application sends an HTTP request to a server, asking for data or an action. The server usually responds with data in JSON format, which is lightweight and easy for programs to read. However, you often need to prove who you are before the API will respond, so you include an authentication key in your request. It's also important to respect rate limits, meaning you cannot send too many requests in a short time, or you might be blocked. Finally, always plan for error handling. Servers can be slow or unavailable, so your code should check for errors and provide a helpful message instead of crashing."
 }
