@@ -1,5 +1,5 @@
 {
   "date": "2026-09-17",
-  "topic": "Natural Language Processing",
-  "text": "Computers don’t understand language the way we do, but natural language processing, or NLP, helps them make sense of our words. One important use is machine translation, like turning an English email into Spanish in seconds. Another common application is sentiment analysis, where companies examine customer reviews to decide if people feel positive or negative about a product. Perhaps the most familiar example is the chatbot you find on websites, which can answer simple questions and guide you to the right page. All these tools work because NLP breaks language into patterns, allowing machines to handle text in a surprisingly human-like way."
+  "topic": "Computer Vision",
+  "text": "Computer vision is a field of artificial intelligence that enables computers to see and understand the world through images and videos. Instead of just taking a picture, a computer can analyze it to recognize faces, identify objects, and even read text. For example, object detection helps a system find a dog, a car, or a tree in a photo, labeling each one with a box. This technology is everywhere: social media uses it to tag people, and security cameras use it to spot unusual activity. One of the most exciting applications is in self-driving cars. These vehicles use cameras and computer vision to detect pedestrians, traffic lights, and other vehicles, making split-second decisions to drive safely. As this field improves, it will change how we interact with technology in our daily lives."
 }

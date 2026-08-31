@@ -1,5 +1,5 @@
 {
   "date": "2026-08-31",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is a powerful tool for managing your code. Instead of working directly on the main version, you create a feature branch. This is a separate copy where you can develop new features or fix bugs without affecting the stable code. Once your work is complete, you merge that branch back into the main branch. However, before merging, you typically submit a pull request. This allows your teammates to review your changes, suggest improvements, and discuss potential problems. This workflow, part of version control, keeps your project organized, prevents conflicts, and ensures that the main branch always remains reliable. It’s a standard practice for both solo developers and large teams."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are a vital part of software development. When a developer finishes writing new code, another team member carefully examines it before it is merged into the main project. This process helps catch bugs early, before they become bigger problems in the final product. Reviewing also encourages knowledge sharing: the reviewer learns about new parts of the system, while the original author receives helpful feedback and fresh perspectives. Over time, this habit improves the quality of the entire team, because everyone writes cleaner, more thoughtful code. Ultimately, code reviews build trust and create a stronger, more reliable software project."
 }
