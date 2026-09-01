@@ -1,5 +1,5 @@
 {
   "date": "2026-09-03",
-  "topic": "Debugging Strategies",
-  "text": "When a program doesn’t work as expected, the first step is to identify the bug. This means reproducing the problem and figuring out where things go wrong. Instead of guessing, a systematic approach works best: break the code into smaller parts and test each one. Many programmers rely on debugging tools, which let you pause the program and inspect variables step by step. Another useful technique is logging, or adding print statements, to track what the program is doing at certain points. By combining these methods, you can find the root cause more quickly and fix it without creating new issues."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is a skill that separates good programmers from great ones. The goal is not just to make the computer understand your instructions, but to make them clear for other humans. First, focus on readable code by using consistent spacing and indentation. Second, follow clear naming conventions: a variable called `customerName` is far better than `x`. Third, break your program into small, focused functions that each do one single job. This makes testing and debugging easier. Ultimately, clean code saves time and money because it is much simpler to maintain and update in the future."
 }

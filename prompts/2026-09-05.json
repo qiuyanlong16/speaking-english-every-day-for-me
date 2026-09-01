@@ -1,5 +1,5 @@
 {
   "date": "2026-09-05",
-  "topic": "The Role of Testing",
-  "text": "Testing is a crucial part of modern software development. Two main types of tests help ensure quality: unit tests, which check small, individual pieces of code, and integration tests, which verify that different parts of a program work together correctly. Many developers use test-driven development, a method where you write a failing test first, then write the minimum code to make it pass. This approach encourages clear, simple design. Ultimately, a solid testing strategy gives programmers confidence. When they can run a full test suite and see everything pass, they feel secure making changes, fixing bugs, and adding new features without fear of breaking something that already works."
+  "topic": "API Design Best Practices",
+  "text": "Good API design is essential for creating reliable and user-friendly services. REST APIs are a popular choice because they use standard HTTP methods and clear endpoints. A well-designed endpoint should be simple and resource-based, such as `/users` or `/orders`, making it easy for developers to understand. Additionally, using proper HTTP status codes is crucial; for example, `200` signals success, `404` means not found, and `500` indicates a server error. Consistent documentation is equally important, as it explains how to use the API and helps reduce errors. Finally, always plan for versioning, such as adding `/v1/` to your URLs. This ensures that changes won't break existing clients, allowing for smooth updates over time."
 }
