@@ -1,5 +1,5 @@
 {
   "date": "2026-09-11",
-  "topic": "Mobile App Development",
-  "text": "Developing a mobile app involves more than just writing code. A successful app requires careful planning, from the initial idea to the final release. One of the first decisions is whether to build a native app for a single platform, like iOS or Android, or to use a cross-platform approach to share code between them. While native apps often offer better performance, cross-platform tools can save time and money. Once the app is built, it must be submitted to app stores like the Apple App Store or Google Play, which have strict review guidelines. Finally, a responsive design is crucial, ensuring the user interface looks great and works smoothly on different screen sizes and devices."
+  "topic": "Working with APIs",
+  "text": "When you work with APIs, you send HTTP requests to a server to get or send data. Most APIs return data in JSON format, which is easy to read and use in your code. Before making requests, you often need authentication, usually by including an API key or token in your request header. But be careful—many APIs have rate limits, meaning you can only make a certain number of requests per minute. If you exceed them, you’ll get an error. That’s why good error handling is essential: you should always check the response status and write code to handle problems, like retrying after a short wait or showing a friendly message."
 }
