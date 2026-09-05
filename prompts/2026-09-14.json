@@ -1,5 +1,5 @@
 {
   "date": "2026-09-14",
-  "topic": "Mobile App Development",
-  "text": "Building a mobile app is an exciting process, but it involves several important decisions. One of the first choices is whether to go native or cross-platform. Native apps are built specifically for iOS or Android, giving better performance and smooth access to device features. Cross-platform tools, however, allow you to write one codebase for both systems, which saves time and money. Regardless of your choice, responsive design is essential—your interface must look and work well on different screen sizes. Before launch, you also need to consider app stores, as each has its own guidelines and approval process. Finally, always test for performance, because users quickly abandon apps that are slow or crash often."
+  "topic": "Working with APIs",
+  "text": "APIs, or Application Programming Interfaces, allow different software systems to communicate. When you work with an API, you typically send HTTP requests to a server, such as GET to fetch data or POST to send new information. The server usually responds with JSON, a lightweight format that is easy for both computers and humans to read. Before making requests, many APIs require authentication, often using an API key, to confirm your identity. Additionally, be mindful of rate limits, which restrict how many requests you can make in a certain period. Finally, always implement proper error handling to deal with issues like network problems or invalid responses without crashing your application."
 }
