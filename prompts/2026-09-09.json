@@ -1,5 +1,5 @@
 {
   "date": "2026-09-09",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a crucial skill for any programmer. When a program doesn't work as expected, the first step is identifying the bug. This means carefully reading error messages and checking which part of the code causes the problem. Instead of guessing, it's wise to use a systematic approach. Many developers use debugging tools, like breakpoints, which pause the program at specific lines so you can inspect variable values. Another helpful strategy is logging. By adding print statements or log messages, you can track the flow of execution and see where things go wrong. Remember, patience and a clear method are often more valuable than making random changes to fix a stubborn error."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is a skill that every developer should practice. The main goal is to make your code readable for other people, not just for the computer. One of the first steps is to use clear and consistent naming conventions. For example, a variable called `totalPrice` is much easier to understand than `tp`. The same rule applies to functions: their names should describe what they do, like `calculateDiscount()` instead of `doStuff()`. Keeping functions short and focused on a single task also helps a lot. When every function has one clear purpose, you can test and reuse it easily. All these habits improve maintainability, meaning that future changes become simpler and less risky, saving time and frustration in the long run."
 }
