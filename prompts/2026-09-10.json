@@ -1,5 +1,5 @@
 {
   "date": "2026-09-10",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a crucial skill for any programmer, and having a clear strategy makes it much less stressful. First, you must identify the bug by reproducing the problem and understanding what the code was supposed to do. Instead of guessing, use a systematic approach: check your latest changes, read error messages carefully, and isolate small sections of code. Debugging tools, like breakpoints in an IDE, are invaluable for pausing the program and inspecting variable values. Additionally, adding temporary logging statements can reveal the program's flow and data at specific points. By combining these tools with a patient, methodical mindset, you can quickly pinpoint the root cause and move on to creating a reliable fix."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is essential for any software project, mainly because it makes your work easier to understand and maintain. The most important rule is to write readable code, as if the person reading it will have to fix it later. Using clear naming conventions is a great start; a variable called \"userAge\" is much better than \"x.\" Furthermore, you should keep your functions short and focused on a single task. By breaking down complex problems in this way, you improve the overall maintainability of the codebase, saving time and reducing errors for everyone involved."
 }
