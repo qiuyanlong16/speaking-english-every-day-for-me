@@ -1,5 +1,5 @@
 {
   "date": "2026-09-14",
-  "topic": "The Role of Testing",
-  "text": "Testing plays a vital role in creating reliable software. Unit tests check small, individual parts of the code, like a single function. This helps developers catch mistakes early. After that, integration tests make sure different parts of the system work together smoothly. For many teams, test-driven development (TDD) is a useful practice. In TDD, you write a failing test first, then write the code to pass it. This approach guides the design and keeps the focus on what the code should do. Above all, having a solid suite of tests gives developers confidence. They can change or improve their code without constant fear of breaking something, which makes the entire project healthier."
+  "topic": "API Design Best Practices",
+  "text": "Good API design makes software easier to use and maintain. When building REST APIs, start by choosing clear, meaningful endpoints, such as /users or /orders, so developers understand what each one does. Always return the correct status codes, like 200 for success or 404 when something is missing, because this helps clients handle responses properly. Good documentation is also essential, since it explains how to use every endpoint with examples. Finally, plan for change by using versioning, for example /v1/users, so updates do not break existing applications. Following these practices keeps your API reliable and friendly for everyone."
 }

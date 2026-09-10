@@ -1,5 +1,5 @@
 {
   "date": "2026-09-20",
-  "topic": "Security in Web Development",
-  "text": "HTTPS is the first line of defense for any website, encrypting data between the user and the server so that hackers cannot read sensitive information. However, encryption alone is not enough. Authentication ensures that only authorized users can access private areas, usually through passwords or multi-factor verification. Next, input validation is critical—never trust what a user types into a form. Without it, attackers can inject malicious code or SQL commands, leading to common vulnerabilities like SQL injection, cross-site scripting (XSS), and broken access controls. Regularly updating software and using security headers also reduce risks. In short, a secure website layers HTTPS, strong authentication, and strict input checks to protect both users and data."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development is an exciting field with many choices. When building an app, developers must consider responsive design so it looks good on different screen sizes. They also decide between native and cross-platform approaches. Native apps are built for one system, like iOS or Android, while cross-platform apps work on both, saving time. After development, apps are published on app stores, such as Google Play or the App Store. Performance is crucial too, because users expect fast, smooth experiences. A slow app is quickly deleted. Good planning helps developers create successful apps that people enjoy using every day."
 }

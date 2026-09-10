@@ -1,5 +1,5 @@
 {
   "date": "2026-09-16",
-  "topic": "Code Refactoring",
-  "text": "Refactoring is the process of improving the internal structure of your code without changing what it actually does. The main goal is to make the code cleaner and easier to understand, not to add new features. For example, you might rename confusing variables, break a long function into smaller parts, or remove duplicate logic. All these changes help improve readability, which means future developers (including yourself) can work with the code more quickly and safely. When code is poorly structured, it creates technical debt—extra work that builds up over time. By refactoring regularly, you pay off this debt, reducing bugs and speeding up development in the long run."
+  "topic": "Continuous Integration",
+  "text": "Continuous Integration, or CI, is a common practice in modern software development. Developers regularly add their code changes to a shared repository. Each time they do this, automated builds start automatically. These builds compile the code and run tests to check that everything works correctly. The main goal is to catch issues early, before they become bigger problems. CI pipelines make this process smooth and reliable. They can build, test, and even deploy the software step by step. By using CI, teams save time, reduce mistakes, and deliver better software faster. It has become an essential part of professional development workflows today."
 }
