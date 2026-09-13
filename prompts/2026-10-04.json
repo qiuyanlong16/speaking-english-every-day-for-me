@@ -1,5 +1,5 @@
 {
   "date": "2026-10-04",
-  "topic": "Managing a Team",
-  "text": "Managing a team is not easy, but good leaders can learn the key skills. First, clear communication is essential. You must explain goals and tasks so everyone understands them. Second, delegation helps a lot. You cannot do everything yourself, so trust your team members with important work. Third, give regular feedback. Praise good work and suggest improvements in a kind way. Motivation is also important. Happy, motivated people work harder and stay longer. Finally, learn to handle conflict. When people disagree, listen to both sides and find a fair solution. With these skills, any team can succeed."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a prioritized list called the backlog, which contains user stories describing what users need. Every day, team members hold short meetings called standups to share progress and discuss problems. This iterative development approach allows teams to improve the product step by step and respond quickly to changes. As a result, Agile helps teams deliver useful software faster and keep customers satisfied."
 }
