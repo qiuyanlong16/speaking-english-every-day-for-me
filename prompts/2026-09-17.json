@@ -1,5 +1,5 @@
 {
   "date": "2026-09-17",
-  "topic": "API Design Best Practices",
-  "text": "When you design a REST API, clear structure matters. Start by choosing simple, meaningful endpoints, such as /users or /orders, and use the correct HTTP methods for each action. Always return proper status codes, like 200 for success or 404 when something is missing, so clients understand what happened. Good documentation helps other developers use your API without confusion. Finally, plan for versioning from the beginning, for example /v1/users, because your API will change over time. These practices make your API easier to use, maintain, and improve."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is an important skill for every programmer. When your code does not work, the first step is identifying bugs. You need to find where the problem comes from. Debugging tools, such as breakpoints and step-by-step execution, can help you see what happens inside your program. A systematic approach is also useful: check your code carefully, test one part at a time, and make small changes. Logging is another helpful method. By adding log messages, you can track values and follow the flow of your program. With patience and good strategies, you can solve most bugs and improve your coding skills."
 }

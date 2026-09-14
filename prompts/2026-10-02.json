@@ -1,5 +1,5 @@
 {
   "date": "2026-10-02",
-  "topic": "AI and Creativity",
-  "text": "AI is changing how we create art, music, and writing. Today, computer programs can produce paintings, compose songs, and even write stories. Some people are amazed by these tools, while others feel worried. Can a machine truly be creative, or is it just copying what humans have made? Human creativity comes from emotions, personal experiences, and imagination. AI, on the other hand, learns from large amounts of data and finds patterns. Perhaps the best result is when people and AI work together, using technology to support human ideas rather than replace them."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a part of artificial intelligence that helps computers understand human language. One important use is text understanding, which allows machines to read and find meaning in what we write. NLP also powers translation tools that change text from one language to another quickly. Another common use is sentiment analysis, where computers decide if a piece of writing is positive, negative, or neutral, which is useful for studying customer opinions. Finally, chatbots use NLP to chat with people and answer their questions. Thanks to NLP, we can communicate with machines in a more natural and useful way."
 }
