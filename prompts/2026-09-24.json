@@ -1,5 +1,5 @@
 {
   "date": "2026-09-24",
-  "topic": "Working with APIs",
-  "text": "Working with APIs is a common task for developers. An API lets your program communicate with another service, usually through HTTP requests. When you send a request, the server often responds with data in JSON format. Before you can access the data, you usually need authentication, such as an API key. Many services also have rate limits, which means you can only make a certain number of requests per minute or hour. Finally, good error handling is important. If something goes wrong, the API may return an error code, and your program should handle it properly without crashing."
+  "topic": "Understanding Databases",
+  "text": "Databases store and organize information so we can find it quickly. There are two main types: SQL and NoSQL. SQL databases use tables with rows and columns, which work well for structured data. NoSQL databases are more flexible and handle different data shapes. To get information from a database, we write queries, which are simple requests for specific data. Before building a database, we plan its structure through data modeling, deciding what tables or collections we need. We also add indexes, which act like a book's contents page, helping the database find data much faster."
 }
