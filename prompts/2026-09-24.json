@@ -1,5 +1,5 @@
 {
   "date": "2026-09-24",
-  "topic": "Understanding Databases",
-  "text": "Databases store and organize information so we can find it quickly. There are two main types: SQL and NoSQL. SQL databases use tables with rows and columns, which work well for structured data. NoSQL databases are more flexible and handle different data shapes. To get information from a database, we write queries, which are simple requests for specific data. Before building a database, we plan its structure through data modeling, deciding what tables or collections we need. We also add indexes, which act like a book's contents page, helping the database find data much faster."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read and understand, so developers can find and fix problems more quickly. Refactoring also helps reduce technical debt, which builds up when teams take shortcuts to finish tasks fast. By cleaning up messy code, teams can work more efficiently in the future. However, it is important to remember that refactoring should never change how the program behaves. Tests help make sure the software still works correctly after the code has been improved."
 }

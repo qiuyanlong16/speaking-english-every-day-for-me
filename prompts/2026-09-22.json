@@ -1,5 +1,5 @@
 {
   "date": "2026-09-22",
-  "topic": "Continuous Integration",
-  "text": "Continuous Integration, or CI, is a common practice in modern software development. When developers write new code, they often add it to a shared project. A CI system then starts an automated build to check that everything still works. During this process, it also runs tests to find problems. This helps teams catch issues early, before they become serious. Many companies use CI pipelines, which are a series of steps like building, testing, and preparing the software for release. By using CI, teams can work faster and more safely, because they know that mistakes are found quickly and fixed before they reach users."
+  "topic": "The Role of Testing",
+  "text": "Testing plays an important role in software development. Developers write unit tests to check small parts of code, such as a single function, to make sure it works correctly. Integration tests go further by checking how different parts of a system work together. Many teams also use test-driven development, where they write tests before the actual code. This approach helps them think clearly about what the code should do. All of these testing methods give developers more confidence. When tests pass, the team can make changes or add new features without fear, because they know the tests will catch mistakes quickly."
 }

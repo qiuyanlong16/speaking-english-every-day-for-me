@@ -1,5 +1,5 @@
 {
   "date": "2026-10-02",
-  "topic": "Ethics in AI",
-  "text": "Ethics in AI is becoming an important topic as artificial intelligence plays a bigger role in our daily lives. One major concern is bias, because AI systems can learn unfair patterns from the data they are trained on. This can lead to unfair treatment of certain groups of people. Fairness means making sure AI decisions do not discriminate against anyone. Privacy is also a serious issue, since AI often collects and analyses personal information. In addition, transparency matters: people should understand how AI makes decisions, especially when those decisions affect them. Responsible AI development means designing technology that respects human rights and serves society in a safe and honest way."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a way for computers to learn from data without being told exactly what to do. In supervised learning, we give a computer training data that includes both examples and correct answers. The computer uses this data to build a model, which is like a set of rules it creates on its own. Later, the model can make predictions about new information it has never seen before. The goal is to get good accuracy, which means the predictions are correct most of the time. The more good training data we provide, the better the model usually becomes at its job."
 }
