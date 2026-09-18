@@ -1,5 +1,5 @@
 {
   "date": "2026-09-28",
-  "topic": "Security in Web Development",
-  "text": "Security is essential in web development because websites handle sensitive user data. One basic protection is HTTPS, which encrypts information between the browser and the server so attackers cannot read it. Authentication also matters: it confirms that users are who they claim to be, usually through passwords or two-factor methods. Another key practice is input validation, which checks the data users submit and blocks harmful content. Without these measures, sites face common vulnerabilities such as SQL injection, cross-site scripting, and data breaches. Developers should treat security as an ongoing process, not a single task, and regularly update their systems to fix new threats."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development involves creating software for smartphones and tablets. A key part of this process is responsive design, which ensures that an app works well on different screen sizes. Developers must also choose between native and cross-platform development. Native apps are built for one specific platform, while cross-platform apps can run on both Android and iOS. Once an app is ready, it is usually published on app stores like Google Play or the App Store. However, performance is a major concern, as users expect fast, smooth apps that do not crash or lag."
 }
