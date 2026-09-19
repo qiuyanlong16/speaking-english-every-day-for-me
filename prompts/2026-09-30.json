@@ -1,5 +1,5 @@
 {
   "date": "2026-09-30",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence (AI) is a technology that allows machines to think and learn like humans. It works mainly through machine learning, where computers improve by studying large amounts of data. Deep learning is a more advanced form of machine learning that uses artificial neural networks to solve very complex problems, such as recognising faces or understanding speech. Today, AI is part of our daily lives. For example, it helps to recommend films and music, translates languages, and powers voice assistants on our phones. It is also used in medicine, banking, and transport. AI is changing the world quickly and making many tasks easier."
+  "topic": "Security in Web Development",
+  "text": "Security is a vital part of web development. One basic step is using HTTPS, which encrypts data between the user and the server. Authentication also matters: websites should verify who users are, often with strong passwords or two-factor methods. Input validation is another key practice. It means checking everything users type, so harmful code cannot enter the system. Developers must also learn about common vulnerabilities, such as SQL injection and cross-site scripting. These weaknesses can let attackers steal data or damage a site. By combining HTTPS, careful authentication, strict input validation, and awareness of common threats, developers can build safer web applications for everyone."
 }
