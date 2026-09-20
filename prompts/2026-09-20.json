@@ -1,5 +1,5 @@
 {
   "date": "2026-09-20",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching helps developers work on different tasks without affecting the main code. A common practice is to create a feature branch for each new task, such as adding a feature or fixing a bug. This keeps the main branch stable and safe. When the work is finished, you merge the feature branch back into the main branch. Before merging, teams often open a pull request so others can review the changes. This version control workflow makes collaboration easier and reduces mistakes. By using branches, merges, and pull requests, teams can develop software together in a clear and organized way."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an important practice in software development. When developers review each other's code, they can catch bugs early, before the code goes into production. This saves time and money because fixing problems later is much harder. Code reviews also help with knowledge sharing. Team members learn from each other and understand different parts of the project. This makes the whole team stronger. In addition, regular code reviews improve team quality. Everyone follows the same standards, and the final product is more reliable. For these reasons, code reviews should be a normal part of every development team's work."
 }
