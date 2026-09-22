@@ -1,5 +1,5 @@
 {
   "date": "2026-10-03",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial Intelligence, or AI, is a technology that allows computers to think and learn like humans. One important part of AI is machine learning, where computers learn from data without being told exactly what to do. Deep learning is a more advanced type of machine learning that uses large amounts of data to solve difficult problems. Today, AI is used in many parts of daily life. For example, it helps with voice assistants, online shopping recommendations, and even medical diagnosis. AI is changing the world quickly, making our lives easier and smarter."
+  "topic": "Security in Web Development",
+  "text": "Security is a crucial part of web development. One basic step is using HTTPS, which encrypts data between the user and the server, protecting sensitive information like passwords. Authentication ensures that only authorised users can access certain areas, often through login systems with strong passwords. Input validation is equally important: by checking what users enter into forms, developers can prevent harmful code from being executed. Common vulnerabilities, such as SQL injection and cross-site scripting, often appear when these protections are missing. Therefore, developers must always think about security from the very beginning of a project, not as an afterthought."
 }
