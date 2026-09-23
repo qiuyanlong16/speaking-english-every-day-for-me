@@ -1,5 +1,5 @@
 {
   "date": "2026-09-30",
-  "topic": "Understanding Databases",
-  "text": "Databases are organized systems for storing and managing information. Traditional databases use tables to keep data in rows and columns, similar to a spreadsheet. To get information from them, you write queries, which are instructions that ask specific questions. SQL databases follow a fixed structure, while NoSQL databases are more flexible and can handle different data types. Data modeling helps you plan how information connects before you build anything. Indexes work like a book's index, making searches much faster. Choosing the right database depends on your needs, so understanding these basics helps you make better decisions."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read and understand. When programmers refactor, they clean up messy sections, remove duplicate parts, and give variables clearer names. This helps reduce technical debt, which builds up when quick fixes are used instead of proper solutions. Refactoring does not add new features or fix bugs; it simply makes the code neater. Teams often refactor regularly because clean code is easier to maintain, test, and update in the future."
 }

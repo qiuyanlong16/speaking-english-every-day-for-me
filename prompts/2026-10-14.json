@@ -1,5 +1,5 @@
 {
   "date": "2026-10-14",
-  "topic": "Managing a Team",
-  "text": "Managing a team is not easy, but it becomes simpler when you follow a few basic rules. First, communication is key: you must listen to your team members and share information clearly. Second, learn to delegate tasks properly, because you cannot do everything alone. Third, give regular feedback so people know how they are doing. Motivation is also important — thank your team for their hard work and celebrate success. Finally, when conflict appears, stay calm and solve it quickly. A good manager supports people, builds trust, and helps everyone work well together."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, which usually last two to four weeks. Before each sprint, the team chooses tasks from a prioritized list known as the backlog. These tasks are often written as user stories, which describe features from the customer's point of view. Every day, the team holds a short meeting called a standup to share progress and solve problems. This iterative development approach helps teams adapt to changes, deliver value faster, and improve their work continuously."
 }
