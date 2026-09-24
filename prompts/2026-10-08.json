@@ -1,5 +1,5 @@
 {
   "date": "2026-10-08",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a way for computers to learn from data without being explicitly programmed. In supervised learning, a model is trained using labelled examples called training data. Each example contains an input and the correct output. During training, the model looks for patterns that connect them. Once training is complete, the model can make predictions about new, unseen data. The quality of these predictions is measured by accuracy — the percentage of correct answers. Good training data and the right model usually lead to better accuracy. Machine learning is now used in many areas, such as email filtering, recommendation systems, and medical diagnosis."
+  "topic": "AI in the Workplace",
+  "text": "AI is changing the workplace in many ways. One important change is automation. Machines and software can now do repetitive tasks, such as organizing data or answering customer questions. This saves time and reduces mistakes. There are also new productivity tools that help workers plan their day, write emails, or analyze information faster. However, AI does not replace people completely. In many jobs, humans and AI work together. For example, a doctor may use AI to check test results, but the doctor still makes the final decision. Because of these changes, some jobs may disappear, while new jobs will appear. Workers need to learn new skills to stay successful."
 }
