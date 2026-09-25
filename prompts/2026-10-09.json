@@ -1,5 +1,5 @@
 {
   "date": "2026-10-09",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning allows computers to learn from data without being programmed for every task. In supervised learning, we give the computer training data that includes correct answers. The computer uses this data to build a model. This model learns patterns and rules from the examples. Later, we can give the model new information, and it makes predictions based on what it learned. For example, a model can predict whether an email is spam or not. The accuracy of these predictions shows how well the model works. Better training data usually leads to more accurate predictions."
+  "topic": "AI in the Workplace",
+  "text": "Artificial intelligence is changing the way we work. Many companies now use automation to handle repetitive tasks, which saves time and reduces mistakes. Productivity tools powered by AI, such as smart calendars and writing assistants, help employees finish their work faster. Instead of replacing people completely, AI often works together with humans. For example, doctors use AI to analyse data while they make the final decisions. However, some jobs are disappearing, and new ones are appearing. This means workers need to learn new skills to stay competitive. In the future, human-AI collaboration will likely become normal in most workplaces."
 }
