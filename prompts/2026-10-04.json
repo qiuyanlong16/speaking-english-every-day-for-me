@@ -1,5 +1,5 @@
 {
   "date": "2026-10-04",
-  "topic": "Working with APIs",
-  "text": "Working with APIs is a common task for developers. An API allows your program to communicate with another service by sending HTTP requests, usually with methods like GET or POST. The server often returns data in JSON format, which is easy to read and use in your code. Before you can access the data, you usually need authentication, such as an API key, to prove who you are. Many APIs also have rate limits, meaning you can only send a certain number of requests per minute. Finally, good error handling is important, so your program can respond properly when something goes wrong."
+  "topic": "Understanding Databases",
+  "text": "Databases store and organize information so we can find it quickly. The most common type is the relational database, which keeps data in tables with rows and columns. To get information, we write queries, usually in a language called SQL. Before building a database, we design a data model that shows how the tables connect. Indexes help speed up searches, like the index at the back of a book. However, not all databases use tables. NoSQL databases store data in flexible forms, such as documents, and work well for large or changing data. Choosing between SQL and NoSQL depends on your needs."
 }
