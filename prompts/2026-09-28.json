@@ -1,5 +1,5 @@
 {
   "date": "2026-09-28",
-  "topic": "Writing Clean Code",
-  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for someone who did not write it. One key habit is using clear naming conventions. For example, choose names like \"totalPrice\" instead of \"tp\", so others can quickly see what a variable means. Another good practice is keeping functions small and focused on one task. When functions do too many things, they become hard to test and reuse. Finally, clean code should be easy to maintain. If you follow these simple rules, other developers can fix bugs and add new features much faster."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching is a key part of modern version control. When you work on a project, you often need to add new features without breaking the main code. That is why developers create feature branches. A feature branch is a separate copy of the project where you can make changes safely. Once your work is ready, you can merge it back into the main branch. Before merging, many teams use pull requests. A pull request lets other people review your code and discuss it before it becomes part of the project. This workflow keeps the main branch clean and helps teams work together without conflicts."
 }
