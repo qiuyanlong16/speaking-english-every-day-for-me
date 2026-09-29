@@ -1,5 +1,5 @@
 {
   "date": "2026-10-06",
-  "topic": "Understanding Databases",
-  "text": "Databases store and organize information so we can find it quickly. The most common type is SQL, which keeps data in tables with rows and columns. NoSQL databases are more flexible and often store data as documents, which suits changing information. To get data, we write queries, simple instructions that ask the database questions. Good data modeling means planning how tables connect before we start. Indexes also matter: they work like a book's index, helping the database find rows much faster. Choosing the right database and designing it well saves time and keeps data reliable."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing its behavior. The main goal is to make code easier to read, understand, and maintain. For example, you might rename confusing variables, break a long function into smaller ones, or remove repeated code. Refactoring does not add new features or fix bugs; the program should work exactly the same after it. However, refactoring is important because it reduces technical debt. Over time, messy code becomes harder to update, so regular refactoring helps teams work faster and avoid bigger problems in the future."
 }

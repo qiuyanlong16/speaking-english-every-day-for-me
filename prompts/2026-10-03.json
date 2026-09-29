@@ -1,5 +1,5 @@
 {
   "date": "2026-10-03",
-  "topic": "The Role of Testing",
-  "text": "Testing plays a key role in building reliable software. Unit tests check small parts of the code, like a single function, to make sure they work correctly. Integration tests go further and check how different parts work together. Many developers use test-driven development, where they write tests before the actual code. This approach helps them think clearly about what the code should do. When tests pass, developers feel more confident that their changes have not broken anything. This confidence is important, because it allows teams to improve and update software quickly without fear of making serious mistakes."
+  "topic": "API Design Best Practices",
+  "text": "When you build a REST API, clear design matters. Start by giving your endpoints simple, meaningful names, such as /users or /orders. Use the right HTTP methods and return proper status codes, like 200 for success or 404 when something is not found. Good documentation helps other developers understand how to use your API quickly. It is also wise to add versioning, for example /v1/users, so future changes do not break existing apps. Finally, keep your responses consistent and easy to read. Following these best practices makes your API reliable and pleasant for others to work with."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-10-19",
-  "topic": "Agile Methodology",
-  "text": "Agile methodology is a popular way of managing projects, especially in software development. Instead of planning everything at once, teams work in short periods called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a backlog, which is a list of things that need to be done. These tasks are often written as user stories that describe what a customer wants. Every day, the team holds a short meeting called a standup to share progress and problems. This iterative development approach helps teams improve their product step by step and react quickly to changes."
+  "topic": "The Future of AI",
+  "text": "Artificial Intelligence is developing quickly. Today we have \"narrow AI\" that can do one task well, like translating languages. But many researchers are working on \"Artificial General Intelligence\" (AGI), a machine that could learn and think like a human. AGI could bring huge benefits, such as curing diseases and solving climate change. However, there are also serious risks, including job loss and safety problems if we lose control of such a powerful system. Experts disagree about the timeline. Some believe AGI may arrive within 20 years, while others think it is much further away, or may never happen at all."
 }
