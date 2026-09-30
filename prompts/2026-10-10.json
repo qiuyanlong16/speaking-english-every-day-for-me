@@ -1,5 +1,5 @@
 {
   "date": "2026-10-10",
-  "topic": "Security in Web Development",
-  "text": "Security is essential in web development. When you build a website, you must protect both your users and your data. First, always use HTTPS to encrypt information between the browser and the server. This keeps passwords and personal details safe from attackers. Second, use strong authentication, such as complex passwords and two-factor verification, to confirm who users really are. Third, validate all input carefully, because common vulnerabilities like SQL injection and cross-site scripting often start with unchecked data. By following these basic practices, developers can reduce risks and create safer websites for everyone."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development has become an important skill in today's digital world. When building an app, developers must consider responsive design, which means the app should work well on different screen sizes and devices. Another key decision is choosing between native and cross-platform development. Native apps are built for one platform, while cross-platform apps can run on both iOS and Android, saving time and money. After development, apps are usually published on app stores like Google Play or the App Store, where users can download them. Finally, performance matters a lot: a fast, smooth app keeps users happy, while a slow one is quickly deleted."
 }
