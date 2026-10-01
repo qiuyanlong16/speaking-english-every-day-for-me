@@ -1,5 +1,5 @@
 {
   "date": "2026-10-18",
-  "topic": "Natural Language Processing",
-  "text": "Natural Language Processing, or NLP, is a part of artificial intelligence that helps computers understand human language. One important use is text understanding, which allows machines to read and make sense of written words. NLP also powers translation tools, so people can communicate across different languages easily. Another useful application is sentiment analysis, which helps companies discover if customers feel happy, angry, or neutral about a product. Finally, chatbots use NLP to answer questions and have simple conversations with users. Thanks to NLP, our daily technology is becoming smarter and more helpful."
+  "topic": "Computer Vision",
+  "text": "Computer vision is a field of artificial intelligence that helps computers understand images and videos. One important task is image recognition, where a computer can identify what is in a picture, such as a cat or a flower. Another key task is object detection, which means finding and locating multiple objects in a single image. Computer vision has many useful applications in daily life. For example, self-driving cars use it to recognize pedestrians, traffic signs, and other vehicles on the road. It is also used in security cameras, medical imaging, and face unlock on smartphones. As technology improves, computer vision will become even more common in our lives."
 }

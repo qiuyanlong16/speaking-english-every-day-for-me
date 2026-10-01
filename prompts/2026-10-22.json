@@ -1,5 +1,5 @@
 {
   "date": "2026-10-22",
-  "topic": "Managing a Team",
-  "text": "Managing a team is a skill that requires practice. First, clear communication is essential. You need to explain tasks and goals so everyone understands what to do. Delegation is also important; a good leader trusts team members and gives them responsibilities that match their strengths. Regular feedback helps people improve and feel valued, which increases motivation. When conflicts happen, listen to both sides calmly and find a fair solution. Finally, remember to appreciate your team's efforts. A motivated team works harder and achieves better results together. By combining these skills, you can build a strong, happy, and successful team."
+  "topic": "Agile Methodology",
+  "text": "Agile is a popular way of managing projects, especially in software development. Instead of planning everything at once, teams work in short periods called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a prioritised list called the backlog. These tasks are often written as user stories, which describe what a user needs from the product. Every day, the team holds a short meeting called a standup to share progress and discuss problems. This iterative approach allows teams to adapt quickly, improve the product step by step, and respond to feedback throughout the project."
 }
