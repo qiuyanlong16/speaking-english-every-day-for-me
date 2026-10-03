@@ -1,5 +1,5 @@
 {
   "date": "2026-10-05",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a normal part of programming. When your code does not work as expected, the first step is identifying bugs. You need to find out where the problem is and what causes it. Fortunately, many debugging tools can help you. For example, an IDE usually has a built-in debugger that lets you pause your program and check the values of variables. Another useful technique is logging. By adding print statements or log messages, you can see what your code is doing step by step. Most importantly, you should follow a systematic approach: test one change at a time, and avoid guessing."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for people who did not write it. One key idea is using clear naming conventions, so variables have meaningful names like \"totalPrice\" instead of \"x\". Another key idea is keeping functions small and focused on one task, which makes them easier to test and reuse. Finally, clean code improves maintainability, meaning it is simpler to fix bugs or add new features later. When you write code that others can read easily, your whole team works faster and makes fewer mistakes."
 }
