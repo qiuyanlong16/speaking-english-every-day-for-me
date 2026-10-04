@@ -1,5 +1,5 @@
 {
   "date": "2026-10-20",
-  "topic": "Computer Vision",
-  "text": "Computer vision is a field of artificial intelligence that helps computers understand images and videos. One important task is image recognition, which allows a computer to identify what is in a picture, such as a cat or a flower. Another key task is object detection, which finds and locates multiple objects in a single image. These technologies have many practical applications in our daily lives. For example, self-driving cars use computer vision to recognise road signs, detect pedestrians, and avoid accidents. Doctors also use it to analyse medical images. As technology improves, computer vision will become even more useful in the future."
+  "topic": "Ethics in AI",
+  "text": "Ethics in AI is becoming a very important topic today. As artificial intelligence systems make more decisions in our lives, we must think about whether they are fair. One major problem is bias. If the data used to train AI is not balanced, the system may treat some groups unfairly. Fairness means that AI should give everyone equal chances. Privacy is also a serious concern, because AI often collects and uses personal information. People need to know how their data is used. Transparency helps here: companies should explain how their AI works. Finally, responsible AI development means engineers and governments must work together to create rules that protect people and support trust."
 }

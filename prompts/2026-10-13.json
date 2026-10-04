@@ -1,5 +1,5 @@
 {
   "date": "2026-10-13",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development has become an important skill for many programmers today. When building an app, developers must think about responsive design, so the layout works well on different screen sizes. They also choose between native and cross-platform approaches. Native apps are built for one system, while cross-platform tools let you create one app for several platforms. After development, apps are usually published on app stores, where users can download them. Performance is another key factor, because slow or buggy apps frustrate users and often get deleted quickly. Good planning helps developers create successful apps."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is an essential skill for modern developers. An API allows your program to communicate with another service by sending HTTP requests, usually using methods like GET or POST. The server often responds with data in JSON format, which is easy to read and parse. However, you must handle authentication, often through an API key or token, to prove you have permission to access the data. You should also respect rate limits, which restrict how many requests you can make in a certain time. Finally, always include error handling, because network problems or invalid requests can happen at any time."
 }
