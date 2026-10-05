@@ -1,5 +1,5 @@
 {
   "date": "2026-10-26",
-  "topic": "Managing a Team",
-  "text": "Managing a team is a skill that requires effort and patience. First, clear communication is essential: team members need to understand their tasks and goals. Good leaders also know how to delegate work, giving each person responsibilities that match their strengths. Providing regular feedback helps people improve and feel valued, which increases motivation. When conflicts appear, a good manager listens to both sides and finds a fair solution. Finally, recognising achievements and supporting team members keeps everyone positive and productive. By combining these skills, a manager can build a strong, successful team."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a prioritized list called the backlog. These tasks are often written as user stories, which describe features from the customer's point of view. Every day, team members hold short meetings called standups to share progress and problems. This iterative development approach allows teams to deliver working software quickly, get feedback, and improve continuously."
 }
