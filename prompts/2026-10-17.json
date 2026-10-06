@@ -1,5 +1,5 @@
 {
   "date": "2026-10-17",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial Intelligence (AI) is a branch of computer science that creates machines able to perform tasks that usually require human intelligence. Machine learning is a key part of AI. It allows computers to learn from data and improve over time without being programmed for every situation. Deep learning, a more advanced form of machine learning, uses artificial neural networks to solve complex problems. Today, AI is part of our daily lives. It helps us unlock our phones with face recognition, suggests films on streaming platforms, powers voice assistants, and even helps doctors find diseases. AI is changing the world quickly."
+  "topic": "Security in Web Development",
+  "text": "Security is a key part of web development. First, always use HTTPS to encrypt data between the user and the server. This protects passwords and personal information from attackers. Second, strong authentication is essential. Users should create complex passwords, and two-factor authentication adds extra safety. Third, validate all input carefully. Never trust what users type into forms, because common vulnerabilities like SQL injection and cross-site scripting (XSS) often start there. Finally, keep your software updated and follow safe coding practices. By combining these steps, developers can build websites that are much harder to attack and safer for everyone to use."
 }

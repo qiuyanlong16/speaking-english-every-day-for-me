@@ -1,5 +1,5 @@
 {
   "date": "2026-10-06",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is a key part of modern version control workflows. When developers work on a new feature, they usually create a feature branch instead of changing the main code directly. This keeps the main branch stable while new work is tested safely. Once the feature is finished, the team merges the branch back into the main branch. Before merging, developers often open a pull request so others can review the code, leave comments, and suggest improvements. This simple workflow helps teams collaborate, avoid conflicts, and keep track of every change made to a project over time."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an important practice in software development. When developers review each other's code, they can catch bugs early, before the software is released. This saves time and money because fixing problems later is much harder. Code reviews also help with knowledge sharing. Team members learn from each other and understand different parts of the project. As a result, the whole team becomes stronger. In addition, regular code reviews improve team quality. Everyone follows the same rules and writes cleaner code. In short, code reviews are not just about finding mistakes. They help teams work better together and produce better software."
 }
