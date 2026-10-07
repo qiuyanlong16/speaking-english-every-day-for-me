@@ -1,5 +1,5 @@
 {
   "date": "2026-10-09",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a normal part of programming, and having good strategies makes it easier. First, you need to identify bugs clearly. They may appear as error messages, wrong results, or unexpected behaviour. Next, use debugging tools such as breakpoints or a step-by-step debugger to see what your code is doing. A systematic approach is important: check one part at a time instead of guessing. Logging is also very useful, because it records what happens while the program runs. By combining these methods, you can find problems faster and improve your code with less frustration."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for someone who did not write it. One key idea is using clear naming conventions. Variables and functions should have meaningful names, so readers know what they do without guessing. Another important point is keeping functions small and focused on one task. When functions do too many things, the code becomes confusing and hard to fix. Clean code is also easier to maintain. If you need to change something later, well-organized code saves time and reduces mistakes. In short, writing clean code helps everyone work faster and better."
 }
