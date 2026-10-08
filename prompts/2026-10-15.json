@@ -1,5 +1,5 @@
 {
   "date": "2026-10-15",
-  "topic": "Understanding Databases",
-  "text": "Databases store and organize information so we can find it quickly. In relational databases, data lives in tables with rows and columns, and we use SQL to write queries that retrieve or change it. NoSQL databases, by contrast, store data differently, often as documents, and suit flexible or huge datasets. Good data modeling helps you plan the structure before building it. Indexes make searches much faster, but they also take extra space, so use them wisely. Choosing the right type depends on your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read and understand, which helps developers find and fix problems faster. When you refactor, you might rename variables, break large functions into smaller ones, or remove duplicate logic. Refactoring also helps reduce technical debt, which is the extra work that builds up when code is written quickly without attention to quality. By cleaning up code regularly, teams can keep their projects healthy and avoid bigger problems in the future."
 }
