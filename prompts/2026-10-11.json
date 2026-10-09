@@ -1,5 +1,5 @@
 {
   "date": "2026-10-11",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a normal part of programming. When your code does not work as expected, you need to find the bug. Some bugs are easy to spot, while others hide deep in the code. To debug effectively, you should use a systematic approach. Start by reproducing the problem, then narrow down where it happens. Debugging tools, such as breakpoints and step-by-step execution, can help you inspect your program. Logging is also very useful because it records what your code is doing. By adding log messages, you can see the flow of your program and find where things go wrong. With patience and good methods, you can fix almost any bug."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for someone who did not write it. One key habit is following naming conventions. This means choosing clear, meaningful names for variables and functions, so their purpose is obvious. Another important idea is keeping functions small and focused. Each function should do one job well. When code is clean, it is much easier to maintain. Developers can find and fix bugs faster, and adding new features becomes simpler. In short, clean code saves time and prevents confusion for everyone on the team."
 }
