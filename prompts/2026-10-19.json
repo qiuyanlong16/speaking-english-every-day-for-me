@@ -1,5 +1,5 @@
 {
   "date": "2026-10-19",
-  "topic": "Understanding Databases",
-  "text": "Databases are organised systems for storing and managing information. In a relational database, data is kept in tables made up of rows and columns. To get information from these tables, you use queries written in SQL, a standard language for asking questions about your data. Before building a database, you need data modeling to plan how tables connect to each other. Indexes help speed up searches by allowing the database to find rows quickly. However, not all databases use tables. NoSQL databases store data differently, often as documents or key-value pairs, and they are useful when data changes fast or does not fit neatly into tables."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read and understand. When developers refactor, they clean up messy sections, remove duplicate logic, and give variables clearer names. This makes the code simpler to maintain and less likely to contain bugs. Refactoring also helps reduce technical debt, which builds up when quick fixes are used instead of proper solutions. Even though the program's behavior stays the same, good refactoring saves time and effort in the future. It is an essential practice for keeping software healthy and for helping teams work together more effectively."
 }
