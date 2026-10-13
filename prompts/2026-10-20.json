@@ -1,5 +1,5 @@
 {
   "date": "2026-10-20",
-  "topic": "Understanding Databases",
-  "text": "Understanding databases is an important skill in today's digital world. A database stores information in an organised way. Traditional databases use tables, where each row is a record and each column is a field. We use queries, usually written in SQL, to find and change data. However, not all databases work this way. NoSQL databases store data differently, for example as documents, and they are often more flexible. Good data modelling helps you plan the structure before you build it. Finally, indexes make searches much faster, although they use extra space. Choosing the right type of database depends on your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring means improving the structure of existing code without changing what it does. The program should work exactly the same before and after. Developers refactor code to make it easier to read and understand, which helps them find and fix problems faster. For example, they might rename confusing variables, break long functions into smaller ones, or remove repeated code. Refactoring also helps reduce technical debt, which is the extra work that builds up when code is written quickly. Although refactoring takes time, it saves much more time later and keeps the project healthy."
 }

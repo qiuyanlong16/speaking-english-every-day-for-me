@@ -1,5 +1,5 @@
 {
   "date": "2026-11-03",
-  "topic": "Managing a Team",
-  "text": "Managing a team is a challenging but rewarding job. Good communication is the foundation of success, so you should talk clearly with your team members and listen to their ideas. Delegation is also important. Trust your colleagues and give them tasks that match their skills. Remember to provide regular feedback, both positive and negative, because people need to know how they are doing. Motivation keeps the team energetic and focused on shared goals. Finally, when disagreements happen, you must handle conflict resolution calmly and fairly. By balancing all these skills, you can build a strong, happy, and productive team."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a prioritized list called the backlog. These tasks are often written as user stories, which describe features from the customer's point of view. Every day, team members hold short meetings called standups to share progress and discuss problems. This iterative development approach allows teams to adapt quickly, deliver working results regularly, and improve the product based on feedback."
 }
