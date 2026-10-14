@@ -1,5 +1,5 @@
 {
   "date": "2026-10-21",
-  "topic": "Understanding Databases",
-  "text": "Databases store and organize information so we can find it quickly. Most databases use tables, where rows hold records and columns hold fields. When you want to get data, you write queries, usually in SQL, a language designed for asking questions. Before building a database, you plan its structure, called data modeling, which decides how data connects. To speed up searches, you add indexes, like a book's index. Today, many systems use NoSQL databases instead of traditional SQL ones. SQL works well with fixed tables and clear relationships, while NoSQL handles flexible or fast-changing data."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read, understand, and maintain. For example, you might rename unclear variables, break a long function into smaller ones, or remove repeated code. Refactoring does not add new features or fix bugs; the program should behave exactly the same after the changes. Regular refactoring helps reduce technical debt, which builds up when code is written quickly without attention to quality. Although it takes time, refactoring saves effort in the future and keeps a project healthy."
 }

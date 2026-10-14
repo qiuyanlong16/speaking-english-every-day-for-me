@@ -1,5 +1,5 @@
 {
   "date": "2026-10-17",
-  "topic": "API Design Best Practices",
-  "text": "Good API design makes software easier to use and maintain. When you build REST APIs, you should create clear and meaningful endpoints that show what each resource does. Always return the correct status codes, such as 200 for success or 404 when something is not found, so developers understand what happened. Good documentation is also essential because it helps others learn how to use your API quickly. Finally, you should plan for versioning from the start, for example by adding /v1/ to your URLs. This way, you can improve your API without breaking existing applications that depend on it."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is a normal part of programming. When your code does not work as expected, you need to find the bug, or mistake, that causes the problem. Good debugging starts with a clear understanding of what the code should do. Then you can look for where it goes wrong. Many developers use debugging tools that let them pause a program and check the values of variables. It is also helpful to take a systematic approach: test one part at a time instead of changing everything at once. Adding logging messages to your code is another simple and powerful way to see what is happening and find the source of the error."
 }
