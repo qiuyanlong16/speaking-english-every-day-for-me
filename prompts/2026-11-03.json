@@ -1,5 +1,5 @@
 {
   "date": "2026-11-03",
-  "topic": "The Future of AI",
-  "text": "Experts believe that artificial general intelligence, or AGI, could change our world completely. Unlike today's AI, which handles specific tasks, AGI would understand and learn like a human. Supporters say it could cure diseases, solve climate problems, and reduce poverty. However, critics warn about serious risks, such as job losses, privacy issues, and even loss of human control. When might AGI arrive? Some experts predict it could happen within 20 to 30 years, while others think it is much further away. Nobody knows for sure. One thing is clear: we must discuss these questions now, before the technology arrives."
+  "topic": "Natural Language Processing",
+  "text": "Natural Language Processing, or NLP, is a part of artificial intelligence that helps computers understand human language. One important use of NLP is text understanding, which allows machines to read and find meaning in written words. Another common example is translation, where tools like Google Translate change text from one language to another. NLP is also used for sentiment analysis, which means a computer can decide if a piece of writing is positive, negative, or neutral. Finally, chatbots use NLP to talk with people online and answer their questions in a helpful way."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-10-25",
-  "topic": "Security in Web Development",
-  "text": "Security is a crucial part of web development. First, always use HTTPS to encrypt data between the user and the server. This protects sensitive information like passwords. Second, authentication ensures that only verified users can access certain areas. Strong passwords and two-factor authentication make this even safer. Third, input validation checks what users type into forms, preventing harmful code from entering your system. Without these steps, websites face common vulnerabilities such as SQL injection and cross-site scripting. These attacks can steal data or damage your site. By combining HTTPS, authentication, and input validation, developers build safer applications and protect their users."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is an essential skill for modern developers. An API allows your program to communicate with another service by sending HTTP requests, usually using methods like GET or POST. The server often responds with data in JSON format, which is easy to read and parse. However, most APIs require authentication, such as an API key or token, to verify who you are. You must also respect rate limits, which restrict how many requests you can make in a certain time. Finally, good error handling is important, because requests can fail for many reasons, and your program should respond gracefully."
 }

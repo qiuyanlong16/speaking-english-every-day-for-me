@@ -1,5 +1,5 @@
 {
   "date": "2026-10-29",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a way for computers to learn from data without being told exactly what to do. In supervised learning, a computer uses training data to learn. This data includes examples with correct answers, so the computer can study them. The computer then builds a model, which is like a set of rules it has learned. Later, the model can make predictions about new information it has never seen before. For example, it can guess if an email is spam or not. The quality of these predictions is called accuracy. If the training data is good, the model usually makes better predictions."
+  "topic": "Large Language Models",
+  "text": "Large language models, or LLMs, are computer programs that understand and generate human language. They work by predicting the next word in a sentence, based on patterns learned from huge amounts of text. This training data includes books, websites, and articles, which helps the model learn grammar, facts, and ideas. Users can improve results through prompt engineering, which means writing clear and specific instructions. LLMs are good at tasks like answering questions, summarizing texts, and writing drafts. However, they also have limits: they can make mistakes, sometimes produce false information, and do not truly understand meaning like humans do."
 }

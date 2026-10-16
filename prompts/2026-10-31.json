@@ -1,5 +1,5 @@
 {
   "date": "2026-10-31",
-  "topic": "Computer Vision",
-  "text": "Computer vision is a field of artificial intelligence that helps computers understand images and videos. One important task is image recognition, where a computer can identify what is shown in a picture, such as a cat or a flower. Another key task is object detection, which means finding and locating multiple objects within an image. Computer vision has many useful applications in daily life. For example, it is used in self-driving cars to recognize traffic signs, pedestrians, and other vehicles on the road. It also helps doctors examine medical images and allows phones to unlock using facial recognition. As technology improves, computer vision will become even more important."
+  "topic": "Machine Learning Basics",
+  "text": "Machine learning is a type of technology that helps computers learn from data. In supervised learning, a computer is given training data, which includes examples with correct answers. The computer uses this data to build a model. A model is like a set of rules that the computer creates after studying the examples. Once the model is ready, it can make predictions about new information it has never seen before. For example, it can guess if an email is spam or not. The accuracy of these predictions shows how well the model has learned. Good training data usually leads to better accuracy."
 }

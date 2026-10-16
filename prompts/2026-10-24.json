@@ -1,5 +1,5 @@
 {
   "date": "2026-10-24",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development is an exciting field with many important choices. When building an app, developers must think about responsive design so it works well on different screen sizes. They also decide between native and cross-platform development. Native apps are built for one system, like iOS or Android, and often run faster. Cross-platform apps work on both systems with one codebase, which saves time and money. After development, apps are published on app stores like Google Play or the App Store so users can download them. Finally, performance matters a lot. A fast, smooth app keeps users happy, while a slow one is quickly deleted."
+  "topic": "Understanding Databases",
+  "text": "A database is an organised collection of data that allows you to store, search, and manage information easily. There are two main types: SQL and NoSQL. SQL databases use tables with rows and columns, which makes them great for structured data. NoSQL databases are more flexible and work well with changing or unstructured data. To get information from a database, you write queries. Good data modeling helps you plan how your data connects before you build anything. Indexes make searches much faster because they work like a book's index. Choosing the right database depends on your needs."
 }

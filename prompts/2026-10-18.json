@@ -1,5 +1,5 @@
 {
   "date": "2026-10-18",
-  "topic": "API Design Best Practices",
-  "text": "When you build a REST API, good design makes it easier for others to use. Start by giving your endpoints clear, meaningful names, such as /users or /orders. Use the correct HTTP methods and return proper status codes, like 200 for success or 404 when something is not found. Always write clear documentation so developers understand how each endpoint works. It is also important to use versioning, for example /v1/users, so that future changes do not break existing applications. Following these simple practices helps you create APIs that are reliable, consistent, and easy to maintain over time."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for someone who did not write it. One key part of clean code is following naming conventions. This means choosing clear, meaningful names for variables and functions, so others can quickly see what they do. Another important idea is keeping functions small and focused on one task. When functions do too many things, the code becomes confusing and hard to fix. Clean code also supports maintainability, which means it is easier to update and improve later. By writing readable code, programmers save time and reduce mistakes in the future."
 }

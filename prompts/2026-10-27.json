@@ -1,5 +1,5 @@
 {
   "date": "2026-10-27",
-  "topic": "Large Language Models",
-  "text": "Large Language Models (LLMs) are computer programs that understand and generate human language. They work by predicting the next word in a sentence, based on patterns learned from massive amounts of text, such as books, websites, and articles. This training data helps them answer questions, write essays, or translate languages. To get good results, users often practice prompt engineering — writing clear and specific instructions. However, LLMs have limits. They can make mistakes, produce false information, or reflect biases found in their training data. They also cannot truly understand meaning like humans do. Despite these limits, LLMs are powerful tools for many language tasks."
+  "topic": "Security in Web Development",
+  "text": "Security is a crucial part of web development. First, always use HTTPS to encrypt data between the user and the server. This protects sensitive information like passwords. Second, authentication ensures that only authorized users can access certain areas. Strong passwords and two-factor authentication help here. Third, input validation checks what users type into forms, preventing harmful code from entering your system. Common vulnerabilities include SQL injection and cross-site scripting (XSS), which can steal data or damage your site. By following these practices, developers can build safer websites and protect users from online threats."
 }

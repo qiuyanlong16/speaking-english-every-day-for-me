@@ -1,5 +1,5 @@
 {
   "date": "2026-10-17",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is a normal part of programming. When your code does not work as expected, you need to find the bug, or mistake, that causes the problem. Good debugging starts with a clear understanding of what the code should do. Then you can look for where it goes wrong. Many developers use debugging tools that let them pause a program and check the values of variables. It is also helpful to take a systematic approach: test one part at a time instead of changing everything at once. Adding logging messages to your code is another simple and powerful way to see what is happening and find the source of the error."
+  "topic": "Understanding Git Branching",
+  "text": "Git branching helps developers work on different tasks without affecting the main code. In a typical version control workflow, you create a feature branch to add a new feature or fix a bug. This keeps your changes separate from the stable main branch. When your work is ready, you merge the feature branch back into the main branch. Before merging, many teams use pull requests so others can review the code and suggest improvements. This process makes teamwork easier and safer, because mistakes can be fixed before they reach the main project. Learning branching is an important step for anyone working with Git."
 }

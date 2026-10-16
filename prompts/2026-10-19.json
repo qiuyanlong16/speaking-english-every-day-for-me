@@ -1,5 +1,5 @@
 {
   "date": "2026-10-19",
-  "topic": "The Role of Testing",
-  "text": "Testing plays a key role in software development. Unit tests check small parts of code, like a single function, to make sure they work correctly. Integration tests go further and check how different parts of a system work together. Many developers use test-driven development, which means writing tests before writing the actual code. This approach helps them think carefully about what the code should do. Thanks to regular testing, developers gain confidence that their software is reliable and that new changes will not break existing features. In short, testing saves time, reduces stress, and leads to better quality."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is an essential skill for every programmer. When your code does not work as expected, the first step is identifying bugs. You need to find where the problem comes from and understand why it happens. Fortunately, modern debugging tools can help you a lot. For example, breakpoints let you pause the program and check variable values. However, tools alone are not enough. A systematic approach is important: change one thing at a time and test again. Also, logging is very useful. By adding print statements or log messages, you can track what your program is doing and locate errors more easily."
 }

@@ -1,5 +1,5 @@
 {
   "date": "2026-10-22",
-  "topic": "Understanding Databases",
-  "text": "Understanding databases is an important skill for anyone working with data. There are two main types: SQL and NoSQL. SQL databases store information in tables, which are organized rows and columns, much like a spreadsheet. NoSQL databases are more flexible and can handle unstructured data. To get information from a database, you write queries, which are special commands that ask for specific data. Data modeling helps you plan how your data is structured before you build anything. Indexes make searches much faster, just like an index in a book helps you find topics quickly. Choosing the right database depends on your needs."
+  "topic": "Continuous Integration",
+  "text": "Continuous Integration (CI) is a common practice in modern software development. Developers regularly add their code to a shared repository, and automated builds start immediately. These builds check that the new code works together with the existing code. As part of the process, the system runs tests automatically to find problems. This helps teams catch issues early, before they become bigger and harder to fix. CI pipelines often include several steps, such as building, testing, and reporting results. By using CI, teams can save time, improve code quality, and release software more quickly and safely."
 }

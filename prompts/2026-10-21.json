@@ -1,5 +1,5 @@
 {
   "date": "2026-10-21",
-  "topic": "Code Refactoring",
-  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code easier to read, understand, and maintain. For example, you might rename unclear variables, break a long function into smaller ones, or remove repeated code. Refactoring does not add new features or fix bugs; the program should behave exactly the same after the changes. Regular refactoring helps reduce technical debt, which builds up when code is written quickly without attention to quality. Although it takes time, refactoring saves effort in the future and keeps a project healthy."
+  "topic": "The Role of Testing",
+  "text": "Testing plays an important role in software development. Unit tests check small parts of code, while integration tests make sure different parts work together correctly. Many developers use test-driven development, which means writing tests before the actual code. This approach helps them think more clearly about what the code should do. Tests also give developers confidence. When they change something, they can run the tests again and quickly see if anything breaks. Without tests, making changes can feel risky and stressful. In short, good testing saves time, reduces bugs, and helps teams build better software."
 }
