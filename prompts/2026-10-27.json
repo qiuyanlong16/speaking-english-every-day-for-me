@@ -1,5 +1,5 @@
 {
   "date": "2026-10-27",
-  "topic": "Security in Web Development",
-  "text": "Security is a crucial part of web development. First, always use HTTPS to encrypt data between the user and the server. This protects sensitive information like passwords. Second, authentication ensures that only authorized users can access certain areas. Strong passwords and two-factor authentication help here. Third, input validation checks what users type into forms, preventing harmful code from entering your system. Common vulnerabilities include SQL injection and cross-site scripting (XSS), which can steal data or damage your site. By following these practices, developers can build safer websites and protect users from online threats."
+  "topic": "Mobile App Development",
+  "text": "Mobile app development is an exciting field that mixes creativity with technology. When developers build an app, responsive design is essential so it looks good on different screen sizes. They also choose between native apps, built separately for each platform, and cross-platform apps, which use one codebase for both iOS and Android. Native apps often offer better performance and smoother animations, while cross-platform saves time and money. After development, apps must be published on app stores like Google Play and the App Store, where they follow strict rules. Testing is important too, because users expect fast, reliable apps that open quickly and work without problems."
 }
