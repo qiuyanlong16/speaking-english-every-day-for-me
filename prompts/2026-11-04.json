@@ -1,5 +1,5 @@
 {
   "date": "2026-11-04",
-  "topic": "Machine Learning Basics",
-  "text": "Machine learning is a type of technology that allows computers to learn from data without being directly programmed. In supervised learning, a computer is given training data, which includes examples with correct answers. The computer uses this data to build a model, a set of rules that helps it understand patterns. Once the model is ready, it can make predictions about new information it has never seen before. The quality of these predictions is measured by accuracy, which shows how often the model is correct. Good training data usually leads to better models and more accurate predictions, which is why collecting clean and useful data is so important."
+  "topic": "AI in the Workplace",
+  "text": "Artificial intelligence is changing the workplace in many ways. Automation now handles repetitive tasks, so employees can focus on more interesting work. Productivity tools powered by AI, such as smart calendars and writing assistants, help people save time and work more efficiently. Human-AI collaboration is also becoming common, with workers and machines solving problems together. However, these changes affect jobs. Some roles may disappear, while new ones appear, and workers need to learn new skills. Overall, AI offers great opportunities, but it also requires people to adapt and keep learning."
 }
