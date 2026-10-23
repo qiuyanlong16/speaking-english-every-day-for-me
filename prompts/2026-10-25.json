@@ -1,5 +1,5 @@
 {
   "date": "2026-10-25",
-  "topic": "Debugging Strategies",
-  "text": "Debugging is an essential skill for every programmer. When something goes wrong in your code, the first step is identifying bugs by carefully reading error messages and understanding what the program was supposed to do. Many debugging tools, such as breakpoints and step-by-step execution, help you observe how your code actually behaves. A systematic approach is important: change one thing at a time and test your fix before moving on. Logging is another powerful technique, because well-placed log statements record what happens while the program runs, making it easier to find the source of a problem. With patience and practice, anyone can become a confident debugger."
+  "topic": "Writing Clean Code",
+  "text": "Writing clean code is an important skill for every programmer. Clean code is easy to read and understand, even for someone who did not write it. One key practice is following naming conventions. This means choosing clear and meaningful names for variables, so others can quickly see what they represent. Another important idea is keeping functions small and focused on one task. When a function does too many things, it becomes hard to follow and test. Clean code also supports maintainability. If your code is well organised, it is much easier to find and fix bugs later. In short, writing clean code saves time and helps teams work together more effectively."
 }
