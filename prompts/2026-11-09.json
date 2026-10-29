@@ -1,5 +1,5 @@
 {
   "date": "2026-11-09",
-  "topic": "What Is Artificial Intelligence",
-  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that normally require human intelligence, such as learning, problem-solving, and understanding language. Machine learning is a key part of AI: computers learn from data instead of following fixed instructions. Deep learning, a more advanced form, uses large artificial neural networks to recognise patterns. AI is already part of daily life. For example, it recommends films on streaming services, helps doctors detect diseases, powers voice assistants on phones, and improves navigation apps. AI is not magic—it is software that learns from information. As technology develops, AI will become even more common in our homes, schools, and workplaces."
+  "topic": "Security in Web Development",
+  "text": "Security is a key part of web development. Every website should use HTTPS to protect data between the user and the server. Authentication helps confirm that users are who they say they are, usually through strong passwords or two-factor login. Input validation is also important, because it checks the information users enter and stops harmful code from reaching the system. Developers must also know common vulnerabilities, such as SQL injection and cross-site scripting, and fix them early. By following these basic rules, developers can build safer websites and protect both user data and company systems from attack."
 }

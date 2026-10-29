@@ -1,5 +1,5 @@
 {
   "date": "2026-11-07",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development is an exciting field with important decisions to make. First, developers must choose between native apps, built for one platform, and cross-platform apps, which work on both iOS and Android. Responsive design is also essential, because an app should look good and work well on different screen sizes. After development, apps are usually published through app stores like Google Play or the Apple App Store. Finally, performance matters a lot. Users expect apps to load quickly and run smoothly, so developers must test carefully and fix problems before releasing their product to the public."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is an essential skill for modern developers. An API allows two programs to communicate with each other. To get data, your application sends HTTP requests to a server, and the server usually responds with JSON, a lightweight format that is easy to read and parse. However, before you can access the data, you often need authentication, such as an API key, to prove your identity. You should also respect rate limits, which restrict how many requests you can make in a certain time. Finally, good error handling is important, so your application can respond properly when something goes wrong."
 }

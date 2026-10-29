@@ -1,5 +1,5 @@
 {
   "date": "2026-10-29",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is an important part of version control. A branch lets you work on new ideas without changing the main code. Many teams create feature branches for each new task, such as fixing a bug or adding a feature. This keeps the main branch safe and stable. When the work is finished, you merge the branch back into the main branch. Before merging, teams often open a pull request so others can review the changes and give feedback. This workflow helps people work together, avoid mistakes, and keep a clear history of the project. Learning branches makes teamwork much easier."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an important part of software development. When developers review each other's code, they can catch bugs early, before the code goes into production. This saves time and money, because fixing problems later is much harder. Code reviews also support knowledge sharing. Team members learn from each other, discover new techniques, and understand different parts of the project. In addition, regular reviews improve team quality, because everyone follows the same standards and writes cleaner code. Although reviews take extra time, they are worth it. A strong review culture helps the whole team grow and produce better, more reliable software."
 }
