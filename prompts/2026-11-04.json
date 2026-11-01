@@ -1,5 +1,5 @@
 {
   "date": "2026-11-04",
-  "topic": "API Design Best Practices",
-  "text": "REST APIs allow different software systems to communicate with each other over the internet. Good API design follows several best practices. First, endpoints should be simple and clearly named, so developers can understand them easily. Second, APIs should return correct HTTP status codes, such as 200 for success or 404 when a resource is not found. Third, clear documentation is essential because it helps other developers use your API without confusion. Finally, versioning is important, as it allows you to improve your API without breaking existing applications. By following these practices, you can build reliable APIs that developers enjoy working with."
+  "topic": "Debugging Strategies",
+  "text": "Debugging is an essential skill for every programmer. When a program does not work as expected, the first step is identifying bugs by observing the symptoms and reproducing the error. Developers can use debugging tools such as breakpoints and step-by-step execution to inspect what is happening inside the code. A systematic approach is important: check the simplest causes first, isolate the problem, and test one change at a time. Adding logging to your code also helps by recording useful information about the program's state, making it easier to find where things go wrong. With patience and good habits, debugging becomes much less frustrating."
 }
