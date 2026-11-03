@@ -1,5 +1,5 @@
 {
   "date": "2026-11-24",
-  "topic": "Managing a Team",
-  "text": "Managing a team is not always easy, but good communication makes a big difference. A strong leader shares information clearly and listens to team members. Delegation is also important; when you trust people with tasks, they feel valued and grow in confidence. Regular feedback helps everyone improve and know what they are doing well. Motivation comes from recognising good work and supporting people when they struggle. Finally, when conflicts happen, a good manager listens to both sides and helps the team find a fair solution. By combining these skills, a leader can build a positive and successful team."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at once, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a prioritized list called the backlog. These tasks are often written as user stories, which describe what a user needs from the product. Every day, team members meet for short standups to share progress and discuss problems. This iterative development approach allows teams to test ideas early, get feedback, and improve the product step by step. As a result, Agile helps teams respond quickly to change and deliver value faster."
 }
