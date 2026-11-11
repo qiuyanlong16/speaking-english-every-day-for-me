@@ -1,5 +1,5 @@
 {
   "date": "2026-11-11",
-  "topic": "Understanding Git Branching",
-  "text": "Git is a version control system that helps developers manage changes to their code. One of its most useful features is branching. A branch lets you work on new ideas without affecting the main code. Developers often create feature branches to build new functionality safely. When the work is finished, they merge the branch back into the main project. Before merging, teams usually open a pull request so others can review the changes. This workflow keeps the code organized and reduces mistakes. By using feature branches, merging, and pull requests together, teams can collaborate smoothly and maintain a clean, reliable project history."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an important part of software development. When developers review each other's code before it is merged, they can catch bugs early, when fixes are simple and cheap. This saves time and money later. Code reviews also support knowledge sharing: team members learn from each other, discover new techniques, and understand different parts of the project. In addition, regular reviews improve team quality, because everyone follows the same standards and gives helpful feedback. Although reviews take extra time, they are worth it. A strong review culture builds better software and a more skilled, confident team."
 }
