@@ -1,5 +1,5 @@
 {
   "date": "2026-11-22",
-  "topic": "Understanding Databases",
-  "text": "Databases store and organise information so that applications can find and use it quickly. There are two main types: SQL and NoSQL. SQL databases keep data in tables with rows and columns, which makes the structure clear and easy to understand. To get information, you write queries, which are simple instructions that ask the database questions. Good data modeling is important because it decides how the tables connect to each other. Indexes also help a lot: they work like a book's contents page, so the database can find data faster without searching every row. Choosing between SQL and NoSQL depends on your needs."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make code cleaner and easier to understand. When developers refactor, they reorganize and simplify their code, but the program still behaves exactly the same way. This is important because readable code is easier to maintain and fix. Refactoring also helps reduce technical debt, which builds up when quick solutions are used instead of proper ones. By regularly refactoring, teams keep their projects healthy and save time in the future. Good refactoring is a careful, steady habit rather than a single big change."
 }
