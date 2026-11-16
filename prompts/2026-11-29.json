@@ -1,5 +1,5 @@
 {
   "date": "2026-11-29",
-  "topic": "AI in the Workplace",
-  "text": "AI is changing the workplace in many ways. One important change is automation, where machines do repetitive tasks that people used to do. This can save time and reduce mistakes. Many companies also use productivity tools, such as smart calendars and writing assistants, to help employees work faster and better. However, AI does not replace people completely. In fact, human-AI collaboration is becoming more common, where workers use AI to support their decisions and creativity. Of course, these changes mean some jobs will disappear while new ones appear. Therefore, workers need to learn new skills to stay competitive in a rapidly changing job market."
+  "topic": "Large Language Models",
+  "text": "Large Language Models, or LLMs, are computer programs that can understand and produce human language. They work by predicting the next word in a sentence, based on patterns they learned from huge amounts of text, such as books, websites and articles. Users communicate with an LLM through prompts, and writing clear, specific prompts, known as prompt engineering, helps get better answers. LLMs can write texts, translate languages, summarise information and answer questions quickly. However, they also have limits. They sometimes give wrong information, cannot truly understand meaning, and may repeat biases found in their training data. For these reasons, their answers should always be checked."
 }
