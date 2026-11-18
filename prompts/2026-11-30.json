@@ -1,5 +1,5 @@
 {
   "date": "2026-11-30",
-  "topic": "Large Language Models",
-  "text": "Large Language Models (LLMs) are computer programs that can understand and generate human language. They work by predicting the next word in a sentence, based on patterns they learned from huge amounts of training data, such as books, websites, and articles. Users can improve results through prompt engineering, which means writing clear and specific instructions. LLMs are very useful for tasks like writing, translating, and answering questions. However, they also have limits: they can make mistakes, sometimes produce false information, and may reflect biases found in their training data. For these reasons, it is important to check their answers carefully."
+  "topic": "What Is Artificial Intelligence",
+  "text": "Artificial intelligence, or AI, is the ability of machines to perform tasks that usually require human intelligence. Machine learning is a key part of AI. It allows computers to learn from data without being programmed for every situation. Deep learning, which uses artificial neural networks, is an advanced form of machine learning. Today, AI is part of our daily lives. For example, it helps us find information online, suggests films to watch, and powers voice assistants on our phones. It is also used in hospitals and banks to work faster and more accurately. AI is changing the way we live and work."
 }
