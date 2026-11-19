@@ -1,5 +1,5 @@
 {
   "date": "2026-11-26",
-  "topic": "Understanding Databases",
-  "text": "Understanding databases is an essential skill for anyone working with data. A database stores and organizes information so it can be easily accessed and managed. There are two main types: SQL databases, which use structured tables with rows and columns, and NoSQL databases, which are more flexible and store data differently. To retrieve information, you write queries, which are instructions that ask the database for specific data. Good data modeling helps you design tables that reflect real-world relationships and reduce duplication. Finally, indexes make searches faster by helping the database find rows quickly, though they need extra storage space."
+  "topic": "Code Refactoring",
+  "text": "Code refactoring is the process of improving the structure of existing code without changing what it does. The main goal is to make the code cleaner and easier to understand, which improves readability for everyone on the team. When developers refactor, they might rename variables, break large functions into smaller ones, or remove duplicate logic. The behaviour of the program stays exactly the same, so users do not notice any difference. Refactoring also helps reduce technical debt, which builds up when quick fixes and messy code are left for later. Although it takes time, regular refactoring keeps a project healthy and makes future changes easier and safer."
 }

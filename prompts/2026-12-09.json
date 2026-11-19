@@ -1,5 +1,5 @@
 {
   "date": "2026-12-09",
-  "topic": "Agile Methodology",
-  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at the start, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a backlog, which is a prioritized list of user stories describing what users need. Every day, team members meet for short standups to share progress and discuss problems. This iterative development approach allows teams to deliver working results quickly and improve them based on feedback. Agile helps teams stay flexible, communicate better, and respond to changes without losing focus on customer needs."
+  "topic": "The Future of AI",
+  "text": "The future of AI is a topic that many people discuss today. Most AI systems we use now are called \"narrow AI\" because they can only do one specific task, like translating languages or recognising faces. However, researchers are working on artificial general intelligence (AGI), which would be able to understand and learn any task a human can do. Supporters believe AGI could bring great benefits, such as solving serious problems in medicine and science. On the other hand, critics warn about serious risks, including job losses and safety concerns. Experts disagree about when AGI might arrive; some predict it within ten years, while others think it is much further away."
 }
