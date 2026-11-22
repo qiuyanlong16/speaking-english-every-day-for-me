@@ -1,5 +1,5 @@
 {
   "date": "2026-12-13",
-  "topic": "Managing a Team",
-  "text": "Managing a team is not always easy, but good leaders follow a few simple rules. First, clear communication is essential, because team members need to understand their goals and tasks. Second, delegation helps a lot: a good manager trusts the team and shares responsibilities instead of doing everything alone. Third, regular feedback supports people and helps them improve. Motivation also matters, so leaders should recognise good work and encourage their team. Finally, when conflicts appear, a manager should listen to both sides and solve the problem calmly. With these skills, any team can work well together and reach its goals."
+  "topic": "Agile Methodology",
+  "text": "Agile methodology is a modern way of managing projects, especially in software development. Instead of planning everything at the start, teams work in short cycles called sprints, usually lasting two to four weeks. Before each sprint, the team chooses tasks from a backlog, a list of features described as user stories. Every day, members hold quick meetings called standups to share progress and problems. This iterative development allows teams to test their work often and improve it based on feedback. Agile helps teams stay flexible, react to changes quickly, and deliver useful results to customers step by step."
 }
