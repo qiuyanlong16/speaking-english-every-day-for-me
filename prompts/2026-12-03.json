@@ -1,5 +1,5 @@
 {
   "date": "2026-12-03",
-  "topic": "Mobile App Development",
-  "text": "Mobile app development is an exciting field with many important decisions. One key choice is between native and cross-platform development. Native apps are built for one system, while cross-platform apps work on several devices, saving time and money. Responsive design is also essential, as users expect apps to look good on different screen sizes. Once an app is ready, developers publish it through app stores like Google Play or the App Store. However, performance matters most: a slow app quickly loses users. Therefore, developers must test carefully, keep the design simple and make sure the app runs smoothly on every device."
+  "topic": "Working with APIs",
+  "text": "Working with APIs is an important skill for modern developers. An API allows two programs to communicate, usually through HTTP requests such as GET or POST. When you send a request, the server often returns data in JSON format, which is easy to read and parse. Most APIs require authentication, so you need an API key or token to prove who you are. Be careful with rate limits, because sending too many requests can get you blocked. Finally, always add error handling to your code. Servers can fail or return unexpected responses, so check status codes and handle problems gracefully."
 }
