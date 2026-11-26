@@ -1,5 +1,5 @@
 {
   "date": "2026-11-26",
-  "topic": "Understanding Git Branching",
-  "text": "Git branching is an important skill for developers who use version control. A branch lets you work on new features without changing the main code. When you start a new task, you create a feature branch. This keeps your work separate and safe. After you finish, you can merge your changes back into the main branch. Many teams use pull requests to review the code before merging. This workflow helps everyone stay organised and avoid mistakes. If something goes wrong, you can easily go back to an earlier version. Learning how to use branches well makes teamwork smoother and keeps your project clean."
+  "topic": "The Importance of Code Reviews",
+  "text": "Code reviews are an essential part of modern software development. When developers review each other's code before it is merged, they can catch bugs early, which saves time and money later. Code reviews also encourage knowledge sharing, because team members learn from each other's approaches and mistakes. In addition, regular reviews help maintain a high level of team quality, as everyone follows the same standards and good practices. Although code reviews take extra time, they are a valuable investment. In short, they make software more reliable and teams stronger."
 }
